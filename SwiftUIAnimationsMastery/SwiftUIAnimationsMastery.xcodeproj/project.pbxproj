@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F308BAAA23E8D97800CADEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAA923E8D97800CADEFE /* AppDelegate.swift */; };
+		F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAAB23E8D97800CADEFE /* SceneDelegate.swift */; };
+		F308BAB023E8D97B00CADEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F308BAAF23E8D97B00CADEFE /* Assets.xcassets */; };
+		F308BAB323E8D97B00CADEFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F308BAB223E8D97B00CADEFE /* Preview Assets.xcassets */; };
+		F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAC223E8D9FD00CADEFE /* RootView.swift */; };
+		F308BAC623E8DA1800CADEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F308BAC423E8DA1700CADEFE /* LaunchScreen.storyboard */; };
+		F308BACE23E8E0B300CADEFE /* CypherPoetSwiftUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = F308BACD23E8E0B300CADEFE /* CypherPoetSwiftUIKit */; };
+		F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAD023E8E11000CADEFE /* TitleTextStyle.swift */; };
+		F308BAD423E8E15500CADEFE /* SubheadlineTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAD223E8E15500CADEFE /* SubheadlineTextStyle.swift */; };
+		F308BAD723E8E1CA00CADEFE /* SubtitleTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAD623E8E1CA00CADEFE /* SubtitleTextStyle.swift */; };
+		F308BAD923E8E25700CADEFE /* BannerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAD823E8E25700CADEFE /* BannerTextView.swift */; };
+		F308BADC23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BADB23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift */; };
+		F308BADE23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BADD23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F308BAA623E8D97800CADEFE /* SwiftUIAnimationsMastery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMastery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F308BAA923E8D97800CADEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F308BAAB23E8D97800CADEFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F308BAAF23E8D97B00CADEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F308BAB223E8D97B00CADEFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F308BAB723E8D97B00CADEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F308BAC223E8D9FD00CADEFE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F308BAC523E8DA1800CADEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SwiftUIAnimationsMastery/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		F308BAD023E8E11000CADEFE /* TitleTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextStyle.swift; sourceTree = "<group>"; };
+		F308BAD223E8E15500CADEFE /* SubheadlineTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubheadlineTextStyle.swift; sourceTree = "<group>"; };
+		F308BAD623E8E1CA00CADEFE /* SubtitleTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleTextStyle.swift; sourceTree = "<group>"; };
+		F308BAD823E8E25700CADEFE /* BannerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTextView.swift; sourceTree = "<group>"; };
+		F308BADB23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_NoAnimationExample.swift; sourceTree = "<group>"; };
+		F308BADD23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_WithAnimationExample.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F308BAA323E8D97800CADEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F308BACE23E8E0B300CADEFE /* CypherPoetSwiftUIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F308BA9D23E8D97800CADEFE = {
+			isa = PBXGroup;
+			children = (
+				F308BAA823E8D97800CADEFE /* SwiftUIAnimationsMastery */,
+				F308BAA723E8D97800CADEFE /* Products */,
+				F308BACC23E8E0B300CADEFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F308BAA723E8D97800CADEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F308BAA623E8D97800CADEFE /* SwiftUIAnimationsMastery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F308BAA823E8D97800CADEFE /* SwiftUIAnimationsMastery */ = {
+			isa = PBXGroup;
+			children = (
+				F308BAB723E8D97B00CADEFE /* Info.plist */,
+				F308BABD23E8D98900CADEFE /* App */,
+				F308BAB123E8D97B00CADEFE /* Preview Content */,
+				F308BABE23E8D99300CADEFE /* Resources */,
+				F308BAC023E8D99D00CADEFE /* Reusables */,
+				F308BAC123E8D9A000CADEFE /* Scenes */,
+			);
+			path = SwiftUIAnimationsMastery;
+			sourceTree = "<group>";
+		};
+		F308BAB123E8D97B00CADEFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F308BAB223E8D97B00CADEFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F308BABD23E8D98900CADEFE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F308BAA923E8D97800CADEFE /* AppDelegate.swift */,
+				F308BAAB23E8D97800CADEFE /* SceneDelegate.swift */,
+				F308BAC423E8DA1700CADEFE /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F308BABE23E8D99300CADEFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F308BAAF23E8D97B00CADEFE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F308BAC023E8D99D00CADEFE /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				F308BACA23E8E05D00CADEFE /* Styles */,
+				F308BAC723E8DA2900CADEFE /* Views */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		F308BAC123E8D9A000CADEFE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F308BAC223E8D9FD00CADEFE /* RootView.swift */,
+				F308BADA23E9A0E300CADEFE /* Getting Started */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F308BAC723E8DA2900CADEFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F308BAD823E8E25700CADEFE /* BannerTextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F308BACA23E8E05D00CADEFE /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F308BACF23E8E0DE00CADEFE /* Text */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		F308BACC23E8E0B300CADEFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F308BACF23E8E0DE00CADEFE /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				F308BAD023E8E11000CADEFE /* TitleTextStyle.swift */,
+				F308BAD223E8E15500CADEFE /* SubheadlineTextStyle.swift */,
+				F308BAD623E8E1CA00CADEFE /* SubtitleTextStyle.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		F308BADA23E9A0E300CADEFE /* Getting Started */ = {
+			isa = PBXGroup;
+			children = (
+				F308BADB23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift */,
+				F308BADD23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift */,
+			);
+			path = "Getting Started";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F308BAA523E8D97800CADEFE /* SwiftUIAnimationsMastery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F308BABA23E8D97B00CADEFE /* Build configuration list for PBXNativeTarget "SwiftUIAnimationsMastery" */;
+			buildPhases = (
+				F308BAA223E8D97800CADEFE /* Sources */,
+				F308BAA323E8D97800CADEFE /* Frameworks */,
+				F308BAA423E8D97800CADEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIAnimationsMastery;
+			packageProductDependencies = (
+				F308BACD23E8E0B300CADEFE /* CypherPoetSwiftUIKit */,
+			);
+			productName = SwiftUIAnimationsMastery;
+			productReference = F308BAA623E8D97800CADEFE /* SwiftUIAnimationsMastery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F308BA9E23E8D97800CADEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = CypherPoet;
+				TargetAttributes = {
+					F308BAA523E8D97800CADEFE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F308BAA123E8D97800CADEFE /* Build configuration list for PBXProject "SwiftUIAnimationsMastery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F308BA9D23E8D97800CADEFE;
+			packageReferences = (
+				F308BACB23E8E0A900CADEFE /* XCRemoteSwiftPackageReference "CypherPoetSwiftUIKit" */,
+			);
+			productRefGroup = F308BAA723E8D97800CADEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F308BAA523E8D97800CADEFE /* SwiftUIAnimationsMastery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F308BAA423E8D97800CADEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F308BAC623E8DA1800CADEFE /* LaunchScreen.storyboard in Resources */,
+				F308BAB323E8D97B00CADEFE /* Preview Assets.xcassets in Resources */,
+				F308BAB023E8D97B00CADEFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F308BAA223E8D97800CADEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F308BADE23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift in Sources */,
+				F308BAAA23E8D97800CADEFE /* AppDelegate.swift in Sources */,
+				F308BAD723E8E1CA00CADEFE /* SubtitleTextStyle.swift in Sources */,
+				F308BAD923E8E25700CADEFE /* BannerTextView.swift in Sources */,
+				F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */,
+				F308BADC23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift in Sources */,
+				F308BAD423E8E15500CADEFE /* SubheadlineTextStyle.swift in Sources */,
+				F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */,
+				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F308BAC423E8DA1700CADEFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F308BAC523E8DA1800CADEFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F308BAB823E8D97B00CADEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F308BAB923E8D97B00CADEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F308BABB23E8D97B00CADEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimationsMastery/Preview Content\"";
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIAnimationsMastery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cypherpoet.SwiftUIAnimationsMastery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F308BABC23E8D97B00CADEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimationsMastery/Preview Content\"";
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIAnimationsMastery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cypherpoet.SwiftUIAnimationsMastery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F308BAA123E8D97800CADEFE /* Build configuration list for PBXProject "SwiftUIAnimationsMastery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F308BAB823E8D97B00CADEFE /* Debug */,
+				F308BAB923E8D97B00CADEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F308BABA23E8D97B00CADEFE /* Build configuration list for PBXNativeTarget "SwiftUIAnimationsMastery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F308BABB23E8D97B00CADEFE /* Debug */,
+				F308BABC23E8D97B00CADEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F308BACB23E8E0A900CADEFE /* XCRemoteSwiftPackageReference "CypherPoetSwiftUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/CypherPoetSwiftUIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.36;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F308BACD23E8E0B300CADEFE /* CypherPoetSwiftUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F308BACB23E8E0A900CADEFE /* XCRemoteSwiftPackageReference "CypherPoetSwiftUIKit" */;
+			productName = CypherPoetSwiftUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F308BA9E23E8D97800CADEFE /* Project object */;
+}
