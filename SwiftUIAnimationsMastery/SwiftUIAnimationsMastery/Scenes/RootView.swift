@@ -27,8 +27,12 @@ extension RootView: View {
                     NavigationLink(destination: GettingStarted_WithAnimationExample()) {
                         Text("Changing Properties With Animation")
                     }
+                    NavigationLink(destination: GettingStarted_CurvesExample()) {
+                        Text("Animation Curves")
+                    }
                 }
             }
+            .navigationBarTitle("SwiftUI Animations Mastery")
         }
     }
 }
