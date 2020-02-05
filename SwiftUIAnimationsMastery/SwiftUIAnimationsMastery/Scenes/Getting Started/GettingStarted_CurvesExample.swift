@@ -69,7 +69,7 @@ extension GettingStarted_CurvesExample {
             GeometryReader { geometry in
                 HStack {
                     ExampleCircle(container: geometry, isOffset: self.isCircleOffset)
-    //                        .animation(Animation.default)
+//                            .animation(Animation.default)
                         .animation(.easeInOut(duration: self.animationDuration))
                 }
                 Spacer()
@@ -192,7 +192,6 @@ struct GettingStarted_CurvesExample_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             GettingStarted_CurvesExample()
-//                .navigationBarTitle(Text("Curves"), displayMode: .inline)
                 .navigationBarTitle("")
                 .navigationBarHidden(true)
         }
