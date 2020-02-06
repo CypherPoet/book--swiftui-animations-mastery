@@ -2,3 +2,11 @@
 
 _Projects, playgrounds, and other materials made while following along with the book ["SwiftUI Animations Mastery"](https://www.bigmountainstudio.com/courses/swiftui-animations)._
 
+
+<br/>
+
+# Contents
+
+## Getting Started
+
+

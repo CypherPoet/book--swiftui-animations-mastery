@@ -30,6 +30,9 @@ extension RootView: View {
                     NavigationLink(destination: GettingStarted_CurvesExample()) {
                         Text("Animation Curves")
                     }
+                    NavigationLink(destination: GettingStarted_Challenge1()) {
+                        Text("Challenge 1: Move the Circle")
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")

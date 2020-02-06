@@ -21,6 +21,7 @@
 		F308BADC23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BADB23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift */; };
 		F308BADE23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BADD23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift */; };
 		F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */; };
+		F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F308BADB23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_NoAnimationExample.swift; sourceTree = "<group>"; };
 		F308BADD23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_WithAnimationExample.swift; sourceTree = "<group>"; };
 		F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_CurvesExample.swift; sourceTree = "<group>"; };
+		F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_Challenge1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,11 +165,20 @@
 		F308BADA23E9A0E300CADEFE /* Getting Started */ = {
 			isa = PBXGroup;
 			children = (
+				F3B6564123ECBB7B00959505 /* Challenges */,
 				F308BADB23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift */,
 				F308BADD23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift */,
 				F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */,
 			);
 			path = "Getting Started";
+			sourceTree = "<group>";
+		};
+		F3B6564123ECBB7B00959505 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */,
+			);
+			path = Challenges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */,
 				F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */,
 				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
+				F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
