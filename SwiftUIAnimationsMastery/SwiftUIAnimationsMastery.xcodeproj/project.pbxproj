@@ -25,6 +25,7 @@
 		F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */; };
 		F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */; };
 		F3B6564B23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */; };
+		F3B6564D23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_Challenge2.swift; sourceTree = "<group>"; };
 		F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Color.swift; sourceTree = "<group>"; };
 		F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_HueRotation.swift; sourceTree = "<group>"; };
+		F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Offset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			children = (
 				F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */,
 				F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */,
+				F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */,
 			);
 			path = "Animatable Properties";
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */,
 				F308BADC23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift in Sources */,
 				F308BAD423E8E15500CADEFE /* SubheadlineTextStyle.swift in Sources */,
+				F3B6564D23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift in Sources */,
 				F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */,
 				F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */,
 				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,

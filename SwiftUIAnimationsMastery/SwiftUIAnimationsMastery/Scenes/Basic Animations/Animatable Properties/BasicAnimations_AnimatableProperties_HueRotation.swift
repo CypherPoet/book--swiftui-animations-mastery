@@ -95,38 +95,6 @@ extension BasicAnimations_AnimatableProperties_HueRotation {
 }
 
 
-
-// MARK: - ExampleCircle
-private struct ExampleCircle {
-    var container: GeometryProxy
-    var isOffset: Bool
-    
-    var diameter: CGFloat = 60
-}
-
-
-extension ExampleCircle: View {
-    var body: some View {
-        Circle()
-            .fill(Color.pink)
-            .frame(width: diameter, height: diameter)
-            .offset(self.circleOffset)
-    }
-}
-
-
-private extension ExampleCircle {
-    var circleOffset: CGSize {
-        CGSize(
-            width: isOffset ? (container.size.width - diameter) : 0,
-            height: 0
-        )
-    }
-}
-
-
-
-
 // MARK: - Preview
 struct BasicAnimations_AnimatableProperties_HueRotation_Previews: PreviewProvider {
 
