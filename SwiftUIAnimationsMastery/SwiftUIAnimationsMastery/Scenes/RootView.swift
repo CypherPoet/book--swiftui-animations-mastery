@@ -37,6 +37,12 @@ extension RootView: View {
                         Text("Challenge 2: Move the Circle")
                     }
                 }
+                
+                Section(header: Text("Basic Animations")) {
+                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Color()) {
+                        Text("Animatable Properties: Color")
+                    }
+                }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
         }

@@ -23,6 +23,7 @@
 		F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */; };
 		F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */; };
 		F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */; };
+		F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_CurvesExample.swift; sourceTree = "<group>"; };
 		F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_Challenge1.swift; sourceTree = "<group>"; };
 		F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_Challenge2.swift; sourceTree = "<group>"; };
+		F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				F308BAC223E8D9FD00CADEFE /* RootView.swift */,
+				F3B6564623ECF44A00959505 /* Basic Animations */,
 				F308BADA23E9A0E300CADEFE /* Getting Started */,
 			);
 			path = Scenes;
@@ -182,6 +185,22 @@
 				F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */,
 			);
 			path = Challenges;
+			sourceTree = "<group>";
+		};
+		F3B6564623ECF44A00959505 /* Basic Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6564923ECF70C00959505 /* Animatable Properties */,
+			);
+			path = "Basic Animations";
+			sourceTree = "<group>";
+		};
+		F3B6564923ECF70C00959505 /* Animatable Properties */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */,
+			);
+			path = "Animatable Properties";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +290,7 @@
 				F308BAD423E8E15500CADEFE /* SubheadlineTextStyle.swift in Sources */,
 				F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */,
 				F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */,
+				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,
 				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
 				F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */,
 			);
