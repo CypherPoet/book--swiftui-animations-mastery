@@ -24,6 +24,7 @@
 		F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */; };
 		F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */; };
 		F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */; };
+		F3B6564B23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_Challenge1.swift; sourceTree = "<group>"; };
 		F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_Challenge2.swift; sourceTree = "<group>"; };
 		F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Color.swift; sourceTree = "<group>"; };
+		F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_HueRotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */,
+				F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */,
 			);
 			path = "Animatable Properties";
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				F308BADE23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift in Sources */,
 				F308BAAA23E8D97800CADEFE /* AppDelegate.swift in Sources */,
 				F308BAD723E8E1CA00CADEFE /* SubtitleTextStyle.swift in Sources */,
+				F3B6564B23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift in Sources */,
 				F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */,
 				F308BAD923E8E25700CADEFE /* BannerTextView.swift in Sources */,
 				F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */,

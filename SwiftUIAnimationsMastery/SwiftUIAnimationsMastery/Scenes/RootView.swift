@@ -42,6 +42,10 @@ extension RootView: View {
                     NavigationLink(destination: BasicAnimations_AnimatableProperties_Color()) {
                         Text("Animatable Properties: Color")
                     }
+                    
+                    NavigationLink(destination: BasicAnimations_AnimatableProperties_HueRotation()) {
+                        Text("Animatable Properties: Hue Rotation")
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
