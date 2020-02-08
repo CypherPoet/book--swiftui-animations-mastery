@@ -42,13 +42,14 @@ extension RootView: View {
                     NavigationLink(destination: BasicAnimations_AnimatableProperties_Color()) {
                         Text("Animatable Properties: Color")
                     }
-                    
                     NavigationLink(destination: BasicAnimations_AnimatableProperties_HueRotation()) {
                         Text("Animatable Properties: Hue Rotation")
                     }
-                    
                     NavigationLink(destination: BasicAnimations_AnimatableProperties_Offset()) {
                         Text("Animatable Properties: Offset")
+                    }
+                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Alignment()) {
+                        Text("Animatable Properties: Alignment")
                     }
                 }
             }

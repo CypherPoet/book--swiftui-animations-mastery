@@ -26,6 +26,7 @@
 		F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */; };
 		F3B6564B23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */; };
 		F3B6564D23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */; };
+		F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Color.swift; sourceTree = "<group>"; };
 		F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_HueRotation.swift; sourceTree = "<group>"; };
 		F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Offset.swift; sourceTree = "<group>"; };
+		F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Alignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */,
 				F3B6564A23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift */,
 				F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */,
+				F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */,
 			);
 			path = "Animatable Properties";
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				F3B6564D23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift in Sources */,
 				F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */,
 				F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */,
+				F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */,
 				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,
 				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
 				F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */,
