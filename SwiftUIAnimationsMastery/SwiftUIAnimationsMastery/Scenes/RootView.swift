@@ -39,35 +39,44 @@ extension RootView: View {
                 }
                 
                 Section(header: Text("Basic Animations")) {
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Color()) {
-                        Text("Animatable Properties: Color")
+                    // 🔑 Use `Group` to get around SwiftUI's 10-view-per-level limit.
+                    Group {
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_Color()) {
+                            Text("Animatable Properties: Color")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_HueRotation()) {
+                            Text("Animatable Properties: Hue Rotation")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_Offset()) {
+                            Text("Animatable Properties: Offset")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_Alignment()) {
+                            Text("Animatable Properties: Alignment")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_GeoemetryReaderPosition()) {
+                            Text("Animatable Properties: GeoemetryReader Position")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_Opacity()) {
+                            Text("Animatable Properties: Opacity")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_RotationEffect()) {
+                            Text("Animatable Properties: Rotation Effect")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_RotationEffectAnchors()) {
+                            Text("Animatable Properties: Rotation Around Anchors")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_Frame()) {
+                            Text("Animatable Properties: Frame")
+                        }
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_ScaleEffect()) {
+                            Text("Animatable Properties: Scale Effect")
+                        }
                     }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_HueRotation()) {
-                        Text("Animatable Properties: Hue Rotation")
-                    }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Offset()) {
-                        Text("Animatable Properties: Offset")
-                    }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Alignment()) {
-                        Text("Animatable Properties: Alignment")
-                    }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_GeoemetryReaderPosition()) {
-                        Text("Animatable Properties: GeoemetryReader Position")
-                    }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Opacity()) {
-                        Text("Animatable Properties: Opacity")
-                    }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_RotationEffect()) {
-                        Text("Animatable Properties: Rotation Effect")
-                    }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_RotationEffectAnchors()) {
-                        Text("Animatable Properties: Rotation Around Anchors")
-                    }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Frame()) {
-                        Text("Animatable Properties: Frame")
-                    }
-                    NavigationLink(destination: BasicAnimations_AnimatableProperties_ScaleEffect()) {
-                        Text("Animatable Properties: Scale Effect")
+                    
+                    Group {
+                        NavigationLink(destination: BasicAnimations_AnimatableProperties_Trim()) {
+                            Text("Animatable Properties: Trim")
+                        }
                     }
                 }
             }
