@@ -25,6 +25,7 @@
 		F3B48BDB23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */; };
 		F3B48BDD23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */; };
 		F3B48BDF23EFA59E0072FFA9 /* BasicAnimations_AnimatableProperties_Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDE23EFA59E0072FFA9 /* BasicAnimations_AnimatableProperties_Frame.swift */; };
+		F3B48BE123EFBC150072FFA9 /* BasicAnimations_AnimatableProperties_ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BE023EFBC150072FFA9 /* BasicAnimations_AnimatableProperties_ScaleEffect.swift */; };
 		F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */; };
 		F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */; };
 		F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */; };
@@ -54,6 +55,7 @@
 		F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_RotationEffect.swift; sourceTree = "<group>"; };
 		F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift; sourceTree = "<group>"; };
 		F3B48BDE23EFA59E0072FFA9 /* BasicAnimations_AnimatableProperties_Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Frame.swift; sourceTree = "<group>"; };
+		F3B48BE023EFBC150072FFA9 /* BasicAnimations_AnimatableProperties_ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_ScaleEffect.swift; sourceTree = "<group>"; };
 		F3B6564223ECBC5900959505 /* GettingStarted_Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_Challenge1.swift; sourceTree = "<group>"; };
 		F3B6564423ECEB0900959505 /* GettingStarted_Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_Challenge2.swift; sourceTree = "<group>"; };
 		F3B6564723ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Color.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				F3B48BD823EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift */,
 				F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */,
 				F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */,
+				F3B48BE023EFBC150072FFA9 /* BasicAnimations_AnimatableProperties_ScaleEffect.swift */,
 			);
 			path = "Animatable Properties";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */,
 				F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */,
 				F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */,
+				F3B48BE123EFBC150072FFA9 /* BasicAnimations_AnimatableProperties_ScaleEffect.swift in Sources */,
 				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,
 				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
 				F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */,

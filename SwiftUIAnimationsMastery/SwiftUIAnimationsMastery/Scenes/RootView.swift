@@ -66,6 +66,9 @@ extension RootView: View {
                     NavigationLink(destination: BasicAnimations_AnimatableProperties_Frame()) {
                         Text("Animatable Properties: Frame")
                     }
+                    NavigationLink(destination: BasicAnimations_AnimatableProperties_ScaleEffect()) {
+                        Text("Animatable Properties: Scale Effect")
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
