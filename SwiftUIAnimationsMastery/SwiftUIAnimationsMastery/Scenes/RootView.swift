@@ -57,6 +57,9 @@ extension RootView: View {
                     NavigationLink(destination: BasicAnimations_AnimatableProperties_Opacity()) {
                         Text("Animatable Properties: Opacity")
                     }
+                    NavigationLink(destination: BasicAnimations_AnimatableProperties_RotationEffect()) {
+                        Text("Animatable Properties: Rotation Effect")
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
