@@ -63,6 +63,9 @@ extension RootView: View {
                     NavigationLink(destination: BasicAnimations_AnimatableProperties_RotationEffectAnchors()) {
                         Text("Animatable Properties: Rotation Around Anchors")
                     }
+                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Frame()) {
+                        Text("Animatable Properties: Frame")
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
