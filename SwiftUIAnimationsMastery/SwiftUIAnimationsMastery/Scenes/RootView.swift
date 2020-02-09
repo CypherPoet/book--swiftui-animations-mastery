@@ -54,6 +54,9 @@ extension RootView: View {
                     NavigationLink(destination: BasicAnimations_AnimatableProperties_GeoemetryReaderPosition()) {
                         Text("Animatable Properties: GeoemetryReader Position")
                     }
+                    NavigationLink(destination: BasicAnimations_AnimatableProperties_Opacity()) {
+                        Text("Animatable Properties: Opacity")
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
