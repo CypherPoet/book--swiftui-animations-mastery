@@ -32,6 +32,7 @@ extension BasicAnimations_AnimatableProperties_RotationEffect: View {
             GeometryReader { geometry in
                 RoundedRectangle(cornerRadius: 12)
                     .fill(Color.pink)
+                    .overlay(Image(systemName: "arrow.right").foregroundColor(.black).imageScale(.large))
                     .frame(
                         width: self.exampleObjectSize.width,
                         height: self.exampleObjectSize.height
