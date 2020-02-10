@@ -77,6 +77,10 @@ extension RootView: View {
                         NavigationLink(destination: BasicAnimations_AnimatableProperties_Trim()) {
                             Text("Animatable Properties: Trim")
                         }
+                        
+                        NavigationLink(destination: BasicAnimations_AnimatablePropertiesExercise()) {
+                            Text("Animatable Properties Exercise 💪")
+                        }
                     }
                 }
             }
