@@ -91,6 +91,15 @@ extension RootView: View {
                             Text("Check Understanding 2")
                         }
                     }
+                    
+                    Group {
+                        NavigationLink(destination: BasicAnimations_Challenge1()) {
+                            Text("Challenge: Show Login")
+                        }
+                        NavigationLink(destination: BasicAnimations_Challenge2()) {
+                            Text("Challenge: Show A Menu")
+                        }
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
