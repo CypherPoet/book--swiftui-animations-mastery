@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F307B6F623F2E1C700FA264E /* BasicAnimations_CheckUnderstanding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307B6F523F2E1C700FA264E /* BasicAnimations_CheckUnderstanding1.swift */; };
+		F307B6F823F2E59300FA264E /* BasicAnimations_CheckUnderstanding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307B6F723F2E59300FA264E /* BasicAnimations_CheckUnderstanding2.swift */; };
 		F308BAAA23E8D97800CADEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAA923E8D97800CADEFE /* AppDelegate.swift */; };
 		F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAAB23E8D97800CADEFE /* SceneDelegate.swift */; };
 		F308BAB023E8D97B00CADEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F308BAAF23E8D97B00CADEFE /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F307B6F523F2E1C700FA264E /* BasicAnimations_CheckUnderstanding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_CheckUnderstanding1.swift; sourceTree = "<group>"; };
+		F307B6F723F2E59300FA264E /* BasicAnimations_CheckUnderstanding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_CheckUnderstanding2.swift; sourceTree = "<group>"; };
 		F308BAA623E8D97800CADEFE /* SwiftUIAnimationsMastery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMastery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F308BAA923E8D97800CADEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F308BAAB23E8D97800CADEFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F307B6F423F2E18800FA264E /* Check Understanding */ = {
+			isa = PBXGroup;
+			children = (
+				F307B6F523F2E1C700FA264E /* BasicAnimations_CheckUnderstanding1.swift */,
+				F307B6F723F2E59300FA264E /* BasicAnimations_CheckUnderstanding2.swift */,
+			);
+			path = "Check Understanding";
+			sourceTree = "<group>";
+		};
 		F308BA9D23E8D97800CADEFE = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +235,7 @@
 		F3B6564623ECF44A00959505 /* Basic Animations */ = {
 			isa = PBXGroup;
 			children = (
+				F307B6F423F2E18800FA264E /* Check Understanding */,
 				F3B48BE623F03DAB0072FFA9 /* Exercise */,
 				F3B6564923ECF70C00959505 /* Animatable Properties */,
 			);
@@ -333,6 +347,7 @@
 				F3B48BE823F03DB30072FFA9 /* BasicAnimations_AnimatablePropertiesExercise.swift in Sources */,
 				F308BAD723E8E1CA00CADEFE /* SubtitleTextStyle.swift in Sources */,
 				F3B6564B23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift in Sources */,
+				F307B6F623F2E1C700FA264E /* BasicAnimations_CheckUnderstanding1.swift in Sources */,
 				F3B6565323EEC4FB00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift in Sources */,
 				F3B48BDF23EFA59E0072FFA9 /* BasicAnimations_AnimatableProperties_Frame.swift in Sources */,
 				F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */,
@@ -348,6 +363,7 @@
 				F3B48BE323F033140072FFA9 /* BasicAnimations_AnimatableProperties_TextResizing.swift in Sources */,
 				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,
 				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
+				F307B6F823F2E59300FA264E /* BasicAnimations_CheckUnderstanding2.swift in Sources */,
 				F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

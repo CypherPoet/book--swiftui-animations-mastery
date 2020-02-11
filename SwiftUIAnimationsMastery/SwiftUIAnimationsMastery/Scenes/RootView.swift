@@ -82,6 +82,15 @@ extension RootView: View {
                             Text("Animatable Properties Exercise 💪")
                         }
                     }
+                    
+                    Group {
+                        NavigationLink(destination: BasicAnimations_CheckUnderstanding1()) {
+                            Text("Check Understanding 1")
+                        }
+                        NavigationLink(destination: BasicAnimations_CheckUnderstanding2()) {
+                            Text("Check Understanding 2")
+                        }
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
