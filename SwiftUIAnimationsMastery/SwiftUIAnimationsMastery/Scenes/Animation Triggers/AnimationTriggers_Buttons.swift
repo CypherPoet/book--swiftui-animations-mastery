@@ -41,9 +41,7 @@ extension AnimationTriggers_Buttons: View {
             }
             .padding()
         }
-        .padding(.top)
         .navigationBarTitle("")
-        .navigationBarHidden(true)
     }
 }
 
