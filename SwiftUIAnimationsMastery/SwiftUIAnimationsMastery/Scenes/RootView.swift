@@ -38,6 +38,7 @@ extension RootView: View {
                     }
                 }
                 
+                
                 Section(header: Text("Basic Animations")) {
                     // 🔑 Use `Group` to get around SwiftUI's 10-view-per-level limit.
                     Group {
@@ -101,6 +102,18 @@ extension RootView: View {
                         }
                     }
                 }
+                
+                
+                Section(header: Text("Animation Triggers")) {
+                    Group {
+                        NavigationLink(destination: AnimationTriggers_Buttons()) {
+                            Text("AnimationTriggers: Buttons")
+                        }
+                    }
+                }
+                
+                
+                
             }
             .navigationBarTitle("SwiftUI Animations Mastery")
         }

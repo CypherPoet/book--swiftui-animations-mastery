@@ -13,6 +13,7 @@
 		F307B6FD23F314AD00FA264E /* BasicAnimations_Challenge1+LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307B6FC23F314AD00FA264E /* BasicAnimations_Challenge1+LoginFormView.swift */; };
 		F307B6FF23F31FC400FA264E /* BasicAnimations_Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307B6FE23F31FC400FA264E /* BasicAnimations_Challenge2.swift */; };
 		F307B70123F3203A00FA264E /* BasicAnimations_Challenge2+MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307B70023F3203A00FA264E /* BasicAnimations_Challenge2+MenuView.swift */; };
+		F307B70523F34FAE00FA264E /* AnimationTriggers_Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307B70423F34FAE00FA264E /* AnimationTriggers_Buttons.swift */; };
 		F308BAAA23E8D97800CADEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAA923E8D97800CADEFE /* AppDelegate.swift */; };
 		F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAAB23E8D97800CADEFE /* SceneDelegate.swift */; };
 		F308BAB023E8D97B00CADEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F308BAAF23E8D97B00CADEFE /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		F307B6FC23F314AD00FA264E /* BasicAnimations_Challenge1+LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BasicAnimations_Challenge1+LoginFormView.swift"; sourceTree = "<group>"; };
 		F307B6FE23F31FC400FA264E /* BasicAnimations_Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_Challenge2.swift; sourceTree = "<group>"; };
 		F307B70023F3203A00FA264E /* BasicAnimations_Challenge2+MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BasicAnimations_Challenge2+MenuView.swift"; sourceTree = "<group>"; };
+		F307B70423F34FAE00FA264E /* AnimationTriggers_Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Buttons.swift; sourceTree = "<group>"; };
 		F308BAA623E8D97800CADEFE /* SwiftUIAnimationsMastery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMastery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F308BAA923E8D97800CADEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F308BAAB23E8D97800CADEFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,14 @@
 				F307B70023F3203A00FA264E /* BasicAnimations_Challenge2+MenuView.swift */,
 			);
 			path = Challenge;
+			sourceTree = "<group>";
+		};
+		F307B70223F34F8700FA264E /* Animation Triggers */ = {
+			isa = PBXGroup;
+			children = (
+				F307B70423F34FAE00FA264E /* AnimationTriggers_Buttons.swift */,
+			);
+			path = "Animation Triggers";
 			sourceTree = "<group>";
 		};
 		F308BA9D23E8D97800CADEFE = {
@@ -184,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				F308BAC223E8D9FD00CADEFE /* RootView.swift */,
+				F307B70223F34F8700FA264E /* Animation Triggers */,
 				F3B6564623ECF44A00959505 /* Basic Animations */,
 				F308BADA23E9A0E300CADEFE /* Getting Started */,
 			);
@@ -373,6 +384,7 @@
 				F3B48BDF23EFA59E0072FFA9 /* BasicAnimations_AnimatableProperties_Frame.swift in Sources */,
 				F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */,
 				F308BAD923E8E25700CADEFE /* BannerTextView.swift in Sources */,
+				F307B70523F34FAE00FA264E /* AnimationTriggers_Buttons.swift in Sources */,
 				F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */,
 				F308BADC23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift in Sources */,
 				F308BAD423E8E15500CADEFE /* SubheadlineTextStyle.swift in Sources */,
