@@ -23,6 +23,9 @@ extension AnimationTriggersContainerView: View {
                 NavigationLink(destination: AnimationTriggers_Buttons()) {
                     Text("AnimationTriggers: Buttons")
                 }
+                NavigationLink(destination: AnimationTriggers_SegmentedControls()) {
+                    Text("AnimationTriggers: Segmented Controls")
+                }
             }
         }
         .navigationBarTitle(Text("Animation Triggers"), displayMode: .large)
