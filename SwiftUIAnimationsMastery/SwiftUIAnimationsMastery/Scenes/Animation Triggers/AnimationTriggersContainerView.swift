@@ -23,8 +23,13 @@ extension AnimationTriggersContainerView: View {
                 NavigationLink(destination: AnimationTriggers_Buttons()) {
                     Text("AnimationTriggers: Buttons")
                 }
+                
                 NavigationLink(destination: AnimationTriggers_SegmentedControls()) {
                     Text("AnimationTriggers: Segmented Controls")
+                }
+                
+                NavigationLink(destination: AnimationTriggers_Sliders()) {
+                    Text("AnimationTriggers: Sliders")
                 }
             }
         }
