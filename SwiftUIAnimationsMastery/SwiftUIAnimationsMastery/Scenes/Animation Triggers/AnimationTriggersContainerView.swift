@@ -10,7 +10,6 @@ import SwiftUI
 
 
 struct AnimationTriggersContainerView {
-
 }
 
 
@@ -30,6 +29,10 @@ extension AnimationTriggersContainerView: View {
                 
                 NavigationLink(destination: AnimationTriggers_Sliders()) {
                     Text("AnimationTriggers: Sliders")
+                }
+                
+                NavigationLink(destination: AnimationTriggers_Steppers()) {
+                    Text("AnimationTriggers: Steppers")
                 }
             }
         }

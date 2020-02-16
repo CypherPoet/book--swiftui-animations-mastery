@@ -33,6 +33,7 @@
 		F308BADE23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BADD23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift */; };
 		F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */; };
 		F321F77823F62A730059D5E9 /* AnimationTriggers_Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F77723F62A730059D5E9 /* AnimationTriggers_Sliders.swift */; };
+		F321F7DF23F91D910059D5E9 /* AnimationTriggers_Steppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F7DE23F91D900059D5E9 /* AnimationTriggers_Steppers.swift */; };
 		F3B48BD923EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BD823EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift */; };
 		F3B48BDB23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */; };
 		F3B48BDD23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */; };
@@ -78,6 +79,7 @@
 		F308BADD23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_WithAnimationExample.swift; sourceTree = "<group>"; };
 		F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_CurvesExample.swift; sourceTree = "<group>"; };
 		F321F77723F62A730059D5E9 /* AnimationTriggers_Sliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Sliders.swift; sourceTree = "<group>"; };
+		F321F7DE23F91D900059D5E9 /* AnimationTriggers_Steppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Steppers.swift; sourceTree = "<group>"; };
 		F3B48BD823EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Opacity.swift; sourceTree = "<group>"; };
 		F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_RotationEffect.swift; sourceTree = "<group>"; };
 		F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				F307B70423F34FAE00FA264E /* AnimationTriggers_Buttons.swift */,
 				F307B70623F487EF00FA264E /* AnimationTriggersContainerView.swift */,
+				F321F7DE23F91D900059D5E9 /* AnimationTriggers_Steppers.swift */,
 				F321F77723F62A730059D5E9 /* AnimationTriggers_Sliders.swift */,
 				F307B70C23F48E9300FA264E /* AnimationTriggers_SegmentedControls.swift */,
 			);
@@ -416,6 +419,7 @@
 				F3B48BE323F033140072FFA9 /* BasicAnimations_AnimatableProperties_TextResizing.swift in Sources */,
 				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,
 				F307B70D23F48E9300FA264E /* AnimationTriggers_SegmentedControls.swift in Sources */,
+				F321F7DF23F91D910059D5E9 /* AnimationTriggers_Steppers.swift in Sources */,
 				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
 				F307B70923F48B4B00FA264E /* BasicAnimationsContainerView.swift in Sources */,
 				F307B6FB23F313C400FA264E /* BasicAnimations_Challenge1.swift in Sources */,
