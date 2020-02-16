@@ -34,6 +34,7 @@
 		F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */; };
 		F321F77823F62A730059D5E9 /* AnimationTriggers_Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F77723F62A730059D5E9 /* AnimationTriggers_Sliders.swift */; };
 		F321F7DF23F91D910059D5E9 /* AnimationTriggers_Steppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F7DE23F91D900059D5E9 /* AnimationTriggers_Steppers.swift */; };
+		F321F7E123F924D30059D5E9 /* AnimationTriggers_Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */; };
 		F3B48BD923EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BD823EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift */; };
 		F3B48BDB23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */; };
 		F3B48BDD23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */; };
@@ -80,6 +81,7 @@
 		F308BAE123E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_CurvesExample.swift; sourceTree = "<group>"; };
 		F321F77723F62A730059D5E9 /* AnimationTriggers_Sliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Sliders.swift; sourceTree = "<group>"; };
 		F321F7DE23F91D900059D5E9 /* AnimationTriggers_Steppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Steppers.swift; sourceTree = "<group>"; };
+		F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Toggles.swift; sourceTree = "<group>"; };
 		F3B48BD823EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Opacity.swift; sourceTree = "<group>"; };
 		F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_RotationEffect.swift; sourceTree = "<group>"; };
 		F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			children = (
 				F307B70423F34FAE00FA264E /* AnimationTriggers_Buttons.swift */,
 				F307B70623F487EF00FA264E /* AnimationTriggersContainerView.swift */,
+				F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */,
 				F321F7DE23F91D900059D5E9 /* AnimationTriggers_Steppers.swift */,
 				F321F77723F62A730059D5E9 /* AnimationTriggers_Sliders.swift */,
 				F307B70C23F48E9300FA264E /* AnimationTriggers_SegmentedControls.swift */,
@@ -393,6 +396,7 @@
 				F3B48BDB23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift in Sources */,
 				F308BADE23E9AE5C00CADEFE /* GettingStarted_WithAnimationExample.swift in Sources */,
 				F308BAAA23E8D97800CADEFE /* AppDelegate.swift in Sources */,
+				F321F7E123F924D30059D5E9 /* AnimationTriggers_Toggles.swift in Sources */,
 				F3B48BE523F038610072FFA9 /* BasicAnimations_AnimatableProperties_Trim.swift in Sources */,
 				F3B48BD923EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift in Sources */,
 				F3B48BE823F03DB30072FFA9 /* BasicAnimations_AnimatablePropertiesExercise.swift in Sources */,

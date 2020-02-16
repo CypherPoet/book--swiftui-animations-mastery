@@ -34,6 +34,10 @@ extension AnimationTriggersContainerView: View {
                 NavigationLink(destination: AnimationTriggers_Steppers()) {
                     Text("AnimationTriggers: Steppers")
                 }
+                
+                NavigationLink(destination: AnimationTriggers_Toggles()) {
+                    Text("AnimationTriggers: Toggles")
+                }
             }
         }
         .navigationBarTitle(Text("Animation Triggers"), displayMode: .large)
