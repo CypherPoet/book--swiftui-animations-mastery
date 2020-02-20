@@ -19,8 +19,6 @@ struct AnimationTriggers_LongPressGestures {
     private let subtitleText = "Long-Press Gestures"
     private let descriptionText = "You can start an animation with a long press gesture."
 
-    /// The percentage of the menu panel's height that needs to be dragged in order
-    /// to trigger an open/close toggling
     private let longPressDuration: TimeInterval = 1.0
     
     @GestureState private var longPressState: LongPressState = .inactive
