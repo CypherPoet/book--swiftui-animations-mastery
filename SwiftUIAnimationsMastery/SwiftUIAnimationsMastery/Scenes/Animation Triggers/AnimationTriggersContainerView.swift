@@ -46,6 +46,10 @@ extension AnimationTriggersContainerView: View {
                 NavigationLink(destination: AnimationTriggers_LongPressGestures()) {
                     Text("AnimationTriggers: Long-Press Gestures")
                 }
+                
+                NavigationLink(destination: AnimationTriggers_TapGestures()) {
+                    Text("AnimationTriggers: Tap Gestures")
+                }
             }
         }
         .navigationBarTitle(Text("Animation Triggers"), displayMode: .large)

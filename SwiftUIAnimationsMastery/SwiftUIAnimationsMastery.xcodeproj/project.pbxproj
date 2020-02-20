@@ -39,6 +39,7 @@
 		F35EDF8123FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */; };
 		F3B323BB23FEE2A80005E6FC /* AnyTransition+fadeOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B323BA23FEE2A80005E6FC /* AnyTransition+fadeOut.swift */; };
 		F3B323BD23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B323BC23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift */; };
+		F3B323BF23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B323BE23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift */; };
 		F3B48BD923EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BD823EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift */; };
 		F3B48BDB23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */; };
 		F3B48BDD23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */; };
@@ -90,6 +91,7 @@
 		F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_LongPressGestures.swift; sourceTree = "<group>"; };
 		F3B323BA23FEE2A80005E6FC /* AnyTransition+fadeOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+fadeOut.swift"; sourceTree = "<group>"; };
 		F3B323BC23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+scaleUpTo.swift"; sourceTree = "<group>"; };
+		F3B323BE23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_TapGestures.swift; sourceTree = "<group>"; };
 		F3B48BD823EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Opacity.swift; sourceTree = "<group>"; };
 		F3B48BDA23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_RotationEffect.swift; sourceTree = "<group>"; };
 		F3B48BDC23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				F307B70423F34FAE00FA264E /* AnimationTriggers_Buttons.swift */,
 				F307B70623F487EF00FA264E /* AnimationTriggersContainerView.swift */,
+				F3B323BE23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift */,
 				F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */,
 				F321F7E423FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift */,
 				F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */,
@@ -437,6 +440,7 @@
 				F307B70123F3203A00FA264E /* BasicAnimations_Challenge2+MenuView.swift in Sources */,
 				F308BAE223E9E5EE00CADEFE /* GettingStarted_CurvesExample.swift in Sources */,
 				F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */,
+				F3B323BF23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift in Sources */,
 				F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */,
 				F321F77823F62A730059D5E9 /* AnimationTriggers_Sliders.swift in Sources */,
 				F307B6FD23F314AD00FA264E /* BasicAnimations_Challenge1+LoginFormView.swift in Sources */,
