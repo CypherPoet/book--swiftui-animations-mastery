@@ -32,6 +32,7 @@ extension RootView: View {
                     Text("Animation Triggers")
                 }
             }
+            .navigationViewStyle(StackNavigationViewStyle())
             .navigationBarTitle(Text("SwiftUI Animations Mastery"), displayMode: .large)
         }
     }

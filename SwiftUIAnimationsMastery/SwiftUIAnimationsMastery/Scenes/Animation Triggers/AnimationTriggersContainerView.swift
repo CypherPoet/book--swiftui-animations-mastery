@@ -38,6 +38,14 @@ extension AnimationTriggersContainerView: View {
                 NavigationLink(destination: AnimationTriggers_Toggles()) {
                     Text("AnimationTriggers: Toggles")
                 }
+                
+                NavigationLink(destination: AnimationTriggers_DragGestures()) {
+                    Text("AnimationTriggers: Drag Gestures")
+                }
+                
+                NavigationLink(destination: AnimationTriggers_LongPressGestures()) {
+                    Text("AnimationTriggers: Long-Press Gestures")
+                }
             }
         }
         .navigationBarTitle(Text("Animation Triggers"), displayMode: .large)

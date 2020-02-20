@@ -7,6 +7,10 @@ _Projects, playgrounds, and other materials made while following along with the 
 
 # Contents
 
-## Getting Started
+## [Getting Started](./SwiftUIAnimationsMastery/SwiftUIAnimationsMastery/Scenes/Getting\ Started/)
+
+## [Basic Animations](./SwiftUIAnimationsMastery/SwiftUIAnimationsMastery/Scenes/Basic\ Animations/)
+
+## [Animation Triggers](./SwiftUIAnimationsMastery/SwiftUIAnimationsMastery/Scenes/Animation\ Triggers/)
 
 

@@ -14,6 +14,7 @@ struct BannerTextView {
     
     var textColor: Color = .primary
     var backgroundColor: Color = .purple
+    var font: Font = .title
 }
 
 
@@ -22,7 +23,7 @@ extension BannerTextView: View {
 
     var body: some View {
         Text(text)
-            .font(.title)
+            .font(font)
             .frame(maxWidth: .infinity)
             .padding()
             .foregroundColor(textColor)
