@@ -50,6 +50,10 @@ extension AnimationTriggersContainerView: View {
                 NavigationLink(destination: AnimationTriggers_TapGestures()) {
                     Text("AnimationTriggers: Tap Gestures")
                 }
+                
+                NavigationLink(destination: AnimationTriggers_MagnificationGestures()) {
+                    Text("AnimationTriggers: Magnification Gestures")
+                }
             }
         }
         .navigationBarTitle(Text("Animation Triggers"), displayMode: .large)
