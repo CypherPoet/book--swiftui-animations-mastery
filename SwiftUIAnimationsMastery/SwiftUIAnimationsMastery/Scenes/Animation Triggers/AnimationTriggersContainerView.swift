@@ -19,44 +19,53 @@ extension AnimationTriggersContainerView: View {
     var body: some View {
         List {
             Section {
-                NavigationLink(destination: AnimationTriggers_Buttons()) {
-                    Text("AnimationTriggers: Buttons")
+                Group {
+                    NavigationLink(destination: AnimationTriggers_Buttons()) {
+                        Text("AnimationTriggers: Buttons")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_SegmentedControls()) {
+                        Text("AnimationTriggers: Segmented Controls")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_Sliders()) {
+                        Text("AnimationTriggers: Sliders")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_Steppers()) {
+                        Text("AnimationTriggers: Steppers")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_Toggles()) {
+                        Text("AnimationTriggers: Toggles")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_DragGestures()) {
+                        Text("AnimationTriggers: Drag Gestures")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_LongPressGestures()) {
+                        Text("AnimationTriggers: Long-Press Gestures")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_TapGestures()) {
+                        Text("AnimationTriggers: Tap Gestures")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_MagnificationGestures()) {
+                        Text("AnimationTriggers: Magnification Gestures")
+                    }
+                    
+                    NavigationLink(destination: AnimationTriggers_RotationGestures()) {
+                        Text("AnimationTriggers: Rotation Gestures")
+                    }
                 }
                 
-                NavigationLink(destination: AnimationTriggers_SegmentedControls()) {
-                    Text("AnimationTriggers: Segmented Controls")
-                }
                 
-                NavigationLink(destination: AnimationTriggers_Sliders()) {
-                    Text("AnimationTriggers: Sliders")
-                }
-                
-                NavigationLink(destination: AnimationTriggers_Steppers()) {
-                    Text("AnimationTriggers: Steppers")
-                }
-                
-                NavigationLink(destination: AnimationTriggers_Toggles()) {
-                    Text("AnimationTriggers: Toggles")
-                }
-                
-                NavigationLink(destination: AnimationTriggers_DragGestures()) {
-                    Text("AnimationTriggers: Drag Gestures")
-                }
-                
-                NavigationLink(destination: AnimationTriggers_LongPressGestures()) {
-                    Text("AnimationTriggers: Long-Press Gestures")
-                }
-                
-                NavigationLink(destination: AnimationTriggers_TapGestures()) {
-                    Text("AnimationTriggers: Tap Gestures")
-                }
-                
-                NavigationLink(destination: AnimationTriggers_MagnificationGestures()) {
-                    Text("AnimationTriggers: Magnification Gestures")
-                }
-                
-                NavigationLink(destination: AnimationTriggers_RotationGestures()) {
-                    Text("AnimationTriggers: Rotation Gestures")
+                Group {
+                    NavigationLink(destination: AnimationTriggers_ScrollLocation()) {
+                        Text("AnimationTriggers: Scroll Location")
+                    }
                 }
             }
         }
