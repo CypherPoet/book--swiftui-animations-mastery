@@ -68,6 +68,15 @@ extension AnimationTriggersContainerView: View {
                     }
                 }
             }
+            
+            Section {
+                NavigationLink(
+                    destination: AnimationTriggers_Exercise()
+                        .accentColor(.pink)
+                ) {
+                    Text("Animation Triggers Exercise 💪")
+                }
+            }
         }
         .navigationBarTitle(Text("Animation Triggers"), displayMode: .large)
     }

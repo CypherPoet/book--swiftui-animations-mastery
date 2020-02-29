@@ -40,6 +40,8 @@
 		F35EDF8123FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */; };
 		F374D6742404E344003C664F /* AnimationTriggers_RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D6732404E344003C664F /* AnimationTriggers_RotationGestures.swift */; };
 		F374D67624076FF6003C664F /* AnimationTriggers_ScrollLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D67524076FF6003C664F /* AnimationTriggers_ScrollLocation.swift */; };
+		F374D6792407A630003C664F /* AnimationTriggers_Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D6782407A630003C664F /* AnimationTriggers_Exercise.swift */; };
+		F374D67B2407D4D7003C664F /* AnimationTriggers_Exercise+PopupModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D67A2407D4D7003C664F /* AnimationTriggers_Exercise+PopupModal.swift */; };
 		F3B323BB23FEE2A80005E6FC /* AnyTransition+fadeOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B323BA23FEE2A80005E6FC /* AnyTransition+fadeOut.swift */; };
 		F3B323BD23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B323BC23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift */; };
 		F3B323BF23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B323BE23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift */; };
@@ -95,6 +97,8 @@
 		F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_LongPressGestures.swift; sourceTree = "<group>"; };
 		F374D6732404E344003C664F /* AnimationTriggers_RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_RotationGestures.swift; sourceTree = "<group>"; };
 		F374D67524076FF6003C664F /* AnimationTriggers_ScrollLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_ScrollLocation.swift; sourceTree = "<group>"; };
+		F374D6782407A630003C664F /* AnimationTriggers_Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Exercise.swift; sourceTree = "<group>"; };
+		F374D67A2407D4D7003C664F /* AnimationTriggers_Exercise+PopupModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationTriggers_Exercise+PopupModal.swift"; sourceTree = "<group>"; };
 		F3B323BA23FEE2A80005E6FC /* AnyTransition+fadeOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+fadeOut.swift"; sourceTree = "<group>"; };
 		F3B323BC23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+scaleUpTo.swift"; sourceTree = "<group>"; };
 		F3B323BE23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_TapGestures.swift; sourceTree = "<group>"; };
@@ -151,17 +155,18 @@
 			isa = PBXGroup;
 			children = (
 				F307B70423F34FAE00FA264E /* AnimationTriggers_Buttons.swift */,
-				F307B70623F487EF00FA264E /* AnimationTriggersContainerView.swift */,
-				F374D67524076FF6003C664F /* AnimationTriggers_ScrollLocation.swift */,
-				F374D6732404E344003C664F /* AnimationTriggers_RotationGestures.swift */,
-				F324FBBE2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift */,
-				F3B323BE23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift */,
-				F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */,
 				F321F7E423FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift */,
-				F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */,
-				F321F7DE23F91D900059D5E9 /* AnimationTriggers_Steppers.swift */,
-				F321F77723F62A730059D5E9 /* AnimationTriggers_Sliders.swift */,
+				F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */,
+				F324FBBE2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift */,
+				F374D6732404E344003C664F /* AnimationTriggers_RotationGestures.swift */,
+				F374D67524076FF6003C664F /* AnimationTriggers_ScrollLocation.swift */,
 				F307B70C23F48E9300FA264E /* AnimationTriggers_SegmentedControls.swift */,
+				F321F77723F62A730059D5E9 /* AnimationTriggers_Sliders.swift */,
+				F321F7DE23F91D900059D5E9 /* AnimationTriggers_Steppers.swift */,
+				F3B323BE23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift */,
+				F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */,
+				F307B70623F487EF00FA264E /* AnimationTriggersContainerView.swift */,
+				F374D6772407A250003C664F /* Exercise */,
 			);
 			path = "Animation Triggers";
 			sourceTree = "<group>";
@@ -295,6 +300,15 @@
 				F3B323BC23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift */,
 			);
 			path = Transitions;
+			sourceTree = "<group>";
+		};
+		F374D6772407A250003C664F /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				F374D6782407A630003C664F /* AnimationTriggers_Exercise.swift */,
+				F374D67A2407D4D7003C664F /* AnimationTriggers_Exercise+PopupModal.swift */,
+			);
+			path = Exercise;
 			sourceTree = "<group>";
 		};
 		F3B48BE623F03DAB0072FFA9 /* Exercise */ = {
@@ -440,6 +454,7 @@
 				F3B48BDF23EFA59E0072FFA9 /* BasicAnimations_AnimatableProperties_Frame.swift in Sources */,
 				F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */,
 				F308BAD923E8E25700CADEFE /* BannerTextView.swift in Sources */,
+				F374D6792407A630003C664F /* AnimationTriggers_Exercise.swift in Sources */,
 				F307B70523F34FAE00FA264E /* AnimationTriggers_Buttons.swift in Sources */,
 				F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */,
 				F308BADC23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift in Sources */,
@@ -466,6 +481,7 @@
 				F3B323BB23FEE2A80005E6FC /* AnyTransition+fadeOut.swift in Sources */,
 				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
 				F307B70923F48B4B00FA264E /* BasicAnimationsContainerView.swift in Sources */,
+				F374D67B2407D4D7003C664F /* AnimationTriggers_Exercise+PopupModal.swift in Sources */,
 				F307B6FB23F313C400FA264E /* BasicAnimations_Challenge1.swift in Sources */,
 				F307B6F823F2E59300FA264E /* BasicAnimations_CheckUnderstanding2.swift in Sources */,
 				F3B6564323ECBC5A00959505 /* GettingStarted_Challenge1.swift in Sources */,
