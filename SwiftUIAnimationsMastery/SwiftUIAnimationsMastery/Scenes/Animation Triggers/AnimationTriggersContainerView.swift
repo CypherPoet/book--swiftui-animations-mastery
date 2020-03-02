@@ -18,7 +18,7 @@ extension AnimationTriggersContainerView: View {
 
     var body: some View {
         List {
-            Section {
+            Section(header: Text("Examples")) {
                 Group {
                     NavigationLink(destination: AnimationTriggers_Buttons()) {
                         Text("AnimationTriggers: Buttons")
@@ -69,12 +69,18 @@ extension AnimationTriggersContainerView: View {
                 }
             }
             
-            Section {
+            Section(header: Text("Exercise")) {
                 NavigationLink(
                     destination: AnimationTriggers_Exercise()
                         .accentColor(.pink)
                 ) {
-                    Text("Animation Triggers Exercise 💪")
+                    Text("Animation Triggers: Exercise 💪")
+                }
+            }
+            
+            Section(header: Text("Challenge")) {
+                NavigationLink(destination: AnimationTriggers_Challenge()) {
+                    Text("Animation Triggers: Challenge 🏆")
                 }
             }
         }
