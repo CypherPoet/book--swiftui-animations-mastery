@@ -14,3 +14,4 @@ _Projects, playgrounds, and other materials made while following along with the 
 ## [Animation Triggers](./SwiftUIAnimationsMastery/SwiftUIAnimationsMastery/Scenes/Animation%20Triggers/)
 
 
+## [Animation Options](./SwiftUIAnimationsMastery/SwiftUIAnimationsMastery/Scenes/Animation%20Options/)

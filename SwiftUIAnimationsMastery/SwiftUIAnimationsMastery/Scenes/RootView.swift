@@ -31,6 +31,10 @@ extension RootView: View {
                 NavigationLink(destination: AnimationTriggersContainerView()) {
                     Text("Animation Triggers")
                 }
+                
+                NavigationLink(destination: AnimationOptionsContainerView()) {
+                    Text("Animation Options")
+                }
             }
             .navigationViewStyle(StackNavigationViewStyle())
             .navigationBarTitle(Text("SwiftUI Animations Mastery"), displayMode: .large)

@@ -61,6 +61,8 @@
 		F3B6564D23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */; };
 		F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */; };
 		F3B6565323EEC4FB00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */; };
+		F3E19965240DA8780086FA94 /* AnimationOptionsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */; };
+		F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +121,8 @@
 		F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Offset.swift; sourceTree = "<group>"; };
 		F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Alignment.swift; sourceTree = "<group>"; };
 		F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift; sourceTree = "<group>"; };
+		F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptionsContainerView.swift; sourceTree = "<group>"; };
+		F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_DurationParameter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				F308BAC223E8D9FD00CADEFE /* RootView.swift */,
+				F3E19963240DA86A0086FA94 /* Animation Options */,
 				F307B70223F34F8700FA264E /* Animation Triggers */,
 				F3B6564623ECF44A00959505 /* Basic Animations */,
 				F308BADA23E9A0E300CADEFE /* Getting Started */,
@@ -378,6 +383,15 @@
 			path = "Animatable Properties";
 			sourceTree = "<group>";
 		};
+		F3E19963240DA86A0086FA94 /* Animation Options */ = {
+			isa = PBXGroup;
+			children = (
+				F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */,
+				F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */,
+			);
+			path = "Animation Options";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -466,6 +480,7 @@
 				F3B48BE523F038610072FFA9 /* BasicAnimations_AnimatableProperties_Trim.swift in Sources */,
 				F374D67F240BF157003C664F /* AnimationTriggers_Challenge.swift in Sources */,
 				F3B48BD923EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift in Sources */,
+				F3E19965240DA8780086FA94 /* AnimationOptionsContainerView.swift in Sources */,
 				F3B48BE823F03DB30072FFA9 /* BasicAnimations_AnimatablePropertiesExercise.swift in Sources */,
 				F308BAD723E8E1CA00CADEFE /* SubtitleTextStyle.swift in Sources */,
 				F3B6564B23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift in Sources */,
@@ -495,6 +510,7 @@
 				F374D6742404E344003C664F /* AnimationTriggers_RotationGestures.swift in Sources */,
 				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,
 				F3B323BD23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift in Sources */,
+				F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */,
 				F307B70D23F48E9300FA264E /* AnimationTriggers_SegmentedControls.swift in Sources */,
 				F374D67624076FF6003C664F /* AnimationTriggers_ScrollLocation.swift in Sources */,
 				F321F7DF23F91D910059D5E9 /* AnimationTriggers_Steppers.swift in Sources */,
