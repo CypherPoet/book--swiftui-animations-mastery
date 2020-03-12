@@ -37,6 +37,7 @@
 		F321F7E123F924D30059D5E9 /* AnimationTriggers_Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */; };
 		F321F7E523FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F7E423FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift */; };
 		F324FBBF2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FBBE2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift */; };
+		F34B146F241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B146E241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift */; };
 		F35EDF8123FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */; };
 		F374D6742404E344003C664F /* AnimationTriggers_RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D6732404E344003C664F /* AnimationTriggers_RotationGestures.swift */; };
 		F374D67624076FF6003C664F /* AnimationTriggers_ScrollLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D67524076FF6003C664F /* AnimationTriggers_ScrollLocation.swift */; };
@@ -61,6 +62,7 @@
 		F3B6564D23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */; };
 		F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */; };
 		F3B6565323EEC4FB00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */; };
+		F3BDA88A2418FABB000B2CFB /* AnimatableGradients in Frameworks */ = {isa = PBXBuildFile; productRef = F3BDA8892418FABB000B2CFB /* AnimatableGradients */; };
 		F3E19965240DA8780086FA94 /* AnimationOptionsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */; };
 		F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */; };
 /* End PBXBuildFile section */
@@ -97,6 +99,7 @@
 		F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Toggles.swift; sourceTree = "<group>"; };
 		F321F7E423FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_DragGestures.swift; sourceTree = "<group>"; };
 		F324FBBE2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_MagnificationGestures.swift; sourceTree = "<group>"; };
+		F34B146E241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_LongDurationParameter.swift; sourceTree = "<group>"; };
 		F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_LongPressGestures.swift; sourceTree = "<group>"; };
 		F374D6732404E344003C664F /* AnimationTriggers_RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_RotationGestures.swift; sourceTree = "<group>"; };
 		F374D67524076FF6003C664F /* AnimationTriggers_ScrollLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_ScrollLocation.swift; sourceTree = "<group>"; };
@@ -130,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BDA88A2418FABB000B2CFB /* AnimatableGradients in Frameworks */,
 				F308BACE23E8E0B300CADEFE /* CypherPoetSwiftUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +391,7 @@
 			isa = PBXGroup;
 			children = (
 				F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */,
+				F34B146E241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift */,
 				F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */,
 			);
 			path = "Animation Options";
@@ -410,6 +415,7 @@
 			name = SwiftUIAnimationsMastery;
 			packageProductDependencies = (
 				F308BACD23E8E0B300CADEFE /* CypherPoetSwiftUIKit */,
+				F3BDA8892418FABB000B2CFB /* AnimatableGradients */,
 			);
 			productName = SwiftUIAnimationsMastery;
 			productReference = F308BAA623E8D97800CADEFE /* SwiftUIAnimationsMastery.app */;
@@ -441,6 +447,7 @@
 			mainGroup = F308BA9D23E8D97800CADEFE;
 			packageReferences = (
 				F308BACB23E8E0A900CADEFE /* XCRemoteSwiftPackageReference "CypherPoetSwiftUIKit" */,
+				F3BDA8882418FABB000B2CFB /* XCRemoteSwiftPackageReference "AnimatableGradients" */,
 			);
 			productRefGroup = F308BAA723E8D97800CADEFE /* Products */;
 			projectDirPath = "";
@@ -513,6 +520,7 @@
 				F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */,
 				F307B70D23F48E9300FA264E /* AnimationTriggers_SegmentedControls.swift in Sources */,
 				F374D67624076FF6003C664F /* AnimationTriggers_ScrollLocation.swift in Sources */,
+				F34B146F241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift in Sources */,
 				F321F7DF23F91D910059D5E9 /* AnimationTriggers_Steppers.swift in Sources */,
 				F3B323BB23FEE2A80005E6FC /* AnyTransition+fadeOut.swift in Sources */,
 				F308BAC323E8D9FD00CADEFE /* RootView.swift in Sources */,
@@ -724,6 +732,14 @@
 				minimumVersion = 0.0.36;
 			};
 		};
+		F3BDA8882418FABB000B2CFB /* XCRemoteSwiftPackageReference "AnimatableGradients" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/AnimatableGradients.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -731,6 +747,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F308BACB23E8E0A900CADEFE /* XCRemoteSwiftPackageReference "CypherPoetSwiftUIKit" */;
 			productName = CypherPoetSwiftUIKit;
+		};
+		F3BDA8892418FABB000B2CFB /* AnimatableGradients */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3BDA8882418FABB000B2CFB /* XCRemoteSwiftPackageReference "AnimatableGradients" */;
+			productName = AnimatableGradients;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

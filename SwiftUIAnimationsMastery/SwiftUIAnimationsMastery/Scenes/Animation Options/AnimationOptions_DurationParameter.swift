@@ -12,8 +12,6 @@ import SwiftUI
 struct AnimationOptions_DurationParameter {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
-    private var imageMagnificationDuration: TimeInterval = 0.28
-
     private let titleText = "Animation Options"
     private let subtitleText = "Duration Parameter"
     private let descriptionText1 = "To set a duration, you need to turn the animation type into a function. Like .easeInOut into .easeInOut(duration: 1)."

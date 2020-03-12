@@ -22,6 +22,10 @@ extension AnimationOptionsContainerView: View {
                 NavigationLink(destination: AnimationOptions_DurationParameter()) {
                     Text("Animation Options: Duration Parameter")
                 }
+                
+                NavigationLink(destination: AnimationOptions_LongDurationParameter()) {
+                    Text("Animation Options: (Long) Duration")
+                }
             }
             
 //            Section(header: Text("Exercise")) {

@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "AnimatableGradients",
+        "repositoryURL": "https://github.com/CypherPoet/AnimatableGradients.git",
+        "state": {
+          "branch": null,
+          "revision": "b93cd731451e0b847b02eeb5e50061095e5c2562",
+          "version": "0.1.0"
+        }
+      },
+      {
         "package": "CypherPoetSwiftUIKit",
         "repositoryURL": "https://github.com/CypherPoet/CypherPoetSwiftUIKit.git",
         "state": {
