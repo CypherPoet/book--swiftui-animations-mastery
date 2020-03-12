@@ -63,6 +63,9 @@
 		F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */; };
 		F3B6565323EEC4FB00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */; };
 		F3BDA88A2418FABB000B2CFB /* AnimatableGradients in Frameworks */ = {isa = PBXBuildFile; productRef = F3BDA8892418FABB000B2CFB /* AnimatableGradients */; };
+		F3BDA88C241A2202000B2CFB /* AnimationOptions_Delays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */; };
+		F3BDA88F241A24B3000B2CFB /* AnimationToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */; };
+		F3BDA891241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */; };
 		F3E19965240DA8780086FA94 /* AnimationOptionsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */; };
 		F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */; };
 /* End PBXBuildFile section */
@@ -124,6 +127,9 @@
 		F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Offset.swift; sourceTree = "<group>"; };
 		F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Alignment.swift; sourceTree = "<group>"; };
 		F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift; sourceTree = "<group>"; };
+		F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_Delays.swift; sourceTree = "<group>"; };
+		F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationToggleButton.swift; sourceTree = "<group>"; };
+		F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_SequencingWithDelays.swift; sourceTree = "<group>"; };
 		F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptionsContainerView.swift; sourceTree = "<group>"; };
 		F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_DurationParameter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -253,6 +259,7 @@
 		F308BAC723E8DA2900CADEFE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F3BDA88D241A24A0000B2CFB /* Buttons */,
 				F308BAD823E8E25700CADEFE /* BannerTextView.swift */,
 			);
 			path = Views;
@@ -387,10 +394,20 @@
 			path = "Animatable Properties";
 			sourceTree = "<group>";
 		};
+		F3BDA88D241A24A0000B2CFB /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		F3E19963240DA86A0086FA94 /* Animation Options */ = {
 			isa = PBXGroup;
 			children = (
 				F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */,
+				F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */,
+				F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */,
 				F34B146E241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift */,
 				F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */,
 			);
@@ -477,6 +494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F307B6FF23F31FC400FA264E /* BasicAnimations_Challenge2.swift in Sources */,
+				F3BDA88C241A2202000B2CFB /* AnimationOptions_Delays.swift in Sources */,
 				F3B48BDD23EFA3340072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffectAnchors.swift in Sources */,
 				F307B70723F487EF00FA264E /* AnimationTriggersContainerView.swift in Sources */,
 				F3B48BDB23EF9EB30072FFA9 /* BasicAnimations_AnimatableProperties_RotationEffect.swift in Sources */,
@@ -492,8 +510,10 @@
 				F308BAD723E8E1CA00CADEFE /* SubtitleTextStyle.swift in Sources */,
 				F3B6564B23ED020E00959505 /* BasicAnimations_AnimatableProperties_HueRotation.swift in Sources */,
 				F307B6F623F2E1C700FA264E /* BasicAnimations_CheckUnderstanding1.swift in Sources */,
+				F3BDA891241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift in Sources */,
 				F3B6565323EEC4FB00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift in Sources */,
 				F3B48BDF23EFA59E0072FFA9 /* BasicAnimations_AnimatableProperties_Frame.swift in Sources */,
+				F3BDA88F241A24B3000B2CFB /* AnimationToggleButton.swift in Sources */,
 				F3B6564523ECEB0900959505 /* GettingStarted_Challenge2.swift in Sources */,
 				F308BAD923E8E25700CADEFE /* BannerTextView.swift in Sources */,
 				F374D6792407A630003C664F /* AnimationTriggers_Exercise.swift in Sources */,

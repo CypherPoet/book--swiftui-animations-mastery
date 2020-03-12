@@ -19,12 +19,22 @@ extension AnimationOptionsContainerView: View {
     var body: some View {
         List {
             Section(header: Text("Examples")) {
-                NavigationLink(destination: AnimationOptions_DurationParameter()) {
-                    Text("Animation Options: Duration Parameter")
-                }
-                
-                NavigationLink(destination: AnimationOptions_LongDurationParameter()) {
-                    Text("Animation Options: (Long) Duration")
+                Group {
+                    NavigationLink(destination: AnimationOptions_DurationParameter()) {
+                        Text("Animation Options: Duration Parameter")
+                    }
+                    
+                    NavigationLink(destination: AnimationOptions_LongDurationParameter()) {
+                        Text("Animation Options: (Long) Duration")
+                    }
+                    
+                    NavigationLink(destination: AnimationOptions_Delays()) {
+                        Text("Animation Options: Delays")
+                    }
+                    
+                    NavigationLink(destination: AnimationOptions_SequencingWithDelays()) {
+                         Text("Animation Options: Sequencing via Delay")
+                    }
                 }
             }
             
