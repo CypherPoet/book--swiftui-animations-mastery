@@ -1,37 +1,49 @@
 //
-//  AnimationOptions_RepeatingWithCount.swift
+//  AnimationOptions_RepeatingWithCountAndAutoReverseAndAutoReverse.swift
 //  SwiftUIAnimationsMastery
 //
-//  Created by CypherPoet on 3/13/20.
+//  Created by CypherPoet on 3/14/20.
 // ✌️
 //
 
 import SwiftUI
 
 
-struct AnimationOptions_RepeatingWithCount {
+struct AnimationOptions_RepeatingWithCountAndAutoReverse {
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     @Environment(\.colorScheme) private var colorScheme
     
     private let titleText = "Animation Repeating"
     private let subtitleText = "Repeat Count"
-    private let descriptionText1 = "You might want an animation to repeat a specific number of times."
+    private let descriptionText1 = "Auto-Reverse is true by default. It is an optional parameter that you can set to false."
+
     
     private let twirlDuration: TimeInterval = 0.63
     private let twirlCount = 4
     
+    @State private var shouldReverseAnimation = false
     @State private var animationFlag = false
 }
 
 
 
 // MARK: - View
-extension AnimationOptions_RepeatingWithCount: View {
+extension AnimationOptions_RepeatingWithCountAndAutoReverse: View {
 
     var body: some View {
-        VStack(spacing: 0) {
+        VStack(spacing: 12) {
             descriptionSection
                 .layoutPriority(2)
+            
+            HStack {
+                Spacer()
+                Toggle(isOn: $shouldReverseAnimation) {
+                    Text("Reverse Animation")
+                        .font(.headline)
+                }
+                Spacer()
+            }
+            .padding()
             
             Spacer()
             
@@ -49,18 +61,18 @@ extension AnimationOptions_RepeatingWithCount: View {
 
 
 // MARK: - Computeds
-extension AnimationOptions_RepeatingWithCount {
+extension AnimationOptions_RepeatingWithCountAndAutoReverse {
     
     var pulseAnimation: Animation {
         Animation
             .linear(duration: twirlDuration)
-            .repeatCount(twirlCount)
+            .repeatCount(twirlCount, autoreverses: shouldReverseAnimation)
     }
 }
 
 
 // MARK: - View Variables
-extension AnimationOptions_RepeatingWithCount {
+extension AnimationOptions_RepeatingWithCountAndAutoReverse {
     
     private var descriptionSection: some View {
         VStack(spacing: 12) {
@@ -92,16 +104,16 @@ extension AnimationOptions_RepeatingWithCount {
 
 
 // MARK: - Private Helpers
-private extension AnimationOptions_RepeatingWithCount {
+private extension AnimationOptions_RepeatingWithCountAndAutoReverse {
 }
 
 
 // MARK: - Preview
-struct AnimationOptions_RepeatingWithCount_Previews: PreviewProvider {
+struct AnimationOptions_RepeatingWithCountAndAutoReverse_Previews: PreviewProvider {
 
     static var previews: some View {
         NavigationView {
-            AnimationOptions_RepeatingWithCount()
+            AnimationOptions_RepeatingWithCountAndAutoReverse()
                 .navigationBarTitle("")
                 .navigationBarHidden(true)
         }

@@ -37,7 +37,15 @@ extension AnimationOptionsContainerView: View {
                     }
                     
                     NavigationLink(destination: AnimationOptions_RepeatingWithCount()) {
-                         Text("Animation Options: Repeating")
+                         Text("Animation Options: Repeating + Count")
+                    }
+                    
+                    NavigationLink(destination: AnimationOptions_RepeatingWithCountAndAutoReverse()) {
+                         Text("Animation Options: Repeating + Count + Auto-Reverse")
+                    }
+                    
+                    NavigationLink(destination: AnimationOptions_RepeatingForever()) {
+                         Text("Animation Options: Repeating Forever")
                     }
                 }
             }

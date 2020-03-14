@@ -67,6 +67,7 @@
 		F3BDA88F241A24B3000B2CFB /* AnimationToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */; };
 		F3BDA891241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */; };
 		F3BDA893241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA892241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift */; };
+		F3BDA895241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA894241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift */; };
 		F3E19965240DA8780086FA94 /* AnimationOptionsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */; };
 		F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */; };
 /* End PBXBuildFile section */
@@ -132,6 +133,7 @@
 		F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationToggleButton.swift; sourceTree = "<group>"; };
 		F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_SequencingWithDelays.swift; sourceTree = "<group>"; };
 		F3BDA892241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_RepeatingWithCount.swift; sourceTree = "<group>"; };
+		F3BDA894241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_RepeatingWithCountAndAutoReverse.swift; sourceTree = "<group>"; };
 		F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptionsContainerView.swift; sourceTree = "<group>"; };
 		F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_DurationParameter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -408,6 +410,7 @@
 			isa = PBXGroup;
 			children = (
 				F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */,
+				F3BDA894241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift */,
 				F3BDA892241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift */,
 				F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */,
 				F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */,
@@ -523,6 +526,7 @@
 				F307B70523F34FAE00FA264E /* AnimationTriggers_Buttons.swift in Sources */,
 				F308BAAC23E8D97800CADEFE /* SceneDelegate.swift in Sources */,
 				F308BADC23E9A1C300CADEFE /* GettingStarted_NoAnimationExample.swift in Sources */,
+				F3BDA895241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift in Sources */,
 				F308BAD423E8E15500CADEFE /* SubheadlineTextStyle.swift in Sources */,
 				F324FBBF2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift in Sources */,
 				F321F7E523FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift in Sources */,
