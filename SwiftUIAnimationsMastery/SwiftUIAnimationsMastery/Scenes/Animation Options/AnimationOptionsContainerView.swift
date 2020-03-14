@@ -35,6 +35,10 @@ extension AnimationOptionsContainerView: View {
                     NavigationLink(destination: AnimationOptions_SequencingWithDelays()) {
                          Text("Animation Options: Sequencing via Delay")
                     }
+                    
+                    NavigationLink(destination: AnimationOptions_RepeatingWithCount()) {
+                         Text("Animation Options: Repeating")
+                    }
                 }
             }
             
