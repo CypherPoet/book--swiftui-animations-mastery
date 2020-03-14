@@ -68,6 +68,8 @@
 		F3BDA891241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */; };
 		F3BDA893241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA892241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift */; };
 		F3BDA895241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA894241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift */; };
+		F3BDA897241D4F67000B2CFB /* AnimationOptions_RepeatingForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA896241D4F67000B2CFB /* AnimationOptions_RepeatingForever.swift */; };
+		F3BDA899241D5C1D000B2CFB /* AnimationOptions_RepeatingForeverWithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA898241D5C1D000B2CFB /* AnimationOptions_RepeatingForeverWithDelay.swift */; };
 		F3E19965240DA8780086FA94 /* AnimationOptionsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */; };
 		F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */; };
 /* End PBXBuildFile section */
@@ -134,6 +136,8 @@
 		F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_SequencingWithDelays.swift; sourceTree = "<group>"; };
 		F3BDA892241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_RepeatingWithCount.swift; sourceTree = "<group>"; };
 		F3BDA894241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_RepeatingWithCountAndAutoReverse.swift; sourceTree = "<group>"; };
+		F3BDA896241D4F67000B2CFB /* AnimationOptions_RepeatingForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_RepeatingForever.swift; sourceTree = "<group>"; };
+		F3BDA898241D5C1D000B2CFB /* AnimationOptions_RepeatingForeverWithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_RepeatingForeverWithDelay.swift; sourceTree = "<group>"; };
 		F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptionsContainerView.swift; sourceTree = "<group>"; };
 		F3E19966240DA9160086FA94 /* AnimationOptions_DurationParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_DurationParameter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -410,6 +414,8 @@
 			isa = PBXGroup;
 			children = (
 				F3E19964240DA8780086FA94 /* AnimationOptionsContainerView.swift */,
+				F3BDA896241D4F67000B2CFB /* AnimationOptions_RepeatingForever.swift */,
+				F3BDA898241D5C1D000B2CFB /* AnimationOptions_RepeatingForeverWithDelay.swift */,
 				F3BDA894241D4C76000B2CFB /* AnimationOptions_RepeatingWithCountAndAutoReverse.swift */,
 				F3BDA892241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift */,
 				F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */,
@@ -536,12 +542,14 @@
 				F308BAD123E8E11000CADEFE /* TitleTextStyle.swift in Sources */,
 				F3B323BF23FF230B0005E6FC /* AnimationTriggers_TapGestures.swift in Sources */,
 				F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */,
+				F3BDA899241D5C1D000B2CFB /* AnimationOptions_RepeatingForeverWithDelay.swift in Sources */,
 				F321F77823F62A730059D5E9 /* AnimationTriggers_Sliders.swift in Sources */,
 				F307B6FD23F314AD00FA264E /* BasicAnimations_Challenge1+LoginFormView.swift in Sources */,
 				F307B70B23F48C1100FA264E /* GettingStartedContainerView.swift in Sources */,
 				F3BDA893241BE0B8000B2CFB /* AnimationOptions_RepeatingWithCount.swift in Sources */,
 				F3B48BE123EFBC150072FFA9 /* BasicAnimations_AnimatableProperties_ScaleEffect.swift in Sources */,
 				F3B48BE323F033140072FFA9 /* BasicAnimations_AnimatableProperties_TextResizing.swift in Sources */,
+				F3BDA897241D4F67000B2CFB /* AnimationOptions_RepeatingForever.swift in Sources */,
 				F374D6742404E344003C664F /* AnimationTriggers_RotationGestures.swift in Sources */,
 				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,
 				F3B323BD23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift in Sources */,

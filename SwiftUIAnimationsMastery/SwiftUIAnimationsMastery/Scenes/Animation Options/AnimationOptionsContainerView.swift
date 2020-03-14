@@ -47,6 +47,10 @@ extension AnimationOptionsContainerView: View {
                     NavigationLink(destination: AnimationOptions_RepeatingForever()) {
                          Text("Animation Options: Repeating Forever")
                     }
+                    
+                    NavigationLink(destination: AnimationOptions_RepeatingForeverWithDelay()) {
+                         Text("Animation Options: Repeating Forever + Delay")
+                    }
                 }
             }
             
