@@ -53,15 +53,6 @@ extension AnimationOptionsContainerView: View {
                     }
                 }
             }
-            
-//            Section(header: Text("Exercise")) {
-//            }
-            
-//            Section(header: Text("Challenge")) {
-//                NavigationLink(destination: AnimationTriggers_Challenge()) {
-//                    Text("Animation Triggers: Challenge 🏆")
-//                }
-//            }
         }
         .navigationBarTitle(Text("Animation Triggers"), displayMode: .large)
     }
