@@ -24,6 +24,10 @@ extension AnimationScopeContainerView: View {
                     NavigationLink(destination: AnimationScope_SequenceOnSingleView()) {
                         Text("Animation Scope: Sequence on Single View")
                     }
+                    
+                    NavigationLink(destination: AnimationScope_ParentAndChildren()) {
+                        Text("Animation Scope: Parent & Children")
+                    }
                 }
             }
             

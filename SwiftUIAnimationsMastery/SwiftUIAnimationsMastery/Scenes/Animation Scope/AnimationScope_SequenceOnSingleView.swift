@@ -15,10 +15,10 @@ struct AnimationScope_SequenceOnSingleView {
     
     private let titleText = "Animation Scope"
     private let subtitleText = "Sequencing on Single View"
-    private let descriptionText1 = "When using multiple `animation` modifiers, delays can help us choreograph a sequence."
+    private let descriptionText1 = "When using multiple animation modifiers, delays can help us choreograph a sequence."
     
-    private let scaleDuration: TimeInterval = 0.5
-    private let glimmerDuration: TimeInterval = 0.35
+    private let scaleDuration: TimeInterval = 0.34
+    private let glimmerDuration: TimeInterval = 0.325
     
     @State private var isHeartEnlarged = false
 }
@@ -90,9 +90,33 @@ extension AnimationScope_SequenceOnSingleView {
         Image(systemName: "heart.fill")
             .resizable()
             .foregroundColor(.yellow)
-            .scaleEffect(isHeartEnlarged ? 1.0 : 0.6)
+            .scaleEffect(isHeartEnlarged ? 1.0 : 0.6, anchor: .center)
             .animation(heartScaleAnimation)
             .scaledToFit()
+    }
+    
+    
+    private var heartGlimmer: some View {
+        GeometryReader { geometry in
+            Rectangle()
+                .fill(Color.white)
+                .frame(
+                    width: self.heartWidth(in: geometry),
+                    height: 2000
+                )
+                .rotationEffect(.radians(-.pi / 4), anchor: .center)
+                .position(
+                    x: self.isHeartEnlarged ?
+                        geometry.frame(in: .global).minX - self.heartWidth(in: geometry)
+                        : geometry.frame(in: .global).maxX + self.heartWidth(in: geometry),
+                    y: self.isHeartEnlarged ?
+                        geometry.frame(in: .global).maxY
+                        : geometry.frame(in: .global).minY - (geometry.size.height / 2)
+                )
+                .opacity(self.isHeartEnlarged ? 1.0 : 0.5)
+                .scaleEffect(self.isHeartEnlarged ? 1.2 : 0.5)
+                .animation(self.heartGlimmerAnimation.delay(self.heartGlimmerDelay))
+        }
     }
     
     
@@ -100,27 +124,23 @@ extension AnimationScope_SequenceOnSingleView {
         GeometryReader { geometry in
             ZStack {
                 self.heartImage
+                    .padding()
                 
-                Rectangle()
-                    .fill(Color.white)
-                    .frame(
-                        width: geometry.size.width * 0.1,
-                        height: 2000
-                    )
-                    .rotationEffect(.radians(-.pi / 4), anchor: .center)
-                    .position(
-                        x: self.isHeartEnlarged ?
-                            geometry.frame(in: .global).minX
-                            : geometry.frame(in: .global).maxX,
-                        y: self.isHeartEnlarged ?
-                            geometry.frame(in: .global).maxY
-                            : geometry.frame(in: .global).minY - (geometry.size.height / 2)
-                    )
-                    .animation(self.heartGlimmerAnimation.delay(self.heartGlimmerDelay))
-                    .opacity(self.isHeartEnlarged ? 1.0 : 0.0)  // fade out before heading back
-                    .animation(.none)
+                if self.isHeartEnlarged {
+                    self.heartGlimmer
+                        .transition(
+                            .asymmetric(
+                                insertion: AnyTransition
+                                    .move(edge: .top)
+                                    .combined(with: AnyTransition.move(edge: .trailing)),
+//                                    .animation(self.heartGlimmerAnimation),
+                                removal: .identity
+                            )
+                        )
+                }
             }
             .mask(self.heartImage)
+            .frame(width: geometry.size.width, height: geometry.size.height)
         }
     }
 }
@@ -128,6 +148,10 @@ extension AnimationScope_SequenceOnSingleView {
 
 // MARK: - Private Helpers
 private extension AnimationScope_SequenceOnSingleView {
+    
+    func heartWidth(in geometry: GeometryProxy) -> CGFloat {
+        geometry.size.width * 0.1
+    }
 }
 
 
