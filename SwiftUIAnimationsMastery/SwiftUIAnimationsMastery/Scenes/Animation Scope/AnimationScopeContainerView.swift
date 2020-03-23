@@ -28,6 +28,10 @@ extension AnimationScopeContainerView: View {
                     NavigationLink(destination: AnimationScope_ParentAndChildren()) {
                         Text("Animation Scope: Parent & Children")
                     }
+                    
+                    NavigationLink(destination: AnimationScope_ChangingParentSize()) {
+                        Text("Animation Scope: Changing Parent Size")
+                    }
                 }
             }
             
