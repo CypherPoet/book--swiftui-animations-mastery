@@ -66,6 +66,7 @@
 		F3B6564D23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */; };
 		F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */; };
 		F3B6565323EEC4FB00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */; };
+		F3BAB422247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAB421247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift */; };
 		F3BDA88A2418FABB000B2CFB /* AnimatableGradients in Frameworks */ = {isa = PBXBuildFile; productRef = F3BDA8892418FABB000B2CFB /* AnimatableGradients */; };
 		F3BDA88C241A2202000B2CFB /* AnimationOptions_Delays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */; };
 		F3BDA88F241A24B3000B2CFB /* AnimationToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */; };
@@ -139,6 +140,7 @@
 		F3B6564C23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Offset.swift; sourceTree = "<group>"; };
 		F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Alignment.swift; sourceTree = "<group>"; };
 		F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift; sourceTree = "<group>"; };
+		F3BAB421247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScope_WithAnimation_MultipleViews.swift; sourceTree = "<group>"; };
 		F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_Delays.swift; sourceTree = "<group>"; };
 		F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationToggleButton.swift; sourceTree = "<group>"; };
 		F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_SequencingWithDelays.swift; sourceTree = "<group>"; };
@@ -366,10 +368,11 @@
 		F39A4A3E24244D3A007AEE35 /* Animation Scope */ = {
 			isa = PBXGroup;
 			children = (
-				F39A4A3F24244D69007AEE35 /* AnimationScopeContainerView.swift */,
 				F39A4A662428B9EF007AEE35 /* AnimationScope_ChangingParentSize.swift */,
 				F39A4A5B2425FA3C007AEE35 /* AnimationScope_ParentAndChildren.swift */,
 				F39A4A4124244DFB007AEE35 /* AnimationScope_SequenceOnSingleView.swift */,
+				F39A4A3F24244D69007AEE35 /* AnimationScopeContainerView.swift */,
+				F3BAB420247CE5750044BD4C /* withAnimation Function */,
 			);
 			path = "Animation Scope";
 			sourceTree = "<group>";
@@ -420,6 +423,14 @@
 				F3B48BE423F038610072FFA9 /* BasicAnimations_AnimatableProperties_Trim.swift */,
 			);
 			path = "Animatable Properties";
+			sourceTree = "<group>";
+		};
+		F3BAB420247CE5750044BD4C /* withAnimation Function */ = {
+			isa = PBXGroup;
+			children = (
+				F3BAB421247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift */,
+			);
+			path = "withAnimation Function";
 			sourceTree = "<group>";
 		};
 		F3BDA88D241A24A0000B2CFB /* Buttons */ = {
@@ -574,6 +585,7 @@
 				F3BDA897241D4F67000B2CFB /* AnimationOptions_RepeatingForever.swift in Sources */,
 				F374D6742404E344003C664F /* AnimationTriggers_RotationGestures.swift in Sources */,
 				F39A4A4224244DFB007AEE35 /* AnimationScope_SequenceOnSingleView.swift in Sources */,
+				F3BAB422247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift in Sources */,
 				F3B6564823ECF45C00959505 /* BasicAnimations_AnimatableProperties_Color.swift in Sources */,
 				F3B323BD23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift in Sources */,
 				F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */,

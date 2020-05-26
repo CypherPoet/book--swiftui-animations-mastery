@@ -34,6 +34,14 @@ extension AnimationScopeContainerView: View {
                     }
                 }
             }
+
+            Section(header: Text("`withAnimation`")) {
+                Group {
+                    NavigationLink(destination: AnimationScope_WithAnimation_MultipleViews()) {
+                        Text("withAnimation: Multiple Views")
+                    }
+                }
+            }
             
             //            Section(header: Text("Exercise")) {
             //            }
