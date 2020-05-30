@@ -37,6 +37,8 @@
 		F321F7E123F924D30059D5E9 /* AnimationTriggers_Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */; };
 		F321F7E523FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F7E423FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift */; };
 		F324FBBF2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FBBE2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift */; };
+		F325F16A2480C5E700C34898 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F325F1692480C5E700C34898 /* ProgressRingView.swift */; };
+		F325F16C2480D27900C34898 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F325F16B2480D27900C34898 /* ProgressBarView.swift */; };
 		F34B146F241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B146E241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift */; };
 		F35EDF8123FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */; };
 		F374D6742404E344003C664F /* AnimationTriggers_RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D6732404E344003C664F /* AnimationTriggers_RotationGestures.swift */; };
@@ -67,6 +69,7 @@
 		F3B6565123EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */; };
 		F3B6565323EEC4FB00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */; };
 		F3BAB422247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAB421247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift */; };
+		F3BAB424247CF0030044BD4C /* AnimationScope_WithAnimation_Sequencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAB423247CF0030044BD4C /* AnimationScope_WithAnimation_Sequencing.swift */; };
 		F3BDA88A2418FABB000B2CFB /* AnimatableGradients in Frameworks */ = {isa = PBXBuildFile; productRef = F3BDA8892418FABB000B2CFB /* AnimatableGradients */; };
 		F3BDA88C241A2202000B2CFB /* AnimationOptions_Delays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */; };
 		F3BDA88F241A24B3000B2CFB /* AnimationToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */; };
@@ -111,6 +114,8 @@
 		F321F7E023F924D30059D5E9 /* AnimationTriggers_Toggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_Toggles.swift; sourceTree = "<group>"; };
 		F321F7E423FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_DragGestures.swift; sourceTree = "<group>"; };
 		F324FBBE2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_MagnificationGestures.swift; sourceTree = "<group>"; };
+		F325F1692480C5E700C34898 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		F325F16B2480D27900C34898 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		F34B146E241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_LongDurationParameter.swift; sourceTree = "<group>"; };
 		F35EDF8023FB9CE8003997A8 /* AnimationTriggers_LongPressGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_LongPressGestures.swift; sourceTree = "<group>"; };
 		F374D6732404E344003C664F /* AnimationTriggers_RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTriggers_RotationGestures.swift; sourceTree = "<group>"; };
@@ -141,6 +146,7 @@
 		F3B6565023EE885F00959505 /* BasicAnimations_AnimatableProperties_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_Alignment.swift; sourceTree = "<group>"; };
 		F3B6565223EEC4FA00959505 /* BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations_AnimatableProperties_GeoemetryReaderPosition.swift; sourceTree = "<group>"; };
 		F3BAB421247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScope_WithAnimation_MultipleViews.swift; sourceTree = "<group>"; };
+		F3BAB423247CF0030044BD4C /* AnimationScope_WithAnimation_Sequencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScope_WithAnimation_Sequencing.swift; sourceTree = "<group>"; };
 		F3BDA88B241A2202000B2CFB /* AnimationOptions_Delays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_Delays.swift; sourceTree = "<group>"; };
 		F3BDA88E241A24B3000B2CFB /* AnimationToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationToggleButton.swift; sourceTree = "<group>"; };
 		F3BDA890241A5BDC000B2CFB /* AnimationOptions_SequencingWithDelays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_SequencingWithDelays.swift; sourceTree = "<group>"; };
@@ -257,7 +263,7 @@
 			children = (
 				F350C4B723FECE8F00BA2974 /* Transitions */,
 				F308BACA23E8E05D00CADEFE /* Styles */,
-				F308BAC723E8DA2900CADEFE /* Views */,
+				F308BAC723E8DA2900CADEFE /* View Components */,
 			);
 			path = Reusables;
 			sourceTree = "<group>";
@@ -275,13 +281,14 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		F308BAC723E8DA2900CADEFE /* Views */ = {
+		F308BAC723E8DA2900CADEFE /* View Components */ = {
 			isa = PBXGroup;
 			children = (
+				F325F1682480C5C200C34898 /* Loaders */,
 				F3BDA88D241A24A0000B2CFB /* Buttons */,
 				F308BAD823E8E25700CADEFE /* BannerTextView.swift */,
 			);
-			path = Views;
+			path = "View Components";
 			sourceTree = "<group>";
 		};
 		F308BACA23E8E05D00CADEFE /* Styles */ = {
@@ -319,6 +326,15 @@
 				F307B70A23F48C1100FA264E /* GettingStartedContainerView.swift */,
 			);
 			path = "Getting Started";
+			sourceTree = "<group>";
+		};
+		F325F1682480C5C200C34898 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				F325F1692480C5E700C34898 /* ProgressRingView.swift */,
+				F325F16B2480D27900C34898 /* ProgressBarView.swift */,
+			);
+			path = Loaders;
 			sourceTree = "<group>";
 		};
 		F350C4B723FECE8F00BA2974 /* Transitions */ = {
@@ -429,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				F3BAB421247CE58E0044BD4C /* AnimationScope_WithAnimation_MultipleViews.swift */,
+				F3BAB423247CF0030044BD4C /* AnimationScope_WithAnimation_Sequencing.swift */,
 			);
 			path = "withAnimation Function";
 			sourceTree = "<group>";
@@ -549,6 +566,7 @@
 				F3B48BE523F038610072FFA9 /* BasicAnimations_AnimatableProperties_Trim.swift in Sources */,
 				F374D67F240BF157003C664F /* AnimationTriggers_Challenge.swift in Sources */,
 				F3B48BD923EF94A00072FFA9 /* BasicAnimations_AnimatableProperties_Opacity.swift in Sources */,
+				F325F16A2480C5E700C34898 /* ProgressRingView.swift in Sources */,
 				F3E19965240DA8780086FA94 /* AnimationOptionsContainerView.swift in Sources */,
 				F3B48BE823F03DB30072FFA9 /* BasicAnimations_AnimatablePropertiesExercise.swift in Sources */,
 				F308BAD723E8E1CA00CADEFE /* SubtitleTextStyle.swift in Sources */,
@@ -568,6 +586,7 @@
 				F308BAD423E8E15500CADEFE /* SubheadlineTextStyle.swift in Sources */,
 				F324FBBF2400A1AE00201F64 /* AnimationTriggers_MagnificationGestures.swift in Sources */,
 				F39A4A672428B9EF007AEE35 /* AnimationScope_ChangingParentSize.swift in Sources */,
+				F325F16C2480D27900C34898 /* ProgressBarView.swift in Sources */,
 				F321F7E523FA511E0059D5E9 /* AnimationTriggers_DragGestures.swift in Sources */,
 				F3B6564D23EE08E900959505 /* BasicAnimations_AnimatableProperties_Offset.swift in Sources */,
 				F307B70123F3203A00FA264E /* BasicAnimations_Challenge2+MenuView.swift in Sources */,
@@ -590,6 +609,7 @@
 				F3B323BD23FEE4210005E6FC /* AnyTransition+scaleUpTo.swift in Sources */,
 				F3E19967240DA9160086FA94 /* AnimationOptions_DurationParameter.swift in Sources */,
 				F307B70D23F48E9300FA264E /* AnimationTriggers_SegmentedControls.swift in Sources */,
+				F3BAB424247CF0030044BD4C /* AnimationScope_WithAnimation_Sequencing.swift in Sources */,
 				F374D67624076FF6003C664F /* AnimationTriggers_ScrollLocation.swift in Sources */,
 				F34B146F241418BB002BC64D /* AnimationOptions_LongDurationParameter.swift in Sources */,
 				F321F7DF23F91D910059D5E9 /* AnimationTriggers_Steppers.swift in Sources */,

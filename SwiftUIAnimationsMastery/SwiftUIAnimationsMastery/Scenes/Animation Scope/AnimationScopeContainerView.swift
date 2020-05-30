@@ -40,6 +40,10 @@ extension AnimationScopeContainerView: View {
                     NavigationLink(destination: AnimationScope_WithAnimation_MultipleViews()) {
                         Text("withAnimation: Multiple Views")
                     }
+
+                    NavigationLink(destination: AnimationScope_WithAnimation_Sequencing()) {
+                        Text("withAnimation: Sequencing")
+                    }
                 }
             }
             

@@ -11,7 +11,6 @@ import SwiftUI
 
 struct AnimationScope_WithAnimation_MultipleViews {
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
-    @Environment(\.colorScheme) private var colorScheme
 
     private let titleText = "withAnimation Function"
     private let subtitleText = "Multiple View"
