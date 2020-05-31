@@ -46,7 +46,7 @@ extension AnimationScopeContainerView: View {
                     }
                 }
             }
-            
+
             //            Section(header: Text("Exercise")) {
             //            }
             

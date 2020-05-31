@@ -53,8 +53,17 @@ extension AnimationOptionsContainerView: View {
                     }
                 }
             }
+
+
+            Section(header: Text("Turning Animations On/Off")) {
+                Group {
+                    NavigationLink(destination: AnimationOptions_TurningOnOff_WatchingValues()) {
+                        Text("Watching Values")
+                    }
+                }
+            }
         }
-        .navigationBarTitle(Text("Animation Triggers"), displayMode: .large)
+        .navigationBarTitle(Text("Animation Options"), displayMode: .large)
     }
 }
 

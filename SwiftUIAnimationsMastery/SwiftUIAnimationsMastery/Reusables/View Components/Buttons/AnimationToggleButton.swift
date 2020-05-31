@@ -10,6 +10,7 @@ import SwiftUI
 
 
 struct AnimationToggleButton {
+    var title: String = "Animate ⚡️"
     var onTap: (() -> Void) = {}
 }
 
@@ -19,7 +20,7 @@ extension AnimationToggleButton: View {
 
     var body: some View {
         Button(action: onTap) {
-            Text("Animate ⚡️")
+            Text(title)
                 .font(.title)
         }
     }
