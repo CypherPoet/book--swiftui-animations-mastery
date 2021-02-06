@@ -41,6 +41,10 @@
 		F345133D25CE291000DFC971 /* View+ScreenBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345133925CE291000DFC971 /* View+ScreenBanner.swift */; };
 		F345134A25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345134925CE426600DFC971 /* ScreenSectionDivider.swift */; };
 		F345134B25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345134925CE426600DFC971 /* ScreenSectionDivider.swift */; };
+		F345134F25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345134E25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift */; };
+		F345135025CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345134E25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift */; };
+		F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345135325CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift */; };
+		F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345135325CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift */; };
 		F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */; };
 		F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */; };
 		F360F1BA256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
@@ -65,6 +69,8 @@
 		F345133825CE291000DFC971 /* ScreenBannerViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBannerViewModifier.swift; sourceTree = "<group>"; };
 		F345133925CE291000DFC971 /* View+ScreenBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ScreenBanner.swift"; sourceTree = "<group>"; };
 		F345134925CE426600DFC971 /* ScreenSectionDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSectionDivider.swift; sourceTree = "<group>"; };
+		F345134E25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentChild_Animation_Sequencing_Solution1View.swift; sourceTree = "<group>"; };
+		F345135325CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentChild_Animation_Sequencing_Solution2View.swift; sourceTree = "<group>"; };
 		F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsMasteryPart2App.swift; sourceTree = "<group>"; };
 		F360F1A5256B672C0026B4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F360F1AA256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMasteryPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +148,8 @@
 			children = (
 				F340E42A2571DBEF006F245A /* AnimationScopeViewer.swift */,
 				F345131F25CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift */,
+				F345134E25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift */,
+				F345135325CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift */,
 				F340E46125733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift */,
 				F340E4422572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift */,
 				F340E4312571E1FC006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView2.swift */,
@@ -353,10 +361,12 @@
 				F345132025CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4432572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46225733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
+				F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F340E45025731EFF006F245A /* Constants+Animation.swift in Sources */,
 				F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
 				F340E44925731EE9006F245A /* Constants.swift in Sources */,
 				F345134A25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
+				F345134F25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
 				F340E42B2571DBEF006F245A /* AnimationScopeViewer.swift in Sources */,
 				F340E0FA256F6892006F245A /* TableOfContentsView.swift in Sources */,
 				F340E1132570B46F006F245A /* WelcomeView.swift in Sources */,
@@ -378,10 +388,12 @@
 				F345132125CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4442572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46325733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
+				F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F340E45125731EFF006F245A /* Constants+Animation.swift in Sources */,
 				F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
 				F340E44A25731EE9006F245A /* Constants.swift in Sources */,
 				F345134B25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
+				F345135025CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
 				F340E42C2571DBEF006F245A /* AnimationScopeViewer.swift in Sources */,
 				F340E0FB256F6892006F245A /* TableOfContentsView.swift in Sources */,
 				F340E1142570B46F006F245A /* WelcomeView.swift in Sources */,
