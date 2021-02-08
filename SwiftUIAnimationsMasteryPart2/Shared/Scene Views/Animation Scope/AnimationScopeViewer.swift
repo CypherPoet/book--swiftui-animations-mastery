@@ -38,17 +38,30 @@ extension AnimationScopeViewer: View {
                         Text("withAnimation via DispatchQueue 2")
                     }
                 }
-                
-                Section(header: Text("Parent/Child Animation Sequencing")) {
-                    Group {
-                        NavigationLink(
-                            destination: ParentChild_Animation_Sequencing_ProblemExampleView()
-                        ) {
-                            Text("Broken Animation Sequencing")
-                        }
+            }
+
+            Section(header: Text("Parent/Child Animation Sequencing")) {
+                Group {
+                    NavigationLink(
+                        destination: ParentChild_Animation_Sequencing_ProblemExampleView()
+                    ) {
+                        Text("Broken Parent/Child Sequencing")
+                    }
+                    
+                    NavigationLink(
+                        destination: ParentChild_Animation_Sequencing_Solution1View()
+                    ) {
+                        Text("Parent/Child Sequencing Solution 1")
+                    }
+
+                    NavigationLink(
+                        destination: ParentChild_Animation_Sequencing_Solution2View()
+                    ) {
+                        Text("Parent/Child Sequencing Solution 2")
                     }
                 }
             }
+
         }
         .navigationTitle("Animation Scope")
         .navigationBarTitleDisplayMode(.inline)

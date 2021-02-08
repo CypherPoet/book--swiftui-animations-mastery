@@ -23,7 +23,15 @@ extension TableOfContentsView: View {
                     destination: AnimationScopeViewer(),
                     label: {
                         Text("Animation Scope")
-                    })
+                    }
+                )
+                
+                NavigationLink(
+                    destination: AnimationEnablingViewer(),
+                    label: {
+                        Text("Enabling and Disabling Animations")
+                    }
+                )
             }
             .navigationTitle("Table of Contents")
         }

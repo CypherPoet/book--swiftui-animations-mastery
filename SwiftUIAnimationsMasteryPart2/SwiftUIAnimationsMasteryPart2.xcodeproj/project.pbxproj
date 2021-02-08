@@ -23,10 +23,6 @@
 		F340E43D2571E635006F245A /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E43B2571E635006F245A /* ProgressRingView.swift */; };
 		F340E4432572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E4422572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift */; };
 		F340E4442572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E4422572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift */; };
-		F340E44925731EE9006F245A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E44825731EE9006F245A /* Constants.swift */; };
-		F340E44A25731EE9006F245A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E44825731EE9006F245A /* Constants.swift */; };
-		F340E45025731EFF006F245A /* Constants+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E44F25731EFF006F245A /* Constants+Animation.swift */; };
-		F340E45125731EFF006F245A /* Constants+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E44F25731EFF006F245A /* Constants+Animation.swift */; };
 		F340E46225733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E46125733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift */; };
 		F340E46325733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E46125733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift */; };
 		F340E46925734CC2006F245A /* CustomActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E46825734CC2006F245A /* CustomActionButtonStyle.swift */; };
@@ -45,10 +41,22 @@
 		F345135025CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345134E25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift */; };
 		F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345135325CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift */; };
 		F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345135325CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift */; };
+		F345135A25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345135925CF422C00DFC971 /* AnimationEnablingViewer.swift */; };
+		F345135B25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345135925CF422C00DFC971 /* AnimationEnablingViewer.swift */; };
 		F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */; };
 		F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */; };
 		F360F1BA256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
 		F360F1BB256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
+		F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */; };
+		F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */; };
+		F39F85B325CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */; };
+		F39F85B425CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */; };
+		F39F85BA25D0D053007AF5B7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F85B925D0D053007AF5B7 /* Colors.xcassets */; };
+		F39F85BB25D0D053007AF5B7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F85B925D0D053007AF5B7 /* Colors.xcassets */; };
+		F39F85BF25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */; };
+		F39F85C025D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */; };
+		F39F85C525D0EF11007AF5B7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85C425D0EF11007AF5B7 /* Formatters.swift */; };
+		F39F85C625D0EF11007AF5B7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85C425D0EF11007AF5B7 /* Formatters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,8 +68,6 @@
 		F340E4362571E627006F245A /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		F340E43B2571E635006F245A /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
 		F340E4422572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift; sourceTree = "<group>"; };
-		F340E44825731EE9006F245A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F340E44F25731EFF006F245A /* Constants+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Animation.swift"; sourceTree = "<group>"; };
 		F340E46125733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequencing_WithAnimation_Delay_ExampleView.swift; sourceTree = "<group>"; };
 		F340E46825734CC2006F245A /* CustomActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActionButtonStyle.swift; sourceTree = "<group>"; };
 		F340E58A25774BEF006F245A /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
@@ -71,6 +77,7 @@
 		F345134925CE426600DFC971 /* ScreenSectionDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSectionDivider.swift; sourceTree = "<group>"; };
 		F345134E25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentChild_Animation_Sequencing_Solution1View.swift; sourceTree = "<group>"; };
 		F345135325CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentChild_Animation_Sequencing_Solution2View.swift; sourceTree = "<group>"; };
+		F345135925CF422C00DFC971 /* AnimationEnablingViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEnablingViewer.swift; sourceTree = "<group>"; };
 		F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsMasteryPart2App.swift; sourceTree = "<group>"; };
 		F360F1A5256B672C0026B4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F360F1AA256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMasteryPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +85,11 @@
 		F360F1B2256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMasteryPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F360F1B4256B672C0026B4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F360F1B5256B672C0026B4BB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDurations.swift; sourceTree = "<group>"; };
+		F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEnabling_WatchingAValue_ExampleView.swift; sourceTree = "<group>"; };
+		F39F85B925D0D053007AF5B7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionallyAppliedViewModifier.swift; sourceTree = "<group>"; };
+		F39F85C425D0EF11007AF5B7 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				F360F1A5256B672C0026B4BB /* Assets.xcassets */,
+				F39F85B925D0D053007AF5B7 /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -119,6 +132,7 @@
 				F340DE27256C8BB5006F245A /* RootView.swift */,
 				F340E0F9256F6892006F245A /* TableOfContentsView.swift */,
 				F340E1122570B46F006F245A /* WelcomeView.swift */,
+				F345135825CF420D00DFC971 /* Animation Enabling */,
 				F340E4292571DBD5006F245A /* Animation Scope */,
 			);
 			path = "Scene Views";
@@ -138,7 +152,6 @@
 		F340DE24256C8B8D006F245A /* Misc Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F340E44725731EDA006F245A /* Constants */,
 			);
 			path = "Misc Utils";
 			sourceTree = "<group>";
@@ -157,21 +170,14 @@
 			path = "Animation Scope";
 			sourceTree = "<group>";
 		};
-		F340E44725731EDA006F245A /* Constants */ = {
+		F340E46625734CA3006F245A /* Styling */ = {
 			isa = PBXGroup;
 			children = (
-				F340E44825731EE9006F245A /* Constants.swift */,
-				F340E44F25731EFF006F245A /* Constants+Animation.swift */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		F340E46625734CA3006F245A /* Styles */ = {
-			isa = PBXGroup;
-			children = (
+				F39F85A825CF8C60007AF5B7 /* Animations */,
 				F340E46725734CA8006F245A /* Buttons */,
+				F39F85C325D0EEEE007AF5B7 /* Formatters */,
 			);
-			path = Styles;
+			path = Styling;
 			sourceTree = "<group>";
 		};
 		F340E46725734CA8006F245A /* Buttons */ = {
@@ -193,6 +199,7 @@
 		F345133725CE28EC00DFC971 /* View Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */,
 				F345134025CE291800DFC971 /* Screen Banner */,
 			);
 			path = "View Modifiers";
@@ -205,6 +212,15 @@
 				F345133925CE291000DFC971 /* View+ScreenBanner.swift */,
 			);
 			path = "Screen Banner";
+			sourceTree = "<group>";
+		};
+		F345135825CF420D00DFC971 /* Animation Enabling */ = {
+			isa = PBXGroup;
+			children = (
+				F345135925CF422C00DFC971 /* AnimationEnablingViewer.swift */,
+				F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */,
+			);
+			path = "Animation Enabling";
 			sourceTree = "<group>";
 		};
 		F360F19D256B67290026B4BB = {
@@ -225,7 +241,7 @@
 				F340DE24256C8B8D006F245A /* Misc Utils */,
 				F340DE21256C8B78006F245A /* Resources */,
 				F340DE22256C8B7C006F245A /* Scene Views */,
-				F340E46625734CA3006F245A /* Styles */,
+				F340E46625734CA3006F245A /* Styling */,
 				F340DE23256C8B81006F245A /* View Components */,
 				F345133725CE28EC00DFC971 /* View Modifiers */,
 			);
@@ -256,6 +272,22 @@
 				F360F1B5256B672C0026B4BB /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		F39F85A825CF8C60007AF5B7 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		F39F85C325D0EEEE007AF5B7 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				F39F85C425D0EF11007AF5B7 /* Formatters.swift */,
+			);
+			path = Formatters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F360F1BA256B672C0026B4BB /* Assets.xcassets in Resources */,
+				F39F85BA25D0D053007AF5B7 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F360F1BB256B672C0026B4BB /* Assets.xcassets in Resources */,
+				F39F85BB25D0D053007AF5B7 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,18 +392,21 @@
 				F340E4322571E1FC006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView2.swift in Sources */,
 				F340E43C2571E635006F245A /* ProgressRingView.swift in Sources */,
 				F340DE28256C8BB5006F245A /* RootView.swift in Sources */,
+				F39F85C525D0EF11007AF5B7 /* Formatters.swift in Sources */,
 				F345132025CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4432572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46225733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
 				F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
-				F340E45025731EFF006F245A /* Constants+Animation.swift in Sources */,
+				F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
-				F340E44925731EE9006F245A /* Constants.swift in Sources */,
+				F39F85BF25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */,
+				F345135A25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134A25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
 				F345134F25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
 				F340E42B2571DBEF006F245A /* AnimationScopeViewer.swift in Sources */,
 				F340E0FA256F6892006F245A /* TableOfContentsView.swift in Sources */,
 				F340E1132570B46F006F245A /* WelcomeView.swift in Sources */,
+				F39F85B325CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */,
 				F345133A25CE291000DFC971 /* ScreenBannerViewModifier.swift in Sources */,
 				F340E4372571E627006F245A /* ProgressBarView.swift in Sources */,
 				F340E46925734CC2006F245A /* CustomActionButtonStyle.swift in Sources */,
@@ -385,18 +422,21 @@
 				F340E4332571E1FC006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView2.swift in Sources */,
 				F340E43D2571E635006F245A /* ProgressRingView.swift in Sources */,
 				F340DE2B256C8BBA006F245A /* RootView.swift in Sources */,
+				F39F85C625D0EF11007AF5B7 /* Formatters.swift in Sources */,
 				F345132125CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4442572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46325733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
 				F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
-				F340E45125731EFF006F245A /* Constants+Animation.swift in Sources */,
+				F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
-				F340E44A25731EE9006F245A /* Constants.swift in Sources */,
+				F39F85C025D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */,
+				F345135B25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134B25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
 				F345135025CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
 				F340E42C2571DBEF006F245A /* AnimationScopeViewer.swift in Sources */,
 				F340E0FB256F6892006F245A /* TableOfContentsView.swift in Sources */,
 				F340E1142570B46F006F245A /* WelcomeView.swift in Sources */,
+				F39F85B425CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */,
 				F345133B25CE291000DFC971 /* ScreenBannerViewModifier.swift in Sources */,
 				F340E4382571E627006F245A /* ProgressBarView.swift in Sources */,
 				F340E46A25734CC2006F245A /* CustomActionButtonStyle.swift in Sources */,

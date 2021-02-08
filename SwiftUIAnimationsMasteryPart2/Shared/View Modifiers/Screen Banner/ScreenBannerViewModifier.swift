@@ -30,12 +30,16 @@ extension ScreenBannerViewModifier: ViewModifier {
         content
             .font(font)
             .multilineTextAlignment(.center)
-//            .frame(maxWidth: .infinity)
+            .frame(maxWidth: .infinity)
             .padding()
             .foregroundColor(textColor)
             .background(backgroundColor)
             .cornerRadius(baseFontSize * 0.9)
-            .shadow(color: Color.primary.opacity(0.35), radius: 10.0, x: 0.0, y: 4.0)
+            .background(
+                backgroundColor
+                    .cornerRadius(baseFontSize * 0.9)
+                    .blur(radius: 6.0)
+            )
     }
 }
 

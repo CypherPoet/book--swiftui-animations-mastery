@@ -10,8 +10,7 @@ import SwiftUI
 
 
 fileprivate typealias ExampleView = AnimationScopeViewer.Sequencing_WithAnimation_DispatchQueue_ExampleView2
-
-fileprivate typealias Durations = Constants.Animation.Durations
+fileprivate typealias Durations = AnimationDurations
 
 
 extension AnimationScopeViewer {
