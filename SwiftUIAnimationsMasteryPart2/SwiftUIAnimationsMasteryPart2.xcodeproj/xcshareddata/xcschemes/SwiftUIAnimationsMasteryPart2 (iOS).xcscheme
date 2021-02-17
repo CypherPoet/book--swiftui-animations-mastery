@@ -50,6 +50,12 @@
             ReferencedContainer = "container:SwiftUIAnimationsMasteryPart2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-io.CypherPoet.SwiftUIDebuggingUtils.debugViewsEnabled 1"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
