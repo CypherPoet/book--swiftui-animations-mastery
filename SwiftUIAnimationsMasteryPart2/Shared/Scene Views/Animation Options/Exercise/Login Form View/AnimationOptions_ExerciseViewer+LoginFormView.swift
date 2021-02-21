@@ -41,7 +41,6 @@ extension LoginFormView: View {
         VStack(spacing: bodyFontSize) {
             if isShowingFields {
                 InputFieldsView(delayInterval: delayInterval)
-                    .debugBorder(color: .purple, width: 2)
             }
 
             if isShowingActionButtons {
@@ -50,7 +49,6 @@ extension LoginFormView: View {
                     delayInterval: delayInterval
                 )
                 .padding(.top, bodyFontSize)
-                .debugBorder(color: .yellow, width: 2)
             }
 
             Spacer()

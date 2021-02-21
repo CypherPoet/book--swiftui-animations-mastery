@@ -16,8 +16,10 @@ extension AnimationOptions_ExerciseViewer.LoginFormView {
     struct ActionButtonsView {
         @State private var isShowingLoginButton = false
         @State private var isShowingSignUpButton = false
-        @State private var isShowingSignUpButton2 = false
         @State private var actionButtonMaxWidth: CGFloat?
+        @State private var insertionOffsetWidth = CGFloat(0.0)
+        @State private var signUpButtonInsertionOffsetHeight = CGFloat(0.0)
+
         
         @ScaledMetric private var bodyFontSize = UIFont.preferredFont(forTextStyle: .body).pointSize
         
@@ -34,9 +36,8 @@ extension AnimationOptions_ExerciseViewer.LoginFormView {
             static let loginButtonSlide = Animation
                 .timingCurve(0.17, 0.67, 0.67, 1.19, duration: Durations.buttonSlide)
             
-            static let signInButtonSlide = Animation
-                .easeOut(duration: Durations.buttonSlide)
-                .speed(1.25)
+            static let signInButtonSlide = loginButtonSlide
+                .speed(1.5)
         }
     }
 }
@@ -58,19 +59,15 @@ extension ActionButtonsView: View {
                 .transition(
                     .asymmetric(
                         insertion: loginButtonInsertion,
-                        // 📝 TODO: Figure out why a specific `.scale` removal is the only thing that
-                        // seems to let the view properly animate in.
-                        // (And just this first view, not others)
-                        // (And sometimes just on the Simulator, but not Previews)
-                        // (Xcode 12.5 beta 1)
-//                        removal: .opacity
-                        removal: .scale
+                        removal: loginButtonRemoval
                     )
                 )
+                .readingFrameSize { newSize in
+                    insertionOffsetWidth = newSize.width
+                }
                 .readingMaxWidth { newWidth in
                     actionButtonMaxWidth = newWidth
                 }
-                .debugBorder(color: .white, width: 4)
             }
             
             Spacer()
@@ -86,12 +83,17 @@ extension ActionButtonsView: View {
                         removal: .scale
                     )
                 )
+                .readingFrameSize { newSize in
+                    insertionOffsetWidth = newSize.width
+                }
                 .readingMaxWidth { newWidth in
                     actionButtonMaxWidth = newWidth
                 }
             }
         }
-        .debugBorder(color: .blue)
+        .readingFrameSize { newSize in
+            signUpButtonInsertionOffsetHeight = newSize.height
+        }
         .onAppear {
             withAnimation (Animations.loginButtonSlide.delay(initialDelay + (delayInterval)))  {
                 isShowingLoginButton = true
@@ -114,19 +116,30 @@ extension ActionButtonsView: View {
 extension ActionButtonsView {
     
     var loginButtonInsertion: AnyTransition {
-//        .move(edge: .leading)
-        .slide
-            .combined(with: .opacity)
-//            .combined(with: .scale)
-            //        .combined(with: .offset(CGSize(width: CGFloat(actionButtonMaxWidth ?? 0) * -4, height: 0)))
-            .combined(with: .offset(CGSize(width: -400, height: 0)))
+        .move(edge: .leading)
+        .combined(with: .opacity)
+        .combined(with: .offset(CGSize(width: -insertionOffsetWidth, height: 0)))
     }
     
+    
+    // 📝 TODO: Figure out why a specific `.scale` removal is the only thing that
+    // seems to let the view properly animate in.
+    // (And just this first view, not others)
+    // (And sometimes just on the Simulator, but not Previews)
+    // (Xcode 12.5 beta 2)
+    var loginButtonRemoval: AnyTransition {
+//        .move(edge: .leading)
+//            .combined(with: .scale)
+//        .combined(with: .opacity)
+//        .combined(with: .offset(CGSize(width: insertionOffsetWidth, height: 0)))
+        .scale
+    }
+    
+
     var signInButtonInsertion: AnyTransition {
         .move(edge: .bottom)
             .combined(with: .opacity)
-            .combined(with: .scale)
-            .combined(with: .offset(CGSize(width: 0, height: 400)))
+            .combined(with: .offset(CGSize(width: 0, height: signUpButtonInsertionOffsetHeight)))
     }
 }
 

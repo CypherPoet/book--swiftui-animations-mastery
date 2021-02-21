@@ -16,6 +16,7 @@ extension AnimationOptions_ExerciseViewer.LoginFormView {
     struct InputFieldsView {
         @State private var isShowingEmailField = false
         @State private var isShowingPasswordField = false
+        @State private var insertionOffsetWidth = CGFloat(0.0)
         
         var delayInterval: TimeInterval
         
@@ -40,26 +41,21 @@ extension InputFieldsView: View {
             if isShowingEmailField {
                 TextField("Email", text: .constant(""))
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-//                    .transition(fieldInsertion)
                     .transition(
-                        .asymmetric(
-                            insertion: fieldInsertion,
-                            
-                            // 📝 TODO: Figure out why a specific `.scale` removal is the only thing that
-                            // seems to let the view properly animate in.
-                            // (And just this first view, not others)
-                            // (And sometimes just on the Simulator, but not Previews)
-                            // (Xcode 12.5 beta 1)
-                            removal: .scale
-                        )
+                        .asymmetric(insertion: fieldInsertion, removal: fieldRemoval)
                     )
             }
             
             if isShowingPasswordField {
                 SecureField("Password", text: .constant(""))
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .transition(fieldInsertion)
+                    .transition(
+                        .asymmetric(insertion: fieldInsertion, removal: fieldRemoval)
+                    )
             }
+        }
+        .readingFrameSize { newSize in
+            insertionOffsetWidth = newSize.width
         }
         .onAppear {
             withAnimation(Animations.fieldSlide.delay(delayInterval)) {
@@ -85,11 +81,13 @@ extension InputFieldsView {
     var fieldInsertion: AnyTransition {
         .slide
         .combined(with: .opacity)
-        .combined(with: .offset(CGSize(width: -400, height: 0)))
+        .combined(with: .offset(CGSize(width: -insertionOffsetWidth, height: 0)))
     }
     
     var fieldRemoval: AnyTransition {
-        .identity
+        .slide
+        .combined(with: .opacity)
+        .combined(with: .offset(CGSize(width: insertionOffsetWidth, height: 0)))
     }
 }
 

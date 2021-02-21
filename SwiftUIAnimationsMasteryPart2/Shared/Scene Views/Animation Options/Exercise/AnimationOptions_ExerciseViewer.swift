@@ -38,11 +38,11 @@ extension AnimationOptions_ExerciseViewer: View {
             VStack {
                 VStack(spacing: 12.0) {
                     Text("Exercise")
-                        .customFont(.phosphateSolid, size: bodyFontSize * 5)
+                        .customFont(.phosphateSolid, size: headlineFontSize)
                         .foregroundColor(Color("Primary"))
                     
                     Text("Show Login")
-                        .customFont(.phosphateSolid, size: bodyFontSize * 2)
+                        .customFont(.phosphateSolid, size: headlineFontSize / 2.5)
                         .foregroundColor(.accentColor)
                 }
                 
@@ -50,18 +50,18 @@ extension AnimationOptions_ExerciseViewer: View {
                 
                 shieldButton
                     .scaleEffect(shieldButtonScale, anchor: .center)
-                    .debugBorder()
                 
                 if isShowingLoginForm {
                     LoginFormView(initialDelay: Durations.shieldScale * 1.25)
                         .padding(.horizontal)
                         .padding(.top, bodyFontSize * 2)
-                        .debugBorder(color: .green)
                 }
                 
                 Spacer()
                 Spacer()
             }
+            .padding(.top, headlineFontSize)
+            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.top/*@END_MENU_TOKEN@*/)
         }
     }
 }
@@ -73,6 +73,8 @@ extension AnimationOptions_ExerciseViewer {
     var shieldButtonScale: CGFloat {
         isShowingLoginForm ? 1.0 : 4.0
     }
+    
+    var headlineFontSize: CGFloat { bodyFontSize * 5 }
 }
 
 
@@ -123,9 +125,11 @@ private extension AnimationOptions_ExerciseViewer {
 struct AnimationOptions_ExerciseViewer_Previews: PreviewProvider {
     
     static var previews: some View {
-        AnimationOptions_ExerciseViewer()
-            .accentColor(Color("PrimaryAccent"))
-            .preferredColorScheme(.dark)
+        NavigationView {
+            AnimationOptions_ExerciseViewer()
+                .accentColor(Color("PrimaryAccent"))
+                .preferredColorScheme(.dark)
+        }
     }
 }
 

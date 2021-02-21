@@ -69,6 +69,8 @@
 		F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */; };
 		F360F1BA256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
 		F360F1BB256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
+		F3949F1425E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1325E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift */; };
+		F3949F1525E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1325E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift */; };
 		F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */; };
 		F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */; };
 		F39F85B325CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */; };
@@ -118,6 +120,7 @@
 		F360F1B2256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMasteryPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F360F1B4256B672C0026B4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F360F1B5256B672C0026B4BB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F3949F1325E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxWidthPreferenceKey.swift; sourceTree = "<group>"; };
 		F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDurations.swift; sourceTree = "<group>"; };
 		F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEnabling_WatchingAValue_ExampleView.swift; sourceTree = "<group>"; };
 		F39F85B925D0D053007AF5B7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -147,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				F3101C2525DB112900080D2B /* FrameSizePreferenceKey.swift */,
+				F3949F1325E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift */,
 			);
 			path = "View Preference Keys";
 			sourceTree = "<group>";
@@ -509,6 +513,7 @@
 				F345132025CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4432572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46225733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
+				F3949F1425E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift in Sources */,
 				F3101C2625DB112900080D2B /* FrameSizePreferenceKey.swift in Sources */,
 				F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F349066025D3A10300AF197C /* CustomGradients.swift in Sources */,
@@ -549,6 +554,7 @@
 				F345132125CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4442572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46325733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
+				F3949F1525E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift in Sources */,
 				F3101C2725DB112900080D2B /* FrameSizePreferenceKey.swift in Sources */,
 				F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F349066125D3A10300AF197C /* CustomGradients.swift in Sources */,
