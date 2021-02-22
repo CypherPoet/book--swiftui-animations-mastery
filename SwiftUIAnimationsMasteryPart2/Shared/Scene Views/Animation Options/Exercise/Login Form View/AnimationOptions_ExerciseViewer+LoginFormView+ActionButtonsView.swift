@@ -98,7 +98,7 @@ extension ActionButtonsView: View {
             withAnimation (Animations.loginButtonSlide.delay(initialDelay + (delayInterval)))  {
                 isShowingLoginButton = true
             }
-            withAnimation (Animations.loginButtonSlide.delay(initialDelay + (delayInterval * 12)))  {
+            withAnimation (Animations.loginButtonSlide.delay(initialDelay + (delayInterval * 6)))  {
                 isShowingSignUpButton = true
             }
         }
