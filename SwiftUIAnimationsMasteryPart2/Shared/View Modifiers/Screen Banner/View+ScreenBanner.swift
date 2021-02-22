@@ -12,9 +12,9 @@ import SwiftUI
 extension View {
     
     func screenBanner(
-        textColor: Color = .black,
+        textColor: Color = .primary,
         backgroundColor: Color = .accentColor,
-        font: Font = .largeTitle
+        font: Font = .custom(CustomFont.phosphateSolid.name, size: 36)
     ) -> some View {
         modifier(ScreenBannerViewModifier(
             textColor: textColor,

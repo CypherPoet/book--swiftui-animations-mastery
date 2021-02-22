@@ -40,8 +40,14 @@ extension TableOfContentsView: View {
                             Text("Exercise")
                         }
                     )
+                    
+                    NavigationLink(
+                        destination: AnimationOptions_CheckYourUnderstandingViewer(),
+                        label: {
+                            Text("Check Your Understanding")
+                        }
+                    )
                 }
-                .accentColor(Color("PrimaryAccent"))
             }
             .navigationTitle("Table of Contents")
         }
