@@ -79,6 +79,8 @@
 		F3949F2425E4364F008C0AB3 /* CenteredViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2125E4364F008C0AB3 /* CenteredViewModifier.swift */; };
 		F3949F2525E4364F008C0AB3 /* View+CenteredViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2225E4364F008C0AB3 /* View+CenteredViewModifier.swift */; };
 		F3949F2625E4364F008C0AB3 /* View+CenteredViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2225E4364F008C0AB3 /* View+CenteredViewModifier.swift */; };
+		F3949F2825E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2725E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift */; };
+		F3949F2925E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2725E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift */; };
 		F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */; };
 		F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */; };
 		F39F85B325CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */; };
@@ -133,6 +135,7 @@
 		F3949F1D25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift"; sourceTree = "<group>"; };
 		F3949F2125E4364F008C0AB3 /* CenteredViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredViewModifier.swift; sourceTree = "<group>"; };
 		F3949F2225E4364F008C0AB3 /* View+CenteredViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CenteredViewModifier.swift"; sourceTree = "<group>"; };
+		F3949F2725E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift"; sourceTree = "<group>"; };
 		F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDurations.swift; sourceTree = "<group>"; };
 		F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEnabling_WatchingAValue_ExampleView.swift; sourceTree = "<group>"; };
 		F39F85B925D0D053007AF5B7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -405,6 +408,7 @@
 			children = (
 				F3949F1725E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift */,
 				F3949F1D25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift */,
+				F3949F2725E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift */,
 			);
 			path = "Check Your Understanding";
 			sourceTree = "<group>";
@@ -555,6 +559,7 @@
 				F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F349064925D39D0E00AF197C /* CustomFonts.swift in Sources */,
 				F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
+				F3949F2825E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */,
 				F39F85BF25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */,
 				F345135A25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134A25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
@@ -600,6 +605,7 @@
 				F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F349064A25D39D0E00AF197C /* CustomFonts.swift in Sources */,
 				F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
+				F3949F2925E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */,
 				F39F85C025D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */,
 				F345135B25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134B25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,

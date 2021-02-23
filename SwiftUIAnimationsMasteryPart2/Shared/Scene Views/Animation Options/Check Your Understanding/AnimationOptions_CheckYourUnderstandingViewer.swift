@@ -21,10 +21,16 @@ extension AnimationOptions_CheckYourUnderstandingViewer: View {
             NavigationLink(
                 destination: Example1View(),
                 label: {
-                    Text("Example 1")
+                    Text("Check Understanding 1")
                 }
             )
             
+            NavigationLink(
+                destination: Example2View(),
+                label: {
+                    Text("Check Understanding 2")
+                }
+            )
         }
     }
 }
