@@ -47,6 +47,13 @@ extension TableOfContentsView: View {
                             Text("Check Your Understanding")
                         }
                     )
+                    
+                    NavigationLink(
+                        destination: AnimationOptions_ChallengeViewer(),
+                        label: {
+                            Text("Challenge")
+                        }
+                    )
                 }
             }
             .navigationTitle("Table of Contents")

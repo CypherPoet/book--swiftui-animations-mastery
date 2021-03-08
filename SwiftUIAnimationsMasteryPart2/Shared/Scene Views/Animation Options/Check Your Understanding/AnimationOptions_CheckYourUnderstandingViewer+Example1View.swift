@@ -52,9 +52,7 @@ extension Example1View: View {
             Spacer()
             
             AnimationActionButton {
-                //                withAnimation(.easeInOut(duration: 2.0)) {
                 isRounded.toggle()
-                //                }
             }
             
             Spacer()

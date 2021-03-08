@@ -57,8 +57,8 @@
 		F345135B25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345135925CF422C00DFC971 /* AnimationEnablingViewer.swift */; };
 		F349064125D3971C00AF197C /* Phosphate.ttc in Resources */ = {isa = PBXBuildFile; fileRef = F349064025D3971C00AF197C /* Phosphate.ttc */; };
 		F349064225D3971C00AF197C /* Phosphate.ttc in Resources */ = {isa = PBXBuildFile; fileRef = F349064025D3971C00AF197C /* Phosphate.ttc */; };
-		F349064925D39D0E00AF197C /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349064825D39D0E00AF197C /* CustomFonts.swift */; };
-		F349064A25D39D0E00AF197C /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349064825D39D0E00AF197C /* CustomFonts.swift */; };
+		F349064925D39D0E00AF197C /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349064825D39D0E00AF197C /* CustomFont.swift */; };
+		F349064A25D39D0E00AF197C /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349064825D39D0E00AF197C /* CustomFont.swift */; };
 		F349065825D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349065725D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift */; };
 		F349065925D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349065725D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift */; };
 		F349066025D3A10300AF197C /* CustomGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349065F25D3A10300AF197C /* CustomGradients.swift */; };
@@ -91,6 +91,20 @@
 		F39F85C025D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */; };
 		F39F85C525D0EF11007AF5B7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85C425D0EF11007AF5B7 /* Formatters.swift */; };
 		F39F85C625D0EF11007AF5B7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85C425D0EF11007AF5B7 /* Formatters.swift */; };
+		F3A59DB325F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */; };
+		F3A59DB425F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */; };
+		F3A59DB625F42FD6002695FB /* ButtonStyles+GamepadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB525F42FD6002695FB /* ButtonStyles+GamepadButton.swift */; };
+		F3A59DB725F42FD6002695FB /* ButtonStyles+GamepadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB525F42FD6002695FB /* ButtonStyles+GamepadButton.swift */; };
+		F3A59DB925F5BF79002695FB /* GamepadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */; };
+		F3A59DBA25F5BF79002695FB /* GamepadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */; };
+		F3A59DBE25F5C055002695FB /* GamepadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DBD25F5C055002695FB /* GamepadButton.swift */; };
+		F3A59DBF25F5C055002695FB /* GamepadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DBD25F5C055002695FB /* GamepadButton.swift */; };
+		F3DAD00A25EF4FBC0029DD67 /* ChallengeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */; };
+		F3DAD00B25F09A470029DD67 /* ChallengeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */; };
+		F3DAD00E25F09EEC0029DD67 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00D25F09EEC0029DD67 /* Typography.swift */; };
+		F3DAD00F25F09EEC0029DD67 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00D25F09EEC0029DD67 /* Typography.swift */; };
+		F3DAD01125F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */; };
+		F3DAD01225F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,7 +133,7 @@
 		F345135325CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentChild_Animation_Sequencing_Solution2View.swift; sourceTree = "<group>"; };
 		F345135925CF422C00DFC971 /* AnimationEnablingViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEnablingViewer.swift; sourceTree = "<group>"; };
 		F349064025D3971C00AF197C /* Phosphate.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Phosphate.ttc; sourceTree = "<group>"; };
-		F349064825D39D0E00AF197C /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		F349064825D39D0E00AF197C /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		F349065725D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_ExerciseViewer.swift; sourceTree = "<group>"; };
 		F349065F25D3A10300AF197C /* CustomGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradients.swift; sourceTree = "<group>"; };
 		F34906AB25D761C700AF197C /* DebuggingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingViewModifier.swift; sourceTree = "<group>"; };
@@ -141,6 +155,13 @@
 		F39F85B925D0D053007AF5B7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionallyAppliedViewModifier.swift; sourceTree = "<group>"; };
 		F39F85C425D0EF11007AF5B7 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChallengeViewer+GamepadButtonPresentationView.swift"; sourceTree = "<group>"; };
+		F3A59DB525F42FD6002695FB /* ButtonStyles+GamepadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonStyles+GamepadButton.swift"; sourceTree = "<group>"; };
+		F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepadButtonView.swift; sourceTree = "<group>"; };
+		F3A59DBD25F5C055002695FB /* GamepadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepadButton.swift; sourceTree = "<group>"; };
+		F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewer.swift; sourceTree = "<group>"; };
+		F3DAD00D25F09EEC0029DD67 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChallengeViewer+SlideOutMenuView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,9 +211,9 @@
 		F340DE21256C8B78006F245A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F349063F25D3967700AF197C /* Fonts */,
 				F360F1A5256B672C0026B4BB /* Assets.xcassets */,
 				F39F85B925D0D053007AF5B7 /* Colors.xcassets */,
+				F349063F25D3967700AF197C /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -219,12 +240,12 @@
 			path = "View Components";
 			sourceTree = "<group>";
 		};
-		F340DE24256C8B8D006F245A /* Misc Utils */ = {
+		F340DE24256C8B8D006F245A /* Toolbox */ = {
 			isa = PBXGroup;
 			children = (
 				F3101C2425DB110A00080D2B /* View Preference Keys */,
 			);
-			path = "Misc Utils";
+			path = Toolbox;
 			sourceTree = "<group>";
 		};
 		F340E4292571DBD5006F245A /* Animation Scope */ = {
@@ -244,6 +265,7 @@
 		F340E46625734CA3006F245A /* Styling */ = {
 			isa = PBXGroup;
 			children = (
+				F3DAD00C25F09ED50029DD67 /* Typography */,
 				F349065E25D3A0D900AF197C /* Gradients */,
 				F349064725D39D0000AF197C /* Fonts */,
 				F39F85A825CF8C60007AF5B7 /* Animations */,
@@ -256,9 +278,10 @@
 		F340E46725734CA8006F245A /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				F340E46825734CC2006F245A /* ButtonStyles+OutlinedCallToAction.swift */,
-				F3101C2125DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift */,
 				F3101C1E25DA3D2200080D2B /* ButtonStyles.swift */,
+				F3101C2125DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift */,
+				F3A59DB525F42FD6002695FB /* ButtonStyles+GamepadButton.swift */,
+				F340E46825734CC2006F245A /* ButtonStyles+OutlinedCallToAction.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -267,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				F340E58A25774BEF006F245A /* AnimationActionButton.swift */,
+				F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -311,7 +335,7 @@
 		F349064725D39D0000AF197C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				F349064825D39D0E00AF197C /* CustomFonts.swift */,
+				F349064825D39D0E00AF197C /* CustomFont.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -319,6 +343,7 @@
 		F349064F25D39EFF00AF197C /* Animation Options */ = {
 			isa = PBXGroup;
 			children = (
+				F3DAD00825EF4FA20029DD67 /* Challenge */,
 				F3949F1625E3846A008C0AB3 /* Check Your Understanding */,
 				F345135825CF420D00DFC971 /* Animation Enabling */,
 				F340E4292571DBD5006F245A /* Animation Scope */,
@@ -365,12 +390,13 @@
 		F360F1A2256B67290026B4BB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F3A59DBB25F5C030002695FB /* Data */,
 				F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */,
 				F340DE20256C8B73006F245A /* App */,
-				F340DE24256C8B8D006F245A /* Misc Utils */,
 				F340DE21256C8B78006F245A /* Resources */,
 				F340DE22256C8B7C006F245A /* Scene Views */,
 				F340E46625734CA3006F245A /* Styling */,
+				F340DE24256C8B8D006F245A /* Toolbox */,
 				F340DE23256C8B81006F245A /* View Components */,
 				F345133725CE28EC00DFC971 /* View Modifiers */,
 			);
@@ -436,6 +462,40 @@
 				F39F85C425D0EF11007AF5B7 /* Formatters.swift */,
 			);
 			path = Formatters;
+			sourceTree = "<group>";
+		};
+		F3A59DBB25F5C030002695FB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F3A59DBC25F5C03B002695FB /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F3A59DBC25F5C03B002695FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3A59DBD25F5C055002695FB /* GamepadButton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3DAD00825EF4FA20029DD67 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */,
+				F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */,
+				F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		F3DAD00C25F09ED50029DD67 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				F3DAD00D25F09EEC0029DD67 /* Typography.swift */,
+			);
+			path = Typography;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,6 +607,8 @@
 				F340DE28256C8BB5006F245A /* RootView.swift in Sources */,
 				F34906AC25D761C700AF197C /* DebuggingViewModifier.swift in Sources */,
 				F39F85C525D0EF11007AF5B7 /* Formatters.swift in Sources */,
+				F3DAD00E25F09EEC0029DD67 /* Typography.swift in Sources */,
+				F3A59DBE25F5C055002695FB /* GamepadButton.swift in Sources */,
 				F345132025CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4432572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46225733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
@@ -554,18 +616,23 @@
 				F3101C2625DB112900080D2B /* FrameSizePreferenceKey.swift in Sources */,
 				F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F349066025D3A10300AF197C /* CustomGradients.swift in Sources */,
+				F3DAD01125F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */,
 				F3949F1825E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */,
 				F3949F2325E4364F008C0AB3 /* CenteredViewModifier.swift in Sources */,
 				F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
-				F349064925D39D0E00AF197C /* CustomFonts.swift in Sources */,
+				F349064925D39D0E00AF197C /* CustomFont.swift in Sources */,
 				F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
 				F3949F2825E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */,
 				F39F85BF25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */,
 				F345135A25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134A25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
 				F345134F25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
+				F3A59DB325F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */,
+				F3DAD00A25EF4FBC0029DD67 /* ChallengeViewer.swift in Sources */,
 				F340E42B2571DBEF006F245A /* AnimationScopeViewer.swift in Sources */,
+				F3A59DB625F42FD6002695FB /* ButtonStyles+GamepadButton.swift in Sources */,
 				F349065825D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift in Sources */,
+				F3A59DB925F5BF79002695FB /* GamepadButtonView.swift in Sources */,
 				F340E0FA256F6892006F245A /* TableOfContentsView.swift in Sources */,
 				F340E1132570B46F006F245A /* WelcomeView.swift in Sources */,
 				F39F85B325CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */,
@@ -593,6 +660,8 @@
 				F340DE2B256C8BBA006F245A /* RootView.swift in Sources */,
 				F34906AD25D761C700AF197C /* DebuggingViewModifier.swift in Sources */,
 				F39F85C625D0EF11007AF5B7 /* Formatters.swift in Sources */,
+				F3DAD00F25F09EEC0029DD67 /* Typography.swift in Sources */,
+				F3A59DBF25F5C055002695FB /* GamepadButton.swift in Sources */,
 				F345132125CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4442572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46325733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
@@ -600,19 +669,23 @@
 				F3101C2725DB112900080D2B /* FrameSizePreferenceKey.swift in Sources */,
 				F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F349066125D3A10300AF197C /* CustomGradients.swift in Sources */,
+				F3DAD01225F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */,
 				F3949F1925E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */,
 				F3949F2425E4364F008C0AB3 /* CenteredViewModifier.swift in Sources */,
 				F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
-				F349064A25D39D0E00AF197C /* CustomFonts.swift in Sources */,
+				F349064A25D39D0E00AF197C /* CustomFont.swift in Sources */,
 				F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
 				F3949F2925E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */,
 				F39F85C025D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */,
 				F345135B25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134B25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
 				F345135025CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
+				F3A59DB425F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */,
 				F340E42C2571DBEF006F245A /* AnimationScopeViewer.swift in Sources */,
 				F349065925D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift in Sources */,
+				F3A59DB725F42FD6002695FB /* ButtonStyles+GamepadButton.swift in Sources */,
 				F340E0FB256F6892006F245A /* TableOfContentsView.swift in Sources */,
+				F3A59DBA25F5BF79002695FB /* GamepadButtonView.swift in Sources */,
 				F340E1142570B46F006F245A /* WelcomeView.swift in Sources */,
 				F39F85B425CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */,
 				F345133B25CE291000DFC971 /* ScreenBannerViewModifier.swift in Sources */,
@@ -622,6 +695,7 @@
 				F3101C2025DA3D2200080D2B /* ButtonStyles.swift in Sources */,
 				F345133D25CE291000DFC971 /* View+ScreenBanner.swift in Sources */,
 				F3949F1F25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift in Sources */,
+				F3DAD00B25F09A470029DD67 /* ChallengeViewer.swift in Sources */,
 				F340E58C25774BEF006F245A /* AnimationActionButton.swift in Sources */,
 				F3101C2A25DD9FB800080D2B /* AnimationOptions_ExerciseViewer+LoginFormView.swift in Sources */,
 			);
