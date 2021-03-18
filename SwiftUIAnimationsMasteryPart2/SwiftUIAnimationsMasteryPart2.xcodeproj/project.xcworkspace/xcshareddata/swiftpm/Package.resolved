@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUICurvedRectangleShape",
+        "repositoryURL": "https://github.com/CypherPoet/SwiftUICurvedRectangleShape",
+        "state": {
+          "branch": null,
+          "revision": "d21e00696bcad8bab6ee341e1aa11deb84175db1",
+          "version": "0.0.1"
+        }
+      },
+      {
+        "package": "SwiftUIStarterKit",
+        "repositoryURL": "https://github.com/CypherPoet/SwiftUIStarterKit",
+        "state": {
+          "branch": null,
+          "revision": "2f9f70f146b394316e269f531f6429e67231b40b",
+          "version": "0.0.52"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -11,7 +11,7 @@ import SwiftUI
 
 struct GamepadButtonView {
     var gamepadButton: GamepadButton
-    var onTap: () -> Void
+    var onTap: () -> Void = {}
 }
 
 
@@ -36,8 +36,6 @@ extension GamepadButtonView: View {
         )
         .buttonStyle(
             ButtonStyles.GamepadButton(
-//                backgroundColor: .primary,
-//                backgroundColor: Color(#colorLiteral(red: 0.07780180126, green: 0.0778228268, blue: 0.07779902965, alpha: 1)),
                 symbolColor: gamepadButton.symbolColor
             )
         )
@@ -65,10 +63,15 @@ private extension GamepadButtonView {
 struct GamepadButtonView_Previews: PreviewProvider {
 
     static var previews: some View {
-        GamepadButtonView(
-            gamepadButton: .circle,
-            onTap: {}
-        )
+        ForEach(GamepadButton.allCases) { button in
+            GamepadButtonView(
+                gamepadButton: button,
+                onTap: {}
+            )
+        }
+        .frame(width: 100, height: 100, alignment: .center)
+        .padding()
+        .previewLayout(.sizeThatFits)
     }
 }
 #endif

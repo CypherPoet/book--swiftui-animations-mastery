@@ -23,9 +23,8 @@ extension AnimationOptions_ChallengeViewer {
 extension GamepadButtonPresentationView: View {
     
     var body: some View {
-        Image(systemName: gamepadButton.symbolName)
-            .resizable()
-            .scaledToFit()
+        GamepadButtonView(gamepadButton: gamepadButton)
+            .disabled(true)
     }
 }
 

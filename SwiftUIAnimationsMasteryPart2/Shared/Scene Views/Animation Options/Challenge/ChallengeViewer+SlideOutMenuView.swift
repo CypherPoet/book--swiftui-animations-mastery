@@ -7,6 +7,8 @@
 //
 
 import SwiftUI
+import SwiftUIStarterKit
+import SwiftUICurvedRectangleShape
 
 fileprivate typealias SlideOutMenuView = AnimationOptions_ChallengeViewer.SlideOutMenuView
 
@@ -43,24 +45,27 @@ extension AnimationOptions_ChallengeViewer {
 extension SlideOutMenuView: View {
     
     var body: some View {
-        RoundedRectangle(cornerRadius: 12, style: .continuous)
-            .fill(Color(.tertiarySystemGroupedBackground))
-            .overlay(
-                HStack {
-                    slideOutMenuButtons
-                        .padding(.vertical)
-
-                    MenuNotchesView()
-                        .padding(.vertical, (frameHeight ?? 0) * 0.125)
-                        .padding(.trailing, (frameHeight ?? 0) * 0.25)
-                        .frame(height: frameHeight)
-                        .onTapGesture(perform: onThumbTabPressed)
-                }
-                .padding(.leading, (frameHeight ?? 0) * 0.25)
-            )
-            .readingFrameSize { newSize in
-                frameHeight = newSize.height
+        CurvedRectangle(
+            curveAxis: .horizontal, leadingDepthPercentage: 0, trailingDepthPercentage: 3.25
+        )
+        .fill(Color.primary)
+        .overlay(
+            HStack {
+                slideOutMenuButtons
+                    .padding(.vertical)
+                
+                MenuNotchesView()
+                    .padding(.vertical, (frameHeight ?? 0) * 0.18)
+                    .padding(.trailing, (frameHeight ?? 0) * 0.25)
+                    .frame(height: frameHeight)
+                    .onTapGesture(perform: onThumbTabPressed)
             }
+            .padding(.leading, (frameHeight ?? 0) * 0.25)
+        )
+        .readingFrameSize { newSize in
+            frameHeight = newSize.height
+        }
+        .shadow(color: Color("PrimaryAccent").opacity(0.2), radius: 10, x: 0.0, y: 0.0)
     }
 }
 
@@ -72,7 +77,6 @@ extension SlideOutMenuView {
 
 // MARK: - View Content Builders
 private extension SlideOutMenuView {
-    
     
     var slideOutMenuButtons: some View {
         ForEach(0..<GamepadButton.allCases.count) { index in
@@ -98,7 +102,7 @@ private extension SlideOutMenuView {
                         ,
                         removal: .opacity
                             .combined(with: .move(edge: .leading))
-                            .animation(.linear(duration: AnimationOptions_ChallengeViewer.buttonExitDelay))
+                            .animation(.easeIn(duration: AnimationOptions_ChallengeViewer.buttonExitDelay))
                     )
                 )
                 
@@ -120,11 +124,11 @@ private struct MenuNotchesView: View {
         HStack(spacing: 6) {
             ForEach(0...3, id: \.self) { index in
                 Capsule()
-                    .foregroundColor(Color("SecondaryAccent1"))
+                    .foregroundColor(Color("PrimaryAccent"))
                     .frame(width: 3, alignment: .center)
                     .scaleEffect(
                         x: 1.0,
-                        y: CGFloat(1.0) - CGFloat(Double(index) * 0.12),
+                        y: CGFloat(1.0) - CGFloat(Double(index) * 0.08),
                         anchor: .center
                     )
             }
@@ -143,28 +147,13 @@ struct ChallengeViewer_SlideOutMenuView_Previews: PreviewProvider {
             SlideOutMenuView(
                 isOpen: .constant(true)
             )
-            .preferredColorScheme(.dark)
-            .previewDisplayName("Color Scheme: dark")
             
             SlideOutMenuView(
                 isOpen: .constant(true)
             )
-            .preferredColorScheme(.light)
-            .previewDisplayName("Color Scheme: light")
-            
-            SlideOutMenuView(
-                isOpen: .constant(false)
-            )
-            .preferredColorScheme(.dark)
-            .previewDisplayName("Color Scheme: dark")
-            
-            SlideOutMenuView(
-                isOpen: .constant(false)
-            )
-            .preferredColorScheme(.light)
-            .previewDisplayName("Color Scheme: light")
         }
         .frame(height: 54)
+        .previewInColorSchemes()
         .previewLayout(.sizeThatFits)
     }
 }

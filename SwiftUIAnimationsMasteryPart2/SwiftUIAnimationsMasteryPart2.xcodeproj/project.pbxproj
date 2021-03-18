@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,8 +11,6 @@
 		F3101C2025DA3D2200080D2B /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101C1E25DA3D2200080D2B /* ButtonStyles.swift */; };
 		F3101C2225DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101C2125DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift */; };
 		F3101C2325DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101C2125DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift */; };
-		F3101C2625DB112900080D2B /* FrameSizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101C2525DB112900080D2B /* FrameSizePreferenceKey.swift */; };
-		F3101C2725DB112900080D2B /* FrameSizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101C2525DB112900080D2B /* FrameSizePreferenceKey.swift */; };
 		F3101C2925DD9FB800080D2B /* AnimationOptions_ExerciseViewer+LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101C2825DD9FB700080D2B /* AnimationOptions_ExerciseViewer+LoginFormView.swift */; };
 		F3101C2A25DD9FB800080D2B /* AnimationOptions_ExerciseViewer+LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101C2825DD9FB700080D2B /* AnimationOptions_ExerciseViewer+LoginFormView.swift */; };
 		F3101C2D25DDA12D00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+ActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101C2C25DDA12D00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+ActionButtonsView.swift */; };
@@ -69,16 +67,10 @@
 		F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */; };
 		F360F1BA256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
 		F360F1BB256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
-		F3949F1425E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1325E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift */; };
-		F3949F1525E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1325E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift */; };
 		F3949F1825E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1725E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift */; };
 		F3949F1925E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1725E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift */; };
 		F3949F1E25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1D25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift */; };
 		F3949F1F25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1D25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift */; };
-		F3949F2325E4364F008C0AB3 /* CenteredViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2125E4364F008C0AB3 /* CenteredViewModifier.swift */; };
-		F3949F2425E4364F008C0AB3 /* CenteredViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2125E4364F008C0AB3 /* CenteredViewModifier.swift */; };
-		F3949F2525E4364F008C0AB3 /* View+CenteredViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2225E4364F008C0AB3 /* View+CenteredViewModifier.swift */; };
-		F3949F2625E4364F008C0AB3 /* View+CenteredViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2225E4364F008C0AB3 /* View+CenteredViewModifier.swift */; };
 		F3949F2825E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2725E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift */; };
 		F3949F2925E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F2725E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift */; };
 		F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */; };
@@ -87,8 +79,6 @@
 		F39F85B425CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */; };
 		F39F85BA25D0D053007AF5B7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F85B925D0D053007AF5B7 /* Colors.xcassets */; };
 		F39F85BB25D0D053007AF5B7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F85B925D0D053007AF5B7 /* Colors.xcassets */; };
-		F39F85BF25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */; };
-		F39F85C025D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */; };
 		F39F85C525D0EF11007AF5B7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85C425D0EF11007AF5B7 /* Formatters.swift */; };
 		F39F85C625D0EF11007AF5B7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85C425D0EF11007AF5B7 /* Formatters.swift */; };
 		F3A59DB325F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */; };
@@ -99,18 +89,23 @@
 		F3A59DBA25F5BF79002695FB /* GamepadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */; };
 		F3A59DBE25F5C055002695FB /* GamepadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DBD25F5C055002695FB /* GamepadButton.swift */; };
 		F3A59DBF25F5C055002695FB /* GamepadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DBD25F5C055002695FB /* GamepadButton.swift */; };
+		F3AA9F5E25F8733300B4170B /* SwiftUIPreviewUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F3AA9F5D25F8733300B4170B /* SwiftUIPreviewUtils */; };
+		F3AA9F6125F8734600B4170B /* SwiftUIPreviewUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F3AA9F6025F8734600B4170B /* SwiftUIPreviewUtils */; };
+		F3AA9F6425F87BFC00B4170B /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3AA9F6325F87BFC00B4170B /* SwiftUIStarterKit */; };
 		F3DAD00A25EF4FBC0029DD67 /* ChallengeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */; };
 		F3DAD00B25F09A470029DD67 /* ChallengeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */; };
 		F3DAD00E25F09EEC0029DD67 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00D25F09EEC0029DD67 /* Typography.swift */; };
 		F3DAD00F25F09EEC0029DD67 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00D25F09EEC0029DD67 /* Typography.swift */; };
 		F3DAD01125F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */; };
 		F3DAD01225F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */; };
+		F3DBE6F82603D25200F55F0E /* SwiftUICurvedRectangleShape in Frameworks */ = {isa = PBXBuildFile; productRef = F3DBE6F72603D25200F55F0E /* SwiftUICurvedRectangleShape */; };
+		F3DBE6FA2603D26400F55F0E /* SwiftUICurvedRectangleShape in Frameworks */ = {isa = PBXBuildFile; productRef = F3DBE6F92603D26400F55F0E /* SwiftUICurvedRectangleShape */; };
+		F3DBE6FC2603D26900F55F0E /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3DBE6FB2603D26900F55F0E /* SwiftUIStarterKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3101C1E25DA3D2200080D2B /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		F3101C2125DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonStyles+FilledCallToActionButton.swift"; sourceTree = "<group>"; };
-		F3101C2525DB112900080D2B /* FrameSizePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSizePreferenceKey.swift; sourceTree = "<group>"; };
 		F3101C2825DD9FB700080D2B /* AnimationOptions_ExerciseViewer+LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_ExerciseViewer+LoginFormView.swift"; sourceTree = "<group>"; };
 		F3101C2C25DDA12D00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+ActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_ExerciseViewer+LoginFormView+ActionButtonsView.swift"; sourceTree = "<group>"; };
 		F3101C2F25DDA6BD00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+InputFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_ExerciseViewer+LoginFormView+InputFieldsView.swift"; sourceTree = "<group>"; };
@@ -144,21 +139,18 @@
 		F360F1B2256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMasteryPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F360F1B4256B672C0026B4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F360F1B5256B672C0026B4BB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		F3949F1325E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxWidthPreferenceKey.swift; sourceTree = "<group>"; };
 		F3949F1725E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_CheckYourUnderstandingViewer.swift; sourceTree = "<group>"; };
 		F3949F1D25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift"; sourceTree = "<group>"; };
-		F3949F2125E4364F008C0AB3 /* CenteredViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredViewModifier.swift; sourceTree = "<group>"; };
-		F3949F2225E4364F008C0AB3 /* View+CenteredViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CenteredViewModifier.swift"; sourceTree = "<group>"; };
 		F3949F2725E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift"; sourceTree = "<group>"; };
 		F39F85A925CF8C8B007AF5B7 /* AnimationDurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDurations.swift; sourceTree = "<group>"; };
 		F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEnabling_WatchingAValue_ExampleView.swift; sourceTree = "<group>"; };
 		F39F85B925D0D053007AF5B7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionallyAppliedViewModifier.swift; sourceTree = "<group>"; };
 		F39F85C425D0EF11007AF5B7 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChallengeViewer+GamepadButtonPresentationView.swift"; sourceTree = "<group>"; };
 		F3A59DB525F42FD6002695FB /* ButtonStyles+GamepadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonStyles+GamepadButton.swift"; sourceTree = "<group>"; };
 		F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepadButtonView.swift; sourceTree = "<group>"; };
 		F3A59DBD25F5C055002695FB /* GamepadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepadButton.swift; sourceTree = "<group>"; };
+		F3AA9F6525F88F5E00B4170B /* SwiftUIPreviewUtils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftUIPreviewUtils; path = ../../../../../Projects/swift/Packages/SwiftUIPreviewUtils; sourceTree = "<group>"; };
 		F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewer.swift; sourceTree = "<group>"; };
 		F3DAD00D25F09EEC0029DD67 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChallengeViewer+SlideOutMenuView.swift"; sourceTree = "<group>"; };
@@ -169,6 +161,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DBE6F82603D25200F55F0E /* SwiftUICurvedRectangleShape in Frameworks */,
+				F3AA9F5E25F8733300B4170B /* SwiftUIPreviewUtils in Frameworks */,
+				F3AA9F6425F87BFC00B4170B /* SwiftUIStarterKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +171,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AA9F6125F8734600B4170B /* SwiftUIPreviewUtils in Frameworks */,
+				F3DBE6FC2603D26900F55F0E /* SwiftUIStarterKit in Frameworks */,
+				F3DBE6FA2603D26400F55F0E /* SwiftUICurvedRectangleShape in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +183,6 @@
 		F3101C2425DB110A00080D2B /* View Preference Keys */ = {
 			isa = PBXGroup;
 			children = (
-				F3101C2525DB112900080D2B /* FrameSizePreferenceKey.swift */,
-				F3949F1325E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift */,
 			);
 			path = "View Preference Keys";
 			sourceTree = "<group>";
@@ -298,8 +294,6 @@
 		F345133725CE28EC00DFC971 /* View Modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				F3949F2025E43631008C0AB3 /* Centered View */,
-				F39F85BE25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift */,
 				F34906AA25D75FFF00AF197C /* Debugging */,
 				F345134025CE291800DFC971 /* Screen Banner */,
 			);
@@ -343,10 +337,10 @@
 		F349064F25D39EFF00AF197C /* Animation Options */ = {
 			isa = PBXGroup;
 			children = (
-				F3DAD00825EF4FA20029DD67 /* Challenge */,
-				F3949F1625E3846A008C0AB3 /* Check Your Understanding */,
 				F345135825CF420D00DFC971 /* Animation Enabling */,
 				F340E4292571DBD5006F245A /* Animation Scope */,
+				F3DAD00825EF4FA20029DD67 /* Challenge */,
+				F3949F1625E3846A008C0AB3 /* Check Your Understanding */,
 				F349065425D39F4500AF197C /* Exercise */,
 			);
 			path = "Animation Options";
@@ -380,21 +374,24 @@
 		F360F19D256B67290026B4BB = {
 			isa = PBXGroup;
 			children = (
+				F3AA9F6525F88F5E00B4170B /* SwiftUIPreviewUtils */,
 				F360F1A2256B67290026B4BB /* Shared */,
 				F360F1AC256B672C0026B4BB /* iOS */,
 				F360F1B3256B672C0026B4BB /* macOS */,
 				F360F1AB256B672C0026B4BB /* Products */,
+				F3AA9F5F25F8734600B4170B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F360F1A2256B67290026B4BB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				F3A59DBB25F5C030002695FB /* Data */,
 				F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */,
 				F340DE20256C8B73006F245A /* App */,
+				F3A59DBB25F5C030002695FB /* Data */,
 				F340DE21256C8B78006F245A /* Resources */,
 				F340DE22256C8B7C006F245A /* Scene Views */,
+				F3C2F06225F9F03B00890162 /* Shape Components */,
 				F340E46625734CA3006F245A /* Styling */,
 				F340DE24256C8B8D006F245A /* Toolbox */,
 				F340DE23256C8B81006F245A /* View Components */,
@@ -439,15 +436,6 @@
 			path = "Check Your Understanding";
 			sourceTree = "<group>";
 		};
-		F3949F2025E43631008C0AB3 /* Centered View */ = {
-			isa = PBXGroup;
-			children = (
-				F3949F2125E4364F008C0AB3 /* CenteredViewModifier.swift */,
-				F3949F2225E4364F008C0AB3 /* View+CenteredViewModifier.swift */,
-			);
-			path = "Centered View";
-			sourceTree = "<group>";
-		};
 		F39F85A825CF8C60007AF5B7 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -478,6 +466,20 @@
 				F3A59DBD25F5C055002695FB /* GamepadButton.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F3AA9F5F25F8734600B4170B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3C2F06225F9F03B00890162 /* Shape Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Shape Components";
 			sourceTree = "<group>";
 		};
 		F3DAD00825EF4FA20029DD67 /* Challenge */ = {
@@ -514,6 +516,11 @@
 			dependencies = (
 			);
 			name = "SwiftUIAnimationsMasteryPart2 (iOS)";
+			packageProductDependencies = (
+				F3AA9F5D25F8733300B4170B /* SwiftUIPreviewUtils */,
+				F3AA9F6325F87BFC00B4170B /* SwiftUIStarterKit */,
+				F3DBE6F72603D25200F55F0E /* SwiftUICurvedRectangleShape */,
+			);
 			productName = "SwiftUIAnimationsMasteryPart2 (iOS)";
 			productReference = F360F1AA256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2.app */;
 			productType = "com.apple.product-type.application";
@@ -531,6 +538,11 @@
 			dependencies = (
 			);
 			name = "SwiftUIAnimationsMasteryPart2 (macOS)";
+			packageProductDependencies = (
+				F3AA9F6025F8734600B4170B /* SwiftUIPreviewUtils */,
+				F3DBE6F92603D26400F55F0E /* SwiftUICurvedRectangleShape */,
+				F3DBE6FB2603D26900F55F0E /* SwiftUIStarterKit */,
+			);
 			productName = "SwiftUIAnimationsMasteryPart2 (macOS)";
 			productReference = F360F1B2256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2.app */;
 			productType = "com.apple.product-type.application";
@@ -561,6 +573,11 @@
 				Base,
 			);
 			mainGroup = F360F19D256B67290026B4BB;
+			packageReferences = (
+				F3AA9F5C25F8733300B4170B /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */,
+				F3AA9F6225F87BFC00B4170B /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */,
+				F3DBE6F62603D25200F55F0E /* XCRemoteSwiftPackageReference "SwiftUICurvedRectangleShape" */,
+			);
 			productRefGroup = F360F1AB256B672C0026B4BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -603,7 +620,6 @@
 				F3101C2225DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift in Sources */,
 				F340E43C2571E635006F245A /* ProgressRingView.swift in Sources */,
 				F3101C3025DDA6BD00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+InputFieldsView.swift in Sources */,
-				F3949F2525E4364F008C0AB3 /* View+CenteredViewModifier.swift in Sources */,
 				F340DE28256C8BB5006F245A /* RootView.swift in Sources */,
 				F34906AC25D761C700AF197C /* DebuggingViewModifier.swift in Sources */,
 				F39F85C525D0EF11007AF5B7 /* Formatters.swift in Sources */,
@@ -612,18 +628,14 @@
 				F345132025CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4432572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46225733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
-				F3949F1425E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift in Sources */,
-				F3101C2625DB112900080D2B /* FrameSizePreferenceKey.swift in Sources */,
 				F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F349066025D3A10300AF197C /* CustomGradients.swift in Sources */,
 				F3DAD01125F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */,
 				F3949F1825E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */,
-				F3949F2325E4364F008C0AB3 /* CenteredViewModifier.swift in Sources */,
 				F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F349064925D39D0E00AF197C /* CustomFont.swift in Sources */,
 				F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
 				F3949F2825E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */,
-				F39F85BF25D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */,
 				F345135A25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134A25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
 				F345134F25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
@@ -656,7 +668,6 @@
 				F3101C2325DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift in Sources */,
 				F340E43D2571E635006F245A /* ProgressRingView.swift in Sources */,
 				F3101C3125DDA6BD00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+InputFieldsView.swift in Sources */,
-				F3949F2625E4364F008C0AB3 /* View+CenteredViewModifier.swift in Sources */,
 				F340DE2B256C8BBA006F245A /* RootView.swift in Sources */,
 				F34906AD25D761C700AF197C /* DebuggingViewModifier.swift in Sources */,
 				F39F85C625D0EF11007AF5B7 /* Formatters.swift in Sources */,
@@ -665,18 +676,14 @@
 				F345132125CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */,
 				F340E4442572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46325733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
-				F3949F1525E22C5D008C0AB3 /* MaxWidthPreferenceKey.swift in Sources */,
-				F3101C2725DB112900080D2B /* FrameSizePreferenceKey.swift in Sources */,
 				F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F349066125D3A10300AF197C /* CustomGradients.swift in Sources */,
 				F3DAD01225F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */,
 				F3949F1925E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */,
-				F3949F2425E4364F008C0AB3 /* CenteredViewModifier.swift in Sources */,
 				F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F349064A25D39D0E00AF197C /* CustomFont.swift in Sources */,
 				F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
 				F3949F2925E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift in Sources */,
-				F39F85C025D0D8E5007AF5B7 /* ConditionallyAppliedViewModifier.swift in Sources */,
 				F345135B25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134B25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
 				F345135025CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
@@ -939,6 +946,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3AA9F5C25F8733300B4170B /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIPreviewUtils";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
+		F3AA9F6225F87BFC00B4170B /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIStarterKit";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.52;
+			};
+		};
+		F3DBE6F62603D25200F55F0E /* XCRemoteSwiftPackageReference "SwiftUICurvedRectangleShape" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUICurvedRectangleShape";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3AA9F5D25F8733300B4170B /* SwiftUIPreviewUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3AA9F5C25F8733300B4170B /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */;
+			productName = SwiftUIPreviewUtils;
+		};
+		F3AA9F6025F8734600B4170B /* SwiftUIPreviewUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3AA9F5C25F8733300B4170B /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */;
+			productName = SwiftUIPreviewUtils;
+		};
+		F3AA9F6325F87BFC00B4170B /* SwiftUIStarterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3AA9F6225F87BFC00B4170B /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */;
+			productName = SwiftUIStarterKit;
+		};
+		F3DBE6F72603D25200F55F0E /* SwiftUICurvedRectangleShape */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3DBE6F62603D25200F55F0E /* XCRemoteSwiftPackageReference "SwiftUICurvedRectangleShape" */;
+			productName = SwiftUICurvedRectangleShape;
+		};
+		F3DBE6F92603D26400F55F0E /* SwiftUICurvedRectangleShape */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3DBE6F62603D25200F55F0E /* XCRemoteSwiftPackageReference "SwiftUICurvedRectangleShape" */;
+			productName = SwiftUICurvedRectangleShape;
+		};
+		F3DBE6FB2603D26900F55F0E /* SwiftUIStarterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3AA9F6225F87BFC00B4170B /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */;
+			productName = SwiftUIStarterKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F360F19E256B67290026B4BB /* Project object */;
 }

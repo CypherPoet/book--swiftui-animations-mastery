@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import SwiftUIStarterKit
 
 
 struct AnimationOptions_ChallengeViewer {
@@ -31,7 +32,6 @@ extension AnimationOptions_ChallengeViewer {
             .spring(response: 0.35, dampingFraction: 0.78, blendDuration: 0)
         
         static let mainDisplayContentChange = Animation
-//            .easeInOut(duration: 0.2)
             .spring(response: 0.35, dampingFraction: 0.78, blendDuration: 0)
         
         static let gamepadButtonPress = Animation.interactiveSpring()
@@ -103,10 +103,10 @@ extension AnimationOptions_ChallengeViewer {
     
     var slideOutMenuOffset: CGSize {
         let tabPeekingWidth = CGFloat(52)
-        let endSpacing = CGFloat(horizontalPadding * 0.5)
+        let openMenuEndSpacing = CGFloat(horizontalPadding * 0.5)
         
         return CGSize(
-            width: isGamepadMenuOpen ? -endSpacing : (-slideOutMenuWidth + tabPeekingWidth),
+            width: isGamepadMenuOpen ? -openMenuEndSpacing : (-slideOutMenuWidth + tabPeekingWidth),
             height : 0
         )
     }
@@ -118,10 +118,11 @@ private extension AnimationOptions_ChallengeViewer {
     
     private var mainContentSection: some View {
         RoundedRectangle(cornerRadius: 25.0, style: .continuous)
-            .opacity(0.13)
+            .fill(Color(.placeholderText))
             .overlay(
                 RoundedRectangle(cornerRadius: 25.0, style: .continuous)
-                    .opacity(0.13)
+                    .fill(Color(.placeholderText))
+                    .opacity(0.3)
                     .blur(radius: slideOutMenuWidth * 0.2)
             )
             .overlay(
@@ -136,7 +137,8 @@ private extension AnimationOptions_ChallengeViewer {
         if isGamepadMenuOpen {
             Group {
                 if let gamepadButton = lastPressedGamepadButton {
-                    GamepadButtonPresentationView(gamepadButton: gamepadButton)
+                    GamepadButtonView(gamepadButton: gamepadButton)
+                        .disabled(true)
                         .scaleEffect(isAnimatingMainDisplayContent ? 0.9 : 1.0)
                         .animation(.interactiveSpring(), value: isAnimatingMainDisplayContent)
                         .onChange(of: isAnimatingMainDisplayContent, perform: { value in
@@ -160,32 +162,36 @@ private extension AnimationOptions_ChallengeViewer {
     }
     
     
-    var challengeDescriptionView: some View {
-        let checkMarkView = Text("\(Image(systemName: "checkmark.circle"))  ")
+    var checkMarkBulletPoint: Text {
+        Text("\(Image(systemName: "checkmark.circle"))  ")
             .foregroundColor(.accentColor)
-        
-        return VStack(spacing: baseFontSize * (Typography.lineHeightMultiplier * 2.0)) {
+    }
+    
+    
+    var challengeDescriptionView: some View {
+        VStack(spacing: baseFontSize * (Typography.lineHeightMultiplier * 2.0)) {
             Spacer()
 
             Text("Gamepad Slide-Out Menu")
                 //                .customFont(.phosphateInline, size: Typography.FontSizes.title2)
                 .customFont(.phosphateInline, size: 22)
+                .foregroundColor(Color("SecondaryAccent2"))
 
             
             VStack(alignment: .leading, spacing: baseFontSize * Typography.lineHeightMultiplier) {
-                checkMarkView
+                checkMarkBulletPoint
                     + Text("When you tap on the 3 lines, a view slides out.")
                 
-                checkMarkView
+                checkMarkBulletPoint
                     + Text("The images/buttons fade in only AFTER the view is done sliding out.")
                 
-                checkMarkView
+                checkMarkBulletPoint
                     + Text("You can use any colors you want.")
                 
-                checkMarkView
+                checkMarkBulletPoint
                     + Text("Use any images you want.")
                 
-                checkMarkView
+                checkMarkBulletPoint
                     + Text("Try to keep this slide-out menu width dynamic if you can so it will scroll out to fill the entire width of the screen.")
                 
                 Spacer()
@@ -218,61 +224,25 @@ private extension AnimationOptions_ChallengeViewer {
 
 
 #if DEBUG
+
 // MARK: - Preview
+
+import SwiftUIPreviewUtils
+
 struct AnimationOptions_ChallengeViewer_Previews: PreviewProvider {
     
     static var previews: some View {
         Group {
             AnimationOptions_ChallengeViewer()
                 .openedFromNavigationLink(startsActive: true)
-                .preferredColorScheme(.dark)
+                .preferredColorScheme(.light)
             
             AnimationOptions_ChallengeViewer()
                 .openedFromNavigationLink(startsActive: false)
                 .preferredColorScheme(.light)
         }
+        .accentColor(Color("PrimaryAccent"))
     }
 }
+
 #endif
-
-
-struct OpenedFromNavigationLinkViewModifier {
-    @State private var isActive: Bool
-    
-    
-    init(
-        startsActive: Bool = true
-    ) {
-        self._isActive = .init(initialValue: startsActive)
-    }
-}
-
-
-extension OpenedFromNavigationLinkViewModifier: ViewModifier {
-    
-    func body(content: Content) -> some View {
-        NavigationView {
-            List {
-                NavigationLink(
-                    destination: content,
-                    isActive: $isActive,
-                    label: {
-                        Text("Navigate to View")
-                    }
-                )
-            }
-            .navigationTitle("SwiftUI Previews ⚡️")
-        }
-    }
-}
-
-extension View {
-    
-    func openedFromNavigationLink(startsActive: Bool = true) -> some View {
-        modifier(
-            OpenedFromNavigationLinkViewModifier(
-                startsActive: startsActive
-            )
-        )
-    }
-}

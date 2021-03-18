@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import SwiftUIStarterKit
 
 fileprivate typealias InputFieldsView = AnimationOptions_ExerciseViewer.LoginFormView.InputFieldsView
 
