@@ -12,7 +12,6 @@ import SwiftUI
 struct AnimationOptions_ExerciseViewer {
     @ScaledMetric private var bodyFontSize = UIFont.preferredFont(forTextStyle: .body).pointSize
     
-    //    @State private var isShowingLoginForm = true
     @State private var isShowingLoginForm = false
     
     
@@ -21,8 +20,6 @@ struct AnimationOptions_ExerciseViewer {
     }
     
     enum Animations {
-        //        static let shieldScale = Animation.easeInOut(duration: Durations.shieldScale)
-//        static let shieldScale = Animation.interpolatingSpring(mass: 0.12, stiffness: 4.9, damping: 1.43, initialVelocity: 4.4)
         static let shieldScale = Animation.spring()
     }
 }
@@ -83,7 +80,7 @@ private extension AnimationOptions_ExerciseViewer {
     
     var backgroundGradient: some View {
         RadialGradient(
-            gradient: Gradient.Custom.screenBackground1,
+            gradient: CustomGradients.screenBackground1,
             center: .center,
             startRadius: 0,
             endRadius: UIScreen.main.bounds.height * 2
