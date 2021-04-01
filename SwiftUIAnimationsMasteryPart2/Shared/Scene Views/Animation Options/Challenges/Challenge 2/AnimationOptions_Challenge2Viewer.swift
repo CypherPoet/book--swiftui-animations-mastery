@@ -11,8 +11,6 @@ import SwiftUIStarterKit
 
 
 struct AnimationOptions_Challenge2Viewer {
-//    @ScaledMetric private var baseFontSize = UIFont.preferredFont(forTextStyle: .body).pointSize
-
     @ScaledMetric(relativeTo: .body)
     private var baseFontSize: CGFloat = UIFont.preferredFont(forTextStyle: .body).pointSize
     
@@ -78,6 +76,8 @@ extension AnimationOptions_Challenge2Viewer: View {
                 
                 Spacer()
             }
+            .padding(.top, -16)
+            .edgesIgnoringSafeArea(.bottom)
             
             VStack(spacing: baseFontSize * 2) {
                 Spacer()
@@ -176,7 +176,7 @@ struct AnimationOptions_Challenge2Viewer_Previews: PreviewProvider {
     static var previews: some View {
         AnimationOptions_Challenge2Viewer()
             .accentColor(ThemeColorGroups.theme1.primaryAccent)
-            .openedFromNavigationLink(startsActive: false)
+            .openedFromNavigationLink(startsActive: true)
             .previewInColorSchemes(withLayout: .device)
     }
 }
