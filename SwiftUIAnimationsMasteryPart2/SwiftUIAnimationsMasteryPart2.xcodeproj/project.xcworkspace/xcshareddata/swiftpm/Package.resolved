@@ -11,15 +11,6 @@
         }
       },
       {
-        "package": "SwiftUIPreviewUtils",
-        "repositoryURL": "https://github.com/CypherPoet/SwiftUIPreviewUtils",
-        "state": {
-          "branch": null,
-          "revision": "4874684c405819697c5894ce8a9905e8657db2b4",
-          "version": "0.0.2"
-        }
-      },
-      {
         "package": "SwiftUIStarterKit",
         "repositoryURL": "https://github.com/CypherPoet/SwiftUIStarterKit",
         "state": {

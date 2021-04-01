@@ -49,11 +49,20 @@ extension TableOfContentsView: View {
                     )
                     
                     NavigationLink(
-                        destination: AnimationOptions_ChallengeViewer(),
+                        destination: AnimationOptions_Challenge1Viewer(),
                         label: {
-                            Text("Challenge")
+                            Text("Challenge 1")
                         }
                     )
+                    
+                    NavigationLink(
+                        destination: AnimationOptions_Challenge2Viewer(),
+                        label: {
+                            Text("Challenge 2")
+                        }
+                    )
+                    .themeColors(ThemeColorGroups.theme1)
+                    .themeGradients(ThemeGradientGroups.theme1)
                 }
             }
             .navigationTitle("Table of Contents")

@@ -1,5 +1,5 @@
 //
-// ChallengeViewer+GamepadButtonPresentationView.swift
+// Challenge1Viewer+GamepadButtonPresentationView.swift
 // SwiftUIAnimationsMasteryPart2
 //
 // Created by CypherPoet on 3/5/21.
@@ -8,10 +8,10 @@
 
 import SwiftUI
 
-fileprivate typealias GamepadButtonPresentationView = AnimationOptions_ChallengeViewer.GamepadButtonPresentationView
+fileprivate typealias GamepadButtonPresentationView = AnimationOptions_Challenge1Viewer.GamepadButtonPresentationView
 
 
-extension AnimationOptions_ChallengeViewer {
+extension AnimationOptions_Challenge1Viewer {
     
     struct GamepadButtonPresentationView {
         var gamepadButton: GamepadButton

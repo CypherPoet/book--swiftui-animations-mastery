@@ -1,5 +1,5 @@
 //
-// ChallengeViewer+SlideOutMenuView.swift
+// Challenge1Viewer+SlideOutMenuView.swift
 // SwiftUIAnimationsMasteryPart2
 //
 // Created by CypherPoet on 3/3/21.
@@ -10,10 +10,10 @@ import SwiftUI
 import SwiftUIStarterKit
 import SwiftUICurvedRectangleShape
 
-fileprivate typealias SlideOutMenuView = AnimationOptions_ChallengeViewer.SlideOutMenuView
+fileprivate typealias SlideOutMenuView = AnimationOptions_Challenge1Viewer.SlideOutMenuView
 
 
-extension AnimationOptions_ChallengeViewer {
+extension AnimationOptions_Challenge1Viewer {
     
     struct SlideOutMenuView {
         
@@ -65,7 +65,7 @@ extension SlideOutMenuView: View {
         .readingFrameSize { newSize in
             frameHeight = newSize.height
         }
-        .shadow(color: Color("PrimaryAccent").opacity(0.2), radius: 10, x: 0.0, y: 0.0)
+        .shadow(color: Color("Theme1-PrimaryAccent").opacity(0.2), radius: 10, x: 0.0, y: 0.0)
     }
 }
 
@@ -93,16 +93,16 @@ private extension SlideOutMenuView {
                         insertion: .opacity
                             .combined(with: .scale)
                             .animation(
-                                AnimationOptions_ChallengeViewer.Animations.gamepadMenuSlideOut
+                                AnimationOptions_Challenge1Viewer.Animations.gamepadMenuSlideOut
                                     .delay(
-                                        AnimationOptions_ChallengeViewer.buttonEntryDelay
+                                        AnimationOptions_Challenge1Viewer.buttonEntryDelay
                                             + (Double(index) * 0.08)
                                     )
                             )
                         ,
                         removal: .opacity
                             .combined(with: .move(edge: .leading))
-                            .animation(.easeIn(duration: AnimationOptions_ChallengeViewer.buttonExitDelay))
+                            .animation(.easeIn(duration: AnimationOptions_Challenge1Viewer.buttonExitDelay))
                     )
                 )
                 
@@ -124,7 +124,7 @@ private struct MenuNotchesView: View {
         HStack(spacing: 6) {
             ForEach(0...3, id: \.self) { index in
                 Capsule()
-                    .foregroundColor(Color("PrimaryAccent"))
+                    .foregroundColor(Color("Theme1-PrimaryAccent"))
                     .frame(width: 3, alignment: .center)
                     .scaleEffect(
                         x: 1.0,
@@ -140,7 +140,7 @@ private struct MenuNotchesView: View {
 
 #if DEBUG
 // MARK: - Preview
-struct ChallengeViewer_SlideOutMenuView_Previews: PreviewProvider {
+struct Challenge1Viewer_SlideOutMenuView_Previews: PreviewProvider {
     
     static var previews: some View {
         Group {

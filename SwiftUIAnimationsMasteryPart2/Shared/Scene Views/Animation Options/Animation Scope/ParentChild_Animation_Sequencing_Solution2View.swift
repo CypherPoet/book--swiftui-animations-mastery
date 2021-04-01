@@ -119,10 +119,6 @@ private extension ParentChild_Animation_Sequencing_Solution2View {
             withAnimation(Animation.easeInOut) {
                 isInfoPanelExpanded.toggle()
             }
-//
-//            withAnimation(Animation.easeInOut.delay(0.5)) {
-//                isPanelContentVisible.toggle()
-//            }
         }
     }
     

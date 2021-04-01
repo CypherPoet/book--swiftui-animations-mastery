@@ -1,5 +1,5 @@
 //
-// ChallengeViewer.swift
+// Challenge1Viewer.swift
 // SwiftUIAnimationsMasteryPart2
 //
 // Created by CypherPoet on 3/2/21.
@@ -10,7 +10,7 @@ import SwiftUI
 import SwiftUIStarterKit
 
 
-struct AnimationOptions_ChallengeViewer {
+struct AnimationOptions_Challenge1Viewer {
     @ScaledMetric private var baseFontSize = UIFont.preferredFont(forTextStyle: .body).pointSize
     
     @State private var isGamepadMenuOpen = false
@@ -22,7 +22,7 @@ struct AnimationOptions_ChallengeViewer {
 
 
 // MARK: - Static Properties
-extension AnimationOptions_ChallengeViewer {
+extension AnimationOptions_Challenge1Viewer {
     static let buttonEntryDelay: TimeInterval = 0.35
     static let buttonExitDelay: TimeInterval = buttonEntryDelay * 0.421
     
@@ -57,11 +57,11 @@ extension AnimationOptions_ChallengeViewer {
 
 
 // MARK: - `View` Body
-extension AnimationOptions_ChallengeViewer: View {
+extension AnimationOptions_Challenge1Viewer: View {
     
     var body: some View {
         VStack(spacing: baseFontSize * 2) {
-            Text("Challenge")
+            Text("Challenge 1")
                 .screenBanner()
                 .padding(.horizontal, horizontalPadding)
             
@@ -94,7 +94,7 @@ extension AnimationOptions_ChallengeViewer: View {
 
 
 // MARK: - Computeds
-extension AnimationOptions_ChallengeViewer {
+extension AnimationOptions_Challenge1Viewer {
     
     var horizontalPadding: CGFloat {
         baseFontSize * 1.5
@@ -114,7 +114,7 @@ extension AnimationOptions_ChallengeViewer {
 
 
 // MARK: - View Content Builders
-private extension AnimationOptions_ChallengeViewer {
+private extension AnimationOptions_Challenge1Viewer {
     
     private var mainContentSection: some View {
         RoundedRectangle(cornerRadius: 25.0, style: .continuous)
@@ -175,7 +175,7 @@ private extension AnimationOptions_ChallengeViewer {
             Text("Gamepad Slide-Out Menu")
                 //                .customFont(.phosphateInline, size: Typography.FontSizes.title2)
                 .customFont(.phosphateInline, size: 22)
-                .foregroundColor(Color("SecondaryAccent2"))
+                .foregroundColor(Color("Theme1-SecondaryAccent3"))
 
             
             VStack(alignment: .leading, spacing: baseFontSize * Typography.lineHeightMultiplier) {
@@ -202,7 +202,7 @@ private extension AnimationOptions_ChallengeViewer {
 
 
 // MARK: - Private Helpers
-private extension AnimationOptions_ChallengeViewer {
+private extension AnimationOptions_Challenge1Viewer {
     
     func handleGamepadButtonPress(_ button: GamepadButton) {
         lastPressedGamepadButton = button
@@ -229,19 +229,19 @@ private extension AnimationOptions_ChallengeViewer {
 
 import SwiftUIPreviewUtils
 
-struct AnimationOptions_ChallengeViewer_Previews: PreviewProvider {
+struct AnimationOptions_Challenge1Viewer_Previews: PreviewProvider {
     
     static var previews: some View {
         Group {
-            AnimationOptions_ChallengeViewer()
+            AnimationOptions_Challenge1Viewer()
                 .openedFromNavigationLink(startsActive: true)
                 .preferredColorScheme(.light)
             
-            AnimationOptions_ChallengeViewer()
+            AnimationOptions_Challenge1Viewer()
                 .openedFromNavigationLink(startsActive: false)
                 .preferredColorScheme(.light)
         }
-        .accentColor(Color("PrimaryAccent"))
+        .accentColor(Color("Theme1-PrimaryAccent"))
     }
 }
 

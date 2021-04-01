@@ -59,14 +59,14 @@
 		F349064A25D39D0E00AF197C /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349064825D39D0E00AF197C /* CustomFont.swift */; };
 		F349065825D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349065725D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift */; };
 		F349065925D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349065725D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift */; };
-		F349066025D3A10300AF197C /* CustomGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349065F25D3A10300AF197C /* CustomGradients.swift */; };
-		F349066125D3A10300AF197C /* CustomGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349065F25D3A10300AF197C /* CustomGradients.swift */; };
 		F34906AC25D761C700AF197C /* DebuggingViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34906AB25D761C700AF197C /* DebuggingViewModifier.swift */; };
 		F34906AD25D761C700AF197C /* DebuggingViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34906AB25D761C700AF197C /* DebuggingViewModifier.swift */; };
 		F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */; };
 		F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */; };
 		F360F1BA256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
 		F360F1BB256B672C0026B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360F1A5256B672C0026B4BB /* Assets.xcassets */; };
+		F3773A42261496E200D2EADA /* ThemeColorGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3773A41261496E200D2EADA /* ThemeColorGroups.swift */; };
+		F3773A43261496E200D2EADA /* ThemeColorGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3773A41261496E200D2EADA /* ThemeColorGroups.swift */; };
 		F3949F1825E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1725E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift */; };
 		F3949F1925E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1725E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift */; };
 		F3949F1E25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3949F1D25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift */; };
@@ -81,8 +81,12 @@
 		F39F85BB25D0D053007AF5B7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F85B925D0D053007AF5B7 /* Colors.xcassets */; };
 		F39F85C525D0EF11007AF5B7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85C425D0EF11007AF5B7 /* Formatters.swift */; };
 		F39F85C625D0EF11007AF5B7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F85C425D0EF11007AF5B7 /* Formatters.swift */; };
-		F3A59DB325F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */; };
-		F3A59DB425F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */; };
+		F39FB9DD260B4AED008DA069 /* AnimationOptions_Challenge2Viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9DC260B4AED008DA069 /* AnimationOptions_Challenge2Viewer.swift */; };
+		F39FB9DE260B4AED008DA069 /* AnimationOptions_Challenge2Viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9DC260B4AED008DA069 /* AnimationOptions_Challenge2Viewer.swift */; };
+		F39FB9E1260D08BB008DA069 /* AnimationOptions_Challenge2Viewer+FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9E0260D08BA008DA069 /* AnimationOptions_Challenge2Viewer+FooterView.swift */; };
+		F39FB9E2260D08BB008DA069 /* AnimationOptions_Challenge2Viewer+FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9E0260D08BA008DA069 /* AnimationOptions_Challenge2Viewer+FooterView.swift */; };
+		F3A59DB325F33990002695FB /* Challenge1Viewer+GamepadButtonPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB225F33990002695FB /* Challenge1Viewer+GamepadButtonPresentationView.swift */; };
+		F3A59DB425F33990002695FB /* Challenge1Viewer+GamepadButtonPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB225F33990002695FB /* Challenge1Viewer+GamepadButtonPresentationView.swift */; };
 		F3A59DB625F42FD6002695FB /* ButtonStyles+GamepadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB525F42FD6002695FB /* ButtonStyles+GamepadButton.swift */; };
 		F3A59DB725F42FD6002695FB /* ButtonStyles+GamepadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB525F42FD6002695FB /* ButtonStyles+GamepadButton.swift */; };
 		F3A59DB925F5BF79002695FB /* GamepadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */; };
@@ -92,15 +96,19 @@
 		F3AA9F5E25F8733300B4170B /* SwiftUIPreviewUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F3AA9F5D25F8733300B4170B /* SwiftUIPreviewUtils */; };
 		F3AA9F6125F8734600B4170B /* SwiftUIPreviewUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F3AA9F6025F8734600B4170B /* SwiftUIPreviewUtils */; };
 		F3AA9F6425F87BFC00B4170B /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3AA9F6325F87BFC00B4170B /* SwiftUIStarterKit */; };
-		F3DAD00A25EF4FBC0029DD67 /* ChallengeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */; };
-		F3DAD00B25F09A470029DD67 /* ChallengeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */; };
+		F3C9F86C2613129200874A3C /* StrobingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9F86B2613129200874A3C /* StrobingView.swift */; };
+		F3C9F86D2613129200874A3C /* StrobingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9F86B2613129200874A3C /* StrobingView.swift */; };
+		F3DAD00A25EF4FBC0029DD67 /* Challenge1Viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00925EF4FBC0029DD67 /* Challenge1Viewer.swift */; };
+		F3DAD00B25F09A470029DD67 /* Challenge1Viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00925EF4FBC0029DD67 /* Challenge1Viewer.swift */; };
 		F3DAD00E25F09EEC0029DD67 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00D25F09EEC0029DD67 /* Typography.swift */; };
 		F3DAD00F25F09EEC0029DD67 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD00D25F09EEC0029DD67 /* Typography.swift */; };
-		F3DAD01125F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */; };
-		F3DAD01225F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */; };
+		F3DAD01125F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD01025F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift */; };
+		F3DAD01225F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAD01025F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift */; };
 		F3DBE6F82603D25200F55F0E /* SwiftUICurvedRectangleShape in Frameworks */ = {isa = PBXBuildFile; productRef = F3DBE6F72603D25200F55F0E /* SwiftUICurvedRectangleShape */; };
 		F3DBE6FA2603D26400F55F0E /* SwiftUICurvedRectangleShape in Frameworks */ = {isa = PBXBuildFile; productRef = F3DBE6F92603D26400F55F0E /* SwiftUICurvedRectangleShape */; };
 		F3DBE6FC2603D26900F55F0E /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3DBE6FB2603D26900F55F0E /* SwiftUIStarterKit */; };
+		F3DC554E2615E79600488B7C /* ThemeGradientGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC554D2615E79600488B7C /* ThemeGradientGroups.swift */; };
+		F3DC554F2615E79600488B7C /* ThemeGradientGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC554D2615E79600488B7C /* ThemeGradientGroups.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,7 +138,6 @@
 		F349064025D3971C00AF197C /* Phosphate.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Phosphate.ttc; sourceTree = "<group>"; };
 		F349064825D39D0E00AF197C /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		F349065725D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_ExerciseViewer.swift; sourceTree = "<group>"; };
-		F349065F25D3A10300AF197C /* CustomGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradients.swift; sourceTree = "<group>"; };
 		F34906AB25D761C700AF197C /* DebuggingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingViewModifier.swift; sourceTree = "<group>"; };
 		F360F1A3256B67290026B4BB /* SwiftUIAnimationsMasteryPart2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsMasteryPart2App.swift; sourceTree = "<group>"; };
 		F360F1A5256B672C0026B4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +146,7 @@
 		F360F1B2256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsMasteryPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F360F1B4256B672C0026B4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F360F1B5256B672C0026B4BB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F3773A41261496E200D2EADA /* ThemeColorGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorGroups.swift; sourceTree = "<group>"; };
 		F3949F1725E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_CheckYourUnderstandingViewer.swift; sourceTree = "<group>"; };
 		F3949F1D25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift"; sourceTree = "<group>"; };
 		F3949F2725E58396008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_CheckYourUnderstandingViewer+Example2View.swift"; sourceTree = "<group>"; };
@@ -146,14 +154,18 @@
 		F39F85B225CF8FAB007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEnabling_WatchingAValue_ExampleView.swift; sourceTree = "<group>"; };
 		F39F85B925D0D053007AF5B7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F39F85C425D0EF11007AF5B7 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
-		F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChallengeViewer+GamepadButtonPresentationView.swift"; sourceTree = "<group>"; };
+		F39FB9DC260B4AED008DA069 /* AnimationOptions_Challenge2Viewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOptions_Challenge2Viewer.swift; sourceTree = "<group>"; };
+		F39FB9E0260D08BA008DA069 /* AnimationOptions_Challenge2Viewer+FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationOptions_Challenge2Viewer+FooterView.swift"; sourceTree = "<group>"; };
+		F3A59DB225F33990002695FB /* Challenge1Viewer+GamepadButtonPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge1Viewer+GamepadButtonPresentationView.swift"; sourceTree = "<group>"; };
 		F3A59DB525F42FD6002695FB /* ButtonStyles+GamepadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonStyles+GamepadButton.swift"; sourceTree = "<group>"; };
 		F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepadButtonView.swift; sourceTree = "<group>"; };
 		F3A59DBD25F5C055002695FB /* GamepadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepadButton.swift; sourceTree = "<group>"; };
 		F3AA9F6525F88F5E00B4170B /* SwiftUIPreviewUtils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftUIPreviewUtils; path = ../../../../../Projects/swift/Packages/SwiftUIPreviewUtils; sourceTree = "<group>"; };
-		F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewer.swift; sourceTree = "<group>"; };
+		F3C9F86B2613129200874A3C /* StrobingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrobingView.swift; sourceTree = "<group>"; };
+		F3DAD00925EF4FBC0029DD67 /* Challenge1Viewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1Viewer.swift; sourceTree = "<group>"; };
 		F3DAD00D25F09EEC0029DD67 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
-		F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChallengeViewer+SlideOutMenuView.swift"; sourceTree = "<group>"; };
+		F3DAD01025F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge1Viewer+SlideOutMenuView.swift"; sourceTree = "<group>"; };
+		F3DC554D2615E79600488B7C /* ThemeGradientGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeGradientGroups.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +243,7 @@
 				F340E4362571E627006F245A /* ProgressBarView.swift */,
 				F340E43B2571E635006F245A /* ProgressRingView.swift */,
 				F345134925CE426600DFC971 /* ScreenSectionDivider.swift */,
+				F3C9F86B2613129200874A3C /* StrobingView.swift */,
 				F340E58925774BE4006F245A /* Buttons */,
 			);
 			path = "View Components";
@@ -261,12 +274,12 @@
 		F340E46625734CA3006F245A /* Styling */ = {
 			isa = PBXGroup;
 			children = (
-				F3DAD00C25F09ED50029DD67 /* Typography */,
-				F349065E25D3A0D900AF197C /* Gradients */,
-				F349064725D39D0000AF197C /* Fonts */,
+				F39FB9DF260B4E94008DA069 /* Colors */,
 				F39F85A825CF8C60007AF5B7 /* Animations */,
 				F340E46725734CA8006F245A /* Buttons */,
+				F349064725D39D0000AF197C /* Fonts */,
 				F39F85C325D0EEEE007AF5B7 /* Formatters */,
+				F3DAD00C25F09ED50029DD67 /* Typography */,
 			);
 			path = Styling;
 			sourceTree = "<group>";
@@ -339,7 +352,7 @@
 			children = (
 				F345135825CF420D00DFC971 /* Animation Enabling */,
 				F340E4292571DBD5006F245A /* Animation Scope */,
-				F3DAD00825EF4FA20029DD67 /* Challenge */,
+				F3DAD00825EF4FA20029DD67 /* Challenges */,
 				F3949F1625E3846A008C0AB3 /* Check Your Understanding */,
 				F349065425D39F4500AF197C /* Exercise */,
 			);
@@ -353,14 +366,6 @@
 				F3101C2B25DDA0FE00080D2B /* Login Form View */,
 			);
 			path = Exercise;
-			sourceTree = "<group>";
-		};
-		F349065E25D3A0D900AF197C /* Gradients */ = {
-			isa = PBXGroup;
-			children = (
-				F349065F25D3A10300AF197C /* CustomGradients.swift */,
-			);
-			path = Gradients;
 			sourceTree = "<group>";
 		};
 		F34906AA25D75FFF00AF197C /* Debugging */ = {
@@ -452,6 +457,34 @@
 			path = Formatters;
 			sourceTree = "<group>";
 		};
+		F39FB9DA260B4A68008DA069 /* Challenge 1 */ = {
+			isa = PBXGroup;
+			children = (
+				F3DAD00925EF4FBC0029DD67 /* Challenge1Viewer.swift */,
+				F3A59DB225F33990002695FB /* Challenge1Viewer+GamepadButtonPresentationView.swift */,
+				F3DAD01025F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift */,
+			);
+			path = "Challenge 1";
+			sourceTree = "<group>";
+		};
+		F39FB9DB260B4AD0008DA069 /* Challenge 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB9DC260B4AED008DA069 /* AnimationOptions_Challenge2Viewer.swift */,
+				F39FB9E0260D08BA008DA069 /* AnimationOptions_Challenge2Viewer+FooterView.swift */,
+			);
+			path = "Challenge 2";
+			sourceTree = "<group>";
+		};
+		F39FB9DF260B4E94008DA069 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				F3773A41261496E200D2EADA /* ThemeColorGroups.swift */,
+				F3DC554D2615E79600488B7C /* ThemeGradientGroups.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		F3A59DBB25F5C030002695FB /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,14 +515,13 @@
 			path = "Shape Components";
 			sourceTree = "<group>";
 		};
-		F3DAD00825EF4FA20029DD67 /* Challenge */ = {
+		F3DAD00825EF4FA20029DD67 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
-				F3DAD00925EF4FBC0029DD67 /* ChallengeViewer.swift */,
-				F3A59DB225F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift */,
-				F3DAD01025F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift */,
+				F39FB9DA260B4A68008DA069 /* Challenge 1 */,
+				F39FB9DB260B4AD0008DA069 /* Challenge 2 */,
 			);
-			path = Challenge;
+			path = Challenges;
 			sourceTree = "<group>";
 		};
 		F3DAD00C25F09ED50029DD67 /* Typography */ = {
@@ -618,6 +650,7 @@
 			files = (
 				F340E4322571E1FC006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView2.swift in Sources */,
 				F3101C2225DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift in Sources */,
+				F39FB9DD260B4AED008DA069 /* AnimationOptions_Challenge2Viewer.swift in Sources */,
 				F340E43C2571E635006F245A /* ProgressRingView.swift in Sources */,
 				F3101C3025DDA6BD00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+InputFieldsView.swift in Sources */,
 				F340DE28256C8BB5006F245A /* RootView.swift in Sources */,
@@ -629,8 +662,7 @@
 				F340E4432572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46225733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
 				F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
-				F349066025D3A10300AF197C /* CustomGradients.swift in Sources */,
-				F3DAD01125F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */,
+				F3DAD01125F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift in Sources */,
 				F3949F1825E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */,
 				F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F349064925D39D0E00AF197C /* CustomFont.swift in Sources */,
@@ -639,15 +671,19 @@
 				F345135A25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134A25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
 				F345134F25CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
-				F3A59DB325F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */,
-				F3DAD00A25EF4FBC0029DD67 /* ChallengeViewer.swift in Sources */,
+				F3A59DB325F33990002695FB /* Challenge1Viewer+GamepadButtonPresentationView.swift in Sources */,
+				F39FB9E1260D08BB008DA069 /* AnimationOptions_Challenge2Viewer+FooterView.swift in Sources */,
+				F3DAD00A25EF4FBC0029DD67 /* Challenge1Viewer.swift in Sources */,
 				F340E42B2571DBEF006F245A /* AnimationScopeViewer.swift in Sources */,
 				F3A59DB625F42FD6002695FB /* ButtonStyles+GamepadButton.swift in Sources */,
+				F3DC554E2615E79600488B7C /* ThemeGradientGroups.swift in Sources */,
 				F349065825D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift in Sources */,
 				F3A59DB925F5BF79002695FB /* GamepadButtonView.swift in Sources */,
 				F340E0FA256F6892006F245A /* TableOfContentsView.swift in Sources */,
+				F3C9F86C2613129200874A3C /* StrobingView.swift in Sources */,
 				F340E1132570B46F006F245A /* WelcomeView.swift in Sources */,
 				F39F85B325CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */,
+				F3773A42261496E200D2EADA /* ThemeColorGroups.swift in Sources */,
 				F345133A25CE291000DFC971 /* ScreenBannerViewModifier.swift in Sources */,
 				F340E4372571E627006F245A /* ProgressBarView.swift in Sources */,
 				F340E46925734CC2006F245A /* ButtonStyles+OutlinedCallToAction.swift in Sources */,
@@ -666,6 +702,7 @@
 			files = (
 				F340E4332571E1FC006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView2.swift in Sources */,
 				F3101C2325DADABA00080D2B /* ButtonStyles+FilledCallToActionButton.swift in Sources */,
+				F39FB9DE260B4AED008DA069 /* AnimationOptions_Challenge2Viewer.swift in Sources */,
 				F340E43D2571E635006F245A /* ProgressRingView.swift in Sources */,
 				F3101C3125DDA6BD00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+InputFieldsView.swift in Sources */,
 				F340DE2B256C8BBA006F245A /* RootView.swift in Sources */,
@@ -677,8 +714,7 @@
 				F340E4442572E201006F245A /* Sequencing_WithAnimation_DispatchQueue_ExampleView1.swift in Sources */,
 				F340E46325733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift in Sources */,
 				F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
-				F349066125D3A10300AF197C /* CustomGradients.swift in Sources */,
-				F3DAD01225F0AD380029DD67 /* ChallengeViewer+SlideOutMenuView.swift in Sources */,
+				F3DAD01225F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift in Sources */,
 				F3949F1925E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */,
 				F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F349064A25D39D0E00AF197C /* CustomFont.swift in Sources */,
@@ -687,22 +723,26 @@
 				F345135B25CF422C00DFC971 /* AnimationEnablingViewer.swift in Sources */,
 				F345134B25CE426600DFC971 /* ScreenSectionDivider.swift in Sources */,
 				F345135025CE44E800DFC971 /* ParentChild_Animation_Sequencing_Solution1View.swift in Sources */,
-				F3A59DB425F33990002695FB /* ChallengeViewer+GamepadButtonPresentationView.swift in Sources */,
+				F3A59DB425F33990002695FB /* Challenge1Viewer+GamepadButtonPresentationView.swift in Sources */,
+				F39FB9E2260D08BB008DA069 /* AnimationOptions_Challenge2Viewer+FooterView.swift in Sources */,
 				F340E42C2571DBEF006F245A /* AnimationScopeViewer.swift in Sources */,
 				F349065925D39F8200AF197C /* AnimationOptions_ExerciseViewer.swift in Sources */,
 				F3A59DB725F42FD6002695FB /* ButtonStyles+GamepadButton.swift in Sources */,
+				F3DC554F2615E79600488B7C /* ThemeGradientGroups.swift in Sources */,
 				F340E0FB256F6892006F245A /* TableOfContentsView.swift in Sources */,
 				F3A59DBA25F5BF79002695FB /* GamepadButtonView.swift in Sources */,
 				F340E1142570B46F006F245A /* WelcomeView.swift in Sources */,
+				F3C9F86D2613129200874A3C /* StrobingView.swift in Sources */,
 				F39F85B425CF8FAC007AF5B7 /* AnimationEnabling_WatchingAValue_ExampleView.swift in Sources */,
 				F345133B25CE291000DFC971 /* ScreenBannerViewModifier.swift in Sources */,
+				F3773A43261496E200D2EADA /* ThemeColorGroups.swift in Sources */,
 				F340E4382571E627006F245A /* ProgressBarView.swift in Sources */,
 				F340E46A25734CC2006F245A /* ButtonStyles+OutlinedCallToAction.swift in Sources */,
 				F3101C2E25DDA12D00080D2B /* AnimationOptions_ExerciseViewer+LoginFormView+ActionButtonsView.swift in Sources */,
 				F3101C2025DA3D2200080D2B /* ButtonStyles.swift in Sources */,
 				F345133D25CE291000DFC971 /* View+ScreenBanner.swift in Sources */,
 				F3949F1F25E4326A008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer+Example1View.swift in Sources */,
-				F3DAD00B25F09A470029DD67 /* ChallengeViewer.swift in Sources */,
+				F3DAD00B25F09A470029DD67 /* Challenge1Viewer.swift in Sources */,
 				F340E58C25774BEF006F245A /* AnimationActionButton.swift in Sources */,
 				F3101C2A25DD9FB800080D2B /* AnimationOptions_ExerciseViewer+LoginFormView.swift in Sources */,
 			);

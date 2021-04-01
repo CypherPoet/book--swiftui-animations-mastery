@@ -10,10 +10,17 @@ import SwiftUI
 
 
 struct AnimationOptions_ExerciseViewer {
-    @ScaledMetric private var bodyFontSize = UIFont.preferredFont(forTextStyle: .body).pointSize
+    @ScaledMetric
+    private var bodyFontSize = UIFont.preferredFont(forTextStyle: .body).pointSize
     
-    @State private var isShowingLoginForm = false
+    @Environment(\.themeColors)
+    private var themeColors
     
+    @Environment(\.themeGradients)
+    private var themeGradients
+
+    @State
+    private var isShowingLoginForm = false
     
     enum Durations {
         static let shieldScale: TimeInterval = 0.30
@@ -36,7 +43,7 @@ extension AnimationOptions_ExerciseViewer: View {
                 VStack(spacing: 12.0) {
                     Text("Exercise")
                         .customFont(.phosphateSolid, size: headlineFontSize)
-                        .foregroundColor(Color("Primary"))
+                        .foregroundColor(Color("Theme1-SecondaryAccent1"))
                     
                     Text("Show Login")
                         .customFont(.phosphateSolid, size: headlineFontSize / 2.5)
@@ -80,7 +87,7 @@ private extension AnimationOptions_ExerciseViewer {
     
     var backgroundGradient: some View {
         RadialGradient(
-            gradient: CustomGradients.screenBackground1,
+            gradient: themeGradients.screenBackground1,
             center: .center,
             startRadius: 0,
             endRadius: UIScreen.main.bounds.height * 2
@@ -102,7 +109,7 @@ private extension AnimationOptions_ExerciseViewer {
                     icon: {
                         Image(systemName: "lock.shield")
                             .font(.system(size: bodyFontSize * 3))
-                            .foregroundColor(Color("Primary"))
+                            .foregroundColor(Color("Theme1-SecondaryAccent1"))
                     }
                 )
                 .labelStyle(IconOnlyLabelStyle())
@@ -124,7 +131,7 @@ struct AnimationOptions_ExerciseViewer_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             AnimationOptions_ExerciseViewer()
-                .accentColor(Color("PrimaryAccent"))
+                .accentColor(Color("Theme1-PrimaryAccent"))
                 .preferredColorScheme(.dark)
         }
     }
