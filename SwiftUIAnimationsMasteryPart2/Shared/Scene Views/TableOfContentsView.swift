@@ -19,51 +19,9 @@ extension TableOfContentsView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Animation Options")) {
-                    NavigationLink(
-                        destination: AnimationScopeViewer(),
-                        label: {
-                            Text("Animation Scope")
-                        }
-                    )
-                    
-                    NavigationLink(
-                        destination: AnimationEnablingViewer(),
-                        label: {
-                            Text("Enabling and Disabling Animations")
-                        }
-                    )
-                    
-                    NavigationLink(
-                        destination: AnimationOptions_ExerciseViewer(),
-                        label: {
-                            Text("Exercise")
-                        }
-                    )
-                    
-                    NavigationLink(
-                        destination: AnimationOptions_CheckYourUnderstandingViewer(),
-                        label: {
-                            Text("Check Your Understanding")
-                        }
-                    )
-                    
-                    NavigationLink(
-                        destination: AnimationOptions_Challenge1Viewer(),
-                        label: {
-                            Text("Challenge 1")
-                        }
-                    )
-                    
-                    NavigationLink(
-                        destination: AnimationOptions_Challenge2Viewer(),
-                        label: {
-                            Text("Challenge 2")
-                        }
-                    )
+                animationOptionsSection
                     .themeColors(ThemeColorGroups.theme1)
                     .themeGradients(ThemeGradientGroups.theme1)
-                }
             }
             .navigationTitle("Table of Contents")
         }
@@ -78,6 +36,52 @@ extension TableOfContentsView {
 
 // MARK: - View Variables
 private extension TableOfContentsView {
+    
+    var animationOptionsSection: some View {
+        Section(header: Text("Animation Options")) {
+            NavigationLink(
+                destination: AnimationScopeViewer(),
+                label: {
+                    Text("Animation Scope")
+                }
+            )
+            
+            NavigationLink(
+                destination: AnimationEnablingViewer(),
+                label: {
+                    Text("Enabling and Disabling Animations")
+                }
+            )
+            
+            NavigationLink(
+                destination: AnimationOptions_ExerciseViewer(),
+                label: {
+                    Text("Exercise")
+                }
+            )
+            
+            NavigationLink(
+                destination: AnimationOptions_CheckYourUnderstandingViewer(),
+                label: {
+                    Text("Check Your Understanding")
+                }
+            )
+            
+            NavigationLink(
+                destination: AnimationOptions_Challenge1Viewer(),
+                label: {
+                    Text("Challenge 1")
+                }
+            )
+            
+            NavigationLink(
+                destination: AnimationOptions_Challenge2Viewer(),
+                label: {
+                    Text("Challenge 2")
+                }
+            )
+        }
+    }
 }
 
 

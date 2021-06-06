@@ -39,6 +39,8 @@
 		F340E46A25734CC2006F245A /* ButtonStyles+OutlinedCallToAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E46825734CC2006F245A /* ButtonStyles+OutlinedCallToAction.swift */; };
 		F340E58B25774BEF006F245A /* AnimationActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E58A25774BEF006F245A /* AnimationActionButton.swift */; };
 		F340E58C25774BEF006F245A /* AnimationActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340E58A25774BEF006F245A /* AnimationActionButton.swift */; };
+		F34336F92616465B0086E27D /* Animation+RepeatMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34336F82616465B0086E27D /* Animation+RepeatMode.swift */; };
+		F34336FA2616465B0086E27D /* Animation+RepeatMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34336F82616465B0086E27D /* Animation+RepeatMode.swift */; };
 		F345132025CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345131F25CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift */; };
 		F345132125CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345131F25CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift */; };
 		F345133A25CE291000DFC971 /* ScreenBannerViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345133825CE291000DFC971 /* ScreenBannerViewModifier.swift */; };
@@ -128,6 +130,7 @@
 		F340E46125733723006F245A /* Sequencing_WithAnimation_Delay_ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequencing_WithAnimation_Delay_ExampleView.swift; sourceTree = "<group>"; };
 		F340E46825734CC2006F245A /* ButtonStyles+OutlinedCallToAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonStyles+OutlinedCallToAction.swift"; sourceTree = "<group>"; };
 		F340E58A25774BEF006F245A /* AnimationActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationActionButton.swift; sourceTree = "<group>"; };
+		F34336F82616465B0086E27D /* Animation+RepeatMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation+RepeatMode.swift"; sourceTree = "<group>"; };
 		F345131F25CBB5A900DFC971 /* ParentChild_Animation_Sequencing_ProblemExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentChild_Animation_Sequencing_ProblemExampleView.swift; sourceTree = "<group>"; };
 		F345133825CE291000DFC971 /* ScreenBannerViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBannerViewModifier.swift; sourceTree = "<group>"; };
 		F345133925CE291000DFC971 /* View+ScreenBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ScreenBanner.swift"; sourceTree = "<group>"; };
@@ -252,6 +255,7 @@
 		F340DE24256C8B8D006F245A /* Toolbox */ = {
 			isa = PBXGroup;
 			children = (
+				F34336F6261646450086E27D /* Extensions */,
 				F3101C2425DB110A00080D2B /* View Preference Keys */,
 			);
 			path = Toolbox;
@@ -302,6 +306,22 @@
 				F3A59DB825F5BF79002695FB /* GamepadButtonView.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F34336F6261646450086E27D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F34336F7261646490086E27D /* Animation */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F34336F7261646490086E27D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F34336F82616465B0086E27D /* Animation+RepeatMode.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		F345133725CE28EC00DFC971 /* View Modifiers */ = {
@@ -664,6 +684,7 @@
 				F345135425CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F3DAD01125F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift in Sources */,
 				F3949F1825E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */,
+				F34336F92616465B0086E27D /* Animation+RepeatMode.swift in Sources */,
 				F39F85AA25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F349064925D39D0E00AF197C /* CustomFont.swift in Sources */,
 				F360F1B6256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
@@ -716,6 +737,7 @@
 				F345135525CE484C00DFC971 /* ParentChild_Animation_Sequencing_Solution2View.swift in Sources */,
 				F3DAD01225F0AD380029DD67 /* Challenge1Viewer+SlideOutMenuView.swift in Sources */,
 				F3949F1925E384CE008C0AB3 /* AnimationOptions_CheckYourUnderstandingViewer.swift in Sources */,
+				F34336FA2616465B0086E27D /* Animation+RepeatMode.swift in Sources */,
 				F39F85AB25CF8C8B007AF5B7 /* AnimationDurations.swift in Sources */,
 				F349064A25D39D0E00AF197C /* CustomFont.swift in Sources */,
 				F360F1B7256B672C0026B4BB /* SwiftUIAnimationsMasteryPart2App.swift in Sources */,
